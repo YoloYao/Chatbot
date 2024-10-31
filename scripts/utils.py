@@ -1,4 +1,6 @@
 import ssl
+import pickle
+import json
 from nltk.corpus.reader.util import StreamBackedCorpusView
 
 
@@ -13,6 +15,18 @@ class Utils:
         else:
             ssl._create_default_https_context = _create_unverified_https_context
 
+    # 读取JSON文件内容
+    @staticmethod
+    def read_json(file_path):
+        with open(file_path, 'r', encoding='utf-8') as f:
+            intent_labels = json.load(f)
+        return intent_labels
+
+    # 修改文件后缀
+    @staticmethod
+    def change_file_suffix(file_name):
+        return file_name.replace('.txt', '.pkl').replace('.csv', '.pkl')
+    
     # 读取文件内容
     @staticmethod
     def read_file(file_path):
@@ -49,3 +63,17 @@ class Utils:
             # 逐行从语料库读取并写入到目标文件
             for block in corpus_view:
                 output_file.writelines(block)  # 写入到文件
+
+    # 序列化内容存储到文件
+    @staticmethod
+    def save_padding_data(data, file_path):
+        with open(file_path, 'wb') as file:
+            pickle.dump(data, file)
+            
+    # 读取序列化文件
+    @staticmethod
+    def read_padding_data(file_path):
+        content = None
+        with open(file_path, 'rb') as file:
+            content = pickle.load(file)
+        return content

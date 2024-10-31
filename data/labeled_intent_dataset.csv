@@ -1,0 +1,484 @@
+intent,text,cleaned text
+1,"I forgot my password, what should I do?",forgot password
+1,How can I change my login information?,change login information
+1,Can you help me reset my account password?,help reset account password
+1,I want to update my personal profile.,want update personal profile .
+1,Please assist me in changing my email address.,please assist changing email address .
+1,How do I update my profile picture?,update profile picture
+1,Can I change my username?,change username
+1,Is there a way to delete my account?,way delete account
+1,How can I secure my account?,secure account
+1,What steps should I take to recover my password?,step take recover password
+1,Can I reset my security questions?,reset security question
+1,How can I update my phone number?,update phone number
+1,How do I activate two-factor authentication?,activate twofactor authentication
+1,What should I do if my account is locked?,account locked
+1,How do I add a recovery email?,add recovery email
+1,How can I deactivate my account temporarily?,deactivate account temporarily
+1,Can I unlink my social media accounts?,unlink social medium account
+1,How do I enable login alerts?,enable login alert
+1,How do I set up a recovery phone number?,set recovery phone number
+1,Can I change my account’s primary email?,change account primary email
+1,How do I delete saved login information?,delete saved login information
+1,Can I disable two-factor authentication?,disable twofactor authentication
+1,What should I do if I suspect unauthorized access?,suspect unauthorized access
+1,How do I find my account security settings?,find account security setting
+1,Is there a way to restrict login locations?,way restrict login location
+1,How do I view recent login activity?,view recent login activity
+1,Can I make my profile private?,make profile private
+1,How can I lock my account temporarily?,lock account temporarily
+1,How do I link another email to my account?,link another email account
+1,How do I check my account verification status?,check account verification status
+1,What is the process to recover a deleted account?,process recover deleted account
+1,How can I check if my password is strong enough?,check password strong enough
+1,How do I remove an old phone number?,remove old phone number
+1,How do I enable notifications for login attempts?,enable notification login attempt
+1,Can I set a profile security question?,set profile security question
+1,How do I verify my identity for account recovery?,verify identity account recovery
+1,What are the steps to add backup login options?,step add backup login option
+1,Can I see my login history for the past month?,see login history past month
+1,How do I change my security settings?,change security setting
+1,Can I add an alternative email for recovery?,add alternative email recovery
+1,How can I confirm my email address?,confirm email address
+1,What should I do if my account is compromised?,account compromised
+1,How do I secure my account when traveling?,secure account traveling
+1,Can I restrict login times for my account?,restrict login time account
+1,How can I reset my password without an email?,reset password without email
+1,How do I recover my password using my phone?,recover password using phone
+1,How do I verify my account for extra security?,verify account extra security
+1,Can I turn off login alerts temporarily?,turn login alert temporarily
+1,How do I remove linked accounts?,remove linked account
+1,Is there a way to monitor my account activity?,way monitor account activity
+1,How can I reset my security questions?,reset security question
+1,How do I report a compromised account?,report compromised account
+1,How do I set up a security PIN?,set security pin
+1,How can I receive alerts for unusual activity?,receive alert unusual activity
+1,Where can I see my active sessions?,see active session
+1,How can I disable account recovery options?,disable account recovery option
+1,Can I deactivate my profile temporarily?,deactivate profile temporarily
+1,How do I reset my two-factor authentication?,reset twofactor authentication
+1,Can I receive an alert if someone logs into my account?,receive alert someone log account
+1,How can I check recent security updates?,check recent security update
+1,What should I do if I notice unusual activity?,notice unusual activity
+1,How can I deactivate my account temporarily?,deactivate account temporarily
+1,Can I set up login alerts for added security?,set login alert added security
+1,How do I restrict access to my profile page?,restrict access profile page
+1,What are the steps to add a backup login method?,step add backup login method
+1,How do I change the security question?,change security question
+1,Is there a way to hide my account from public search?,way hide account public search
+1,How can I enable additional authentication?,enable additional authentication
+1,How do I find out if someone accessed my account?,find someone accessed account
+1,Can I request a security audit for my account?,request security audit account
+1,How can I verify my phone number?,verify phone number
+1,How do I block suspicious login attempts?,block suspicious login attempt
+1,Can I change the primary email address for my account?,change primary email address account
+1,How do I make my profile information private?,make profile information private
+1,What’s the best way to secure my account?,whats best way secure account
+1,Can I view my account’s security history?,view account security history
+1,How do I disable login from unknown locations?,disable login unknown location
+1,How can I add a recovery question?,add recovery question
+1,Can I restrict logins to specific devices?,restrict logins specific device
+1,How can I get notified of password changes?,get notified password change
+1,How do I ensure my account is secure?,ensure account secure
+1,How do I view my last login location?,view last login location
+1,Can I delete my account permanently?,delete account permanently
+1,How do I protect my account from hackers?,protect account hacker
+1,Is there a way to update my security preferences?,way update security preference
+1,How do I link an additional phone number?,link additional phone number
+1,What options are available for two-factor authentication?,option available twofactor authentication
+1,Can I change my security PIN?,change security pin
+1,How can I remove all connected devices?,remove connected device
+1,How do I check if my email was verified?,check email verified
+1,Can I set an automatic account lockout time?,set automatic account lockout time
+1,How do I see my login devices?,see login device
+1,What should I do if my email is compromised?,email compromised
+1,How can I reset my login history?,reset login history
+1,Can I add more than one recovery email?,add one recovery email
+1,How do I enable two-step verification?,enable twostep verification
+1,Is there an option to hide my login details?,option hide login detail
+1,How do I reset my security answers?,reset security answer
+1,Can I prevent others from viewing my profile?,prevent others viewing profile
+1,How do I activate account protection features?,activate account protection feature
+1,How can I delete old login sessions?,delete old login session
+1,What’s the best way to keep my account safe?,whats best way keep account safe
+1,How do I check my last account activity?,check last account activity
+1,Can I lock my account during inactivity?,lock account inactivity
+1,How do I disable login notifications?,disable login notification
+1,How do I set up email verification?,set email verification
+1,How can I limit my login attempts?,limit login attempt
+1,How do I protect my profile information?,protect profile information
+1,Can I remove an old recovery email?,remove old recovery email
+1,How do I check the last account login time?,check last account login time
+1,How can I hide my profile details?,hide profile detail
+1,Can I add multiple security questions?,add multiple security question
+1,How do I delete previous account settings?,delete previous account setting
+1,How do I enable biometric login?,enable biometric login
+1,Is there a way to disable login notifications?,way disable login notification
+1,How can I view account activity alerts?,view account activity alert
+1,What should I do to secure my information?,secure information
+1,How do I make my profile unsearchable?,make profile unsearchable
+1,How do I reset my PIN for account access?,reset pin account access
+1,How can I stop password change notifications?,stop password change notification
+1,How do I restrict my profile view?,restrict profile view
+1,How do I update my contact verification?,update contact verification
+1,Can I set up automatic account recovery?,set automatic account recovery
+1,How can I limit my profile visibility?,limit profile visibility
+1,How do I enable session timeout?,enable session timeout
+1,How do I stop login alerts?,stop login alert
+1,How do I enable login confirmations?,enable login confirmation
+1,Can I receive alerts for password changes?,receive alert password change
+1,How can I block unknown devices?,block unknown device
+1,How do I delete my activity history?,delete activity history
+1,How do I restrict login to trusted networks?,restrict login trusted network
+1,How can I set a secondary password?,set secondary password
+1,How do I clear my login history?,clear login history
+1,Can I limit logins to specific times?,limit logins specific time
+1,How do I ensure my details are private?,ensure detail private
+1,How can I view my security history?,view security history
+1,How do I reset my recovery email?,reset recovery email
+1,How can I lock my profile information?,lock profile information
+1,How do I enable login IP restrictions?,enable login ip restriction
+1,How do I remove inactive devices?,remove inactive device
+1,Can I delete saved security answers?,delete saved security answer
+1,How do I activate login failure alerts?,activate login failure alert
+1,How do I check for unauthorized login attempts?,check unauthorized login attempt
+1,How can I manage account recovery settings?,manage account recovery setting
+1,How do I change my recovery options?,change recovery option
+1,How can I see all devices logged into my account?,see device logged account
+1,How do I manage profile security settings?,manage profile security setting
+1,Can I prevent access from public networks?,prevent access public network
+1,How do I block login attempts from other regions?,block login attempt region
+1,How do I reset the two-factor authentication?,reset twofactor authentication
+1,How can I verify my backup email?,verify backup email
+1,How do I receive alerts for account recovery?,receive alert account recovery
+1,How do I find out when my account was accessed last?,find account accessed last
+1,How can I set up an account lock after login attempts?,set account lock login attempt
+1,How do I delete my last login details?,delete last login detail
+1,How do I protect my information from viewing?,protect information viewing
+1,How do I limit account access to trusted devices?,limit account access trusted device
+2,Can you recommend some popular restaurants nearby?,recommend popular restaurant nearby
+2,What are some interesting places to visit here?,interesting place visit
+2,Do you have suggestions for good coffee shops?,suggestion good coffee shop
+2,Can you tell me about nearby attractions?,tell nearby attraction
+2,What events are happening this weekend?,event happening weekend
+2,Are there any local festivals coming up?,local festival coming
+2,Can you suggest some top-rated hotels in the area?,suggest toprated hotel area
+2,Where can I find good shopping spots around here?,find good shopping spot around
+2,Are there any parks or outdoor spaces nearby?,park outdoor space nearby
+2,What’s a popular tourist spot I should visit?,whats popular tourist spot visit
+2,Do you have recommendations for local activities?,recommendation local activity
+2,Are there any good movie theaters near me?,good movie theater near
+2,Can you recommend a nearby bookstore?,recommend nearby bookstore
+2,Are there any must-see landmarks around here?,mustsee landmark around
+2,What’s the best place for a family outing nearby?,whats best place family outing nearby
+2,Do you know any popular nightclubs in the area?,know popular nightclub area
+2,Can you suggest a nice walking trail nearby?,suggest nice walking trail nearby
+2,What are some well-known museums around here?,wellknown museum around
+2,Can you recommend a place to see live music?,recommend place see live music
+2,Are there any highly-rated gyms or fitness centers nearby?,highlyrated gym fitness center nearby
+2,Where can I find the best local art galleries?,find best local art gallery
+2,Are there any popular beaches nearby?,popular beach nearby
+2,Can you suggest a place with a great city view?,suggest place great city view
+2,Where’s a good spot for a picnic around here?,wheres good spot picnic around
+2,Are there any famous historical sites nearby?,famous historical site nearby
+2,What’s a good place to relax in this area?,whats good place relax area
+2,Can you recommend a quiet cafe for studying?,recommend quiet cafe studying
+2,Are there any good libraries near me?,good library near
+2,Do you know any scenic viewpoints around here?,know scenic viewpoint around
+2,What’s the best area for nightlife here?,whats best area nightlife
+2,Can you suggest any upcoming concerts nearby?,suggest upcoming concert nearby
+2,Where can I find unique local shops?,find unique local shop
+2,Are there any well-known theaters in the area?,wellknown theater area
+2,Can you recommend a popular market nearby?,recommend popular market nearby
+2,Where’s the best place to take a walk around here?,wheres best place take walk around
+2,What are the top-rated tourist attractions nearby?,toprated tourist attraction nearby
+2,Do you know any local farmer’s markets?,know local farmer market
+2,Are there any great spots for photography around?,great spot photography around
+2,Can you tell me about popular outdoor activities?,tell popular outdoor activity
+2,Are there any hidden gems I should know about here?,hidden gem know
+2,Where can I find the best rooftop bars nearby?,find best rooftop bar nearby
+2,Can you suggest a quiet place to read in the area?,suggest quiet place read area
+2,Are there any hidden coffee shops nearby?,hidden coffee shop nearby
+2,Where’s a good spot for brunch on the weekend?,wheres good spot brunch weekend
+2,What are some trendy new restaurants in town?,trendy new restaurant town
+2,Are there any good escape rooms around here?,good escape room around
+2,Can you recommend a place for wine tasting?,recommend place wine tasting
+2,Where’s a popular area for street art?,wheres popular area street art
+2,Are there any famous monuments nearby?,famous monument nearby
+2,Can you suggest a place with live entertainment?,suggest place live entertainment
+2,Where can I go for a scenic drive?,go scenic drive
+2,Are there any unique art installations around?,unique art installation around
+2,Can you tell me about local sports events?,tell local sport event
+2,Where’s a good place to try local foods?,wheres good place try local food
+2,Are there any historical walking tours available?,historical walking tour available
+2,Can you recommend an outdoor yoga spot?,recommend outdoor yoga spot
+2,Where’s the best area for people-watching?,wheres best area peoplewatching
+2,Are there any community theaters in the area?,community theater area
+2,What are some popular jazz clubs nearby?,popular jazz club nearby
+2,Can you suggest a place for dance classes?,suggest place dance class
+2,Are there any local artisan markets coming up?,local artisan market coming
+2,Where’s a good place to go stargazing?,wheres good place go stargazing
+2,Can you recommend a romantic restaurant nearby?,recommend romantic restaurant nearby
+2,Are there any nearby places to rent bikes?,nearby place rent bike
+2,Where can I find a scenic picnic area?,find scenic picnic area
+2,Are there any good places for a photo shoot?,good place photo shoot
+2,Can you suggest a cozy spot with fireplaces?,suggest cozy spot fireplace
+2,Where’s a popular area for vintage shopping?,wheres popular area vintage shopping
+2,Are there any botanical gardens nearby?,botanical garden nearby
+2,Can you recommend a place with seasonal decorations?,recommend place seasonal decoration
+2,Are there any good bakeries I should try?,good bakery try
+2,Where can I find the best donuts around here?,find best donut around
+2,Are there any places offering pottery classes?,place offering pottery class
+2,Can you recommend a local fish market?,recommend local fish market
+2,Are there any popular nature trails in the area?,popular nature trail area
+2,Where can I find a scenic lookout?,find scenic lookout
+2,Are there any old-fashioned diners nearby?,oldfashioned diner nearby
+2,Can you suggest a nearby spot for birdwatching?,suggest nearby spot birdwatching
+2,Where’s a popular flea market in town?,wheres popular flea market town
+2,Are there any haunted locations nearby?,haunted location nearby
+2,Can you recommend a sunset viewpoint?,recommend sunset viewpoint
+2,Are there any dog-friendly parks around here?,dogfriendly park around
+2,Where’s a good place for a morning jog?,wheres good place morning jog
+2,Are there any local food festivals this month?,local food festival month
+2,Can you suggest a spot for open-mic nights?,suggest spot openmic night
+2,Where’s a good place to watch the sunrise?,wheres good place watch sunrise
+2,Are there any all-day breakfast spots nearby?,allday breakfast spot nearby
+2,Can you recommend a unique tea house?,recommend unique tea house
+2,Are there any kid-friendly activities in the area?,kidfriendly activity area
+2,Where’s the best place to buy fresh produce?,wheres best place buy fresh produce
+2,Can you suggest a nearby thrift store?,suggest nearby thrift store
+2,Are there any places with cooking classes?,place cooking class
+2,Where’s a good place to listen to live folk music?,wheres good place listen live folk music
+2,Are there any local craft breweries to try?,local craft brewery try
+2,Where can I find a good pizza place around here?,find good pizza place around
+2,Can you recommend a bookshop with rare finds?,recommend bookshop rare find
+2,Are there any aquariums or zoos nearby?,aquarium zoo nearby
+2,Where’s a fun place to go roller skating?,wheres fun place go roller skating
+2,Can you suggest a nearby spot with good seafood?,suggest nearby spot good seafood
+2,Are there any waterparks in the area?,waterparks area
+2,Where can I find locally-made souvenirs?,find locallymade souvenir
+2,Are there any scenic lakes or ponds nearby?,scenic lake pond nearby
+2,Can you recommend a nearby flower market?,recommend nearby flower market
+2,Where’s a good area for pub crawls?,wheres good area pub crawl
+2,Are there any vintage clothing stores around here?,vintage clothing store around
+2,Can you suggest a spot with weekend brunch deals?,suggest spot weekend brunch deal
+2,Where can I go to see seasonal foliage?,go see seasonal foliage
+2,Are there any nearby farms for apple picking?,nearby farm apple picking
+2,Can you recommend a nice spot for hiking?,recommend nice spot hiking
+2,Are there any outdoor skating rinks nearby?,outdoor skating rink nearby
+2,Where’s a good place to rent kayaks or canoes?,wheres good place rent kayak canoe
+2,Can you tell me about any local fairs or carnivals?,tell local fair carnival
+2,Are there any good places to buy antiques?,good place buy antique
+2,Where’s a good spot for summer festivals?,wheres good spot summer festival
+2,Are there any adventure parks around here?,adventure park around
+2,Can you recommend a place to play board games?,recommend place play board game
+2,Are there any nearby cooking schools?,nearby cooking school
+2,Where’s the best place to try local desserts?,wheres best place try local dessert
+2,Are there any annual events worth attending?,annual event worth attending
+2,Can you suggest a popular beach for swimming?,suggest popular beach swimming
+2,Are there any science museums or planetariums nearby?,science museum planetarium nearby
+2,Where can I go horseback riding around here?,go horseback riding around
+2,Are there any good pottery shops in the area?,good pottery shop area
+2,Can you recommend a nice place for high tea?,recommend nice place high tea
+2,Where can I buy fresh flowers locally?,buy fresh flower locally
+2,Are there any storytelling events nearby?,storytelling event nearby
+2,Where can I find good quality spices?,find good quality spice
+2,Are there any costume stores nearby?,costume store nearby
+2,Can you suggest a spot for afternoon tea?,suggest spot afternoon tea
+2,Where’s a place known for good milkshakes?,wheres place known good milkshake
+2,Are there any local chocolatiers around?,local chocolatiers around
+2,Can you recommend a good ice cream parlor?,recommend good ice cream parlor
+2,Where can I find artisanal cheese shops nearby?,find artisanal cheese shop nearby
+2,Are there any local jazz or blues bars?,local jazz blue bar
+2,Can you suggest a restaurant with an outdoor patio?,suggest restaurant outdoor patio
+2,Where’s a popular place for seafood near here?,wheres popular place seafood near
+2,Are there any markets with organic produce?,market organic produce
+2,Where can I find local woodworking shops?,find local woodworking shop
+2,Are there any nearby meditation centers?,nearby meditation center
+2,Where’s the best spot for live stand-up comedy?,wheres best spot live standup comedy
+2,Can you recommend a spot for kite flying?,recommend spot kite flying
+2,Are there any good sushi bars in the area?,good sushi bar area
+0,How’s your day going?,hows day going
+0,What’s your favorite color?,whats favorite color
+0,Tell me something interesting.,tell something interesting .
+0,Do you know any jokes?,know joke
+0,What’s the weather like today?,whats weather like today
+0,Do you have any hobbies?,hobby
+0,What’s your favorite movie?,whats favorite movie
+0,Do you like music?,like music
+0,What’s your favorite food?,whats favorite food
+0,Have you heard any interesting news?,heard interesting news
+0,Do you have any pets?,pet
+0,What’s your favorite place to visit?,whats favorite place visit
+0,Can you tell me a fun fact?,tell fun fact
+0,Do you enjoy reading books?,enjoy reading book
+0,How old are you?,old
+0,Do you have any travel plans?,travel plan
+0,What’s your favorite thing to do on weekends?,whats favorite thing weekend
+0,Are you a morning or night person?,morning night person
+0,Do you prefer coffee or tea?,prefer coffee tea
+0,What’s something that made you smile recently?,whats something made smile recently
+0,What’s the best part of your day?,whats best part day
+0,Do you have a favorite hobby?,favorite hobby
+0,What’s your favorite song right now?,whats favorite song right
+0,Are you a cat person or a dog person?,cat person dog person
+0,Have you ever met anyone famous?,ever met anyone famous
+0,What’s the most interesting place you’ve visited?,whats interesting place youve visited
+0,Do you like to cook?,like cook
+0,What’s something you’ve always wanted to try?,whats something youve always wanted try
+0,Do you play any musical instruments?,play musical instrument
+0,What’s your favorite season?,whats favorite season
+0,What’s one thing you can’t live without?,whats one thing cant live without
+0,Do you have a favorite superhero?,favorite superhero
+0,What’s your favorite sport?,whats favorite sport
+0,Have you ever gone skydiving?,ever gone skydiving
+0,What’s your dream job?,whats dream job
+0,Are you a morning person or a night owl?,morning person night owl
+0,Do you have a favorite book?,favorite book
+0,Have you seen any good movies lately?,seen good movie lately
+0,What’s a fun fact about yourself?,whats fun fact
+0,Do you like spicy food?,like spicy food
+0,What’s the most beautiful place you’ve seen?,whats beautiful place youve seen
+0,Do you prefer the beach or the mountains?,prefer beach mountain
+0,What’s something you’re grateful for?,whats something youre grateful
+0,Do you like to dance?,like dance
+0,What’s the last book you read?,whats last book read
+0,Do you enjoy spending time outdoors?,enjoy spending time outdoors
+0,What’s your favorite holiday?,whats favorite holiday
+0,What’s the best gift you’ve ever received?,whats best gift youve ever received
+0,Do you prefer hot or cold weather?,prefer hot cold weather
+0,What’s your favorite dessert?,whats favorite dessert
+0,Do you believe in luck?,believe luck
+0,What’s the best advice you’ve ever received?,whats best advice youve ever received
+0,Are you into any TV shows right now?,tv show right
+0,Do you have a bucket list?,bucket list
+0,What’s your favorite board game?,whats favorite board game
+0,Have you ever traveled abroad?,ever traveled abroad
+0,Do you have a favorite quote?,favorite quote
+0,What’s the most adventurous thing you’ve done?,whats adventurous thing youve done
+0,Do you have any siblings?,sibling
+0,What’s your favorite type of cuisine?,whats favorite type cuisine
+0,What’s the weirdest food you’ve tried?,whats weirdest food youve tried
+0,Do you prefer books or movies?,prefer book movie
+0,What’s your favorite thing about weekends?,whats favorite thing weekend
+0,Do you like animals?,like animal
+0,Have you ever been camping?,ever camping
+0,What’s your favorite flower?,whats favorite flower
+0,Do you enjoy art?,enjoy art
+0,What’s your biggest pet peeve?,whats biggest pet peeve
+0,Do you have a favorite artist or band?,favorite artist band
+0,Are you good at any sports?,good sport
+0,Do you have any hidden talents?,hidden talent
+0,What’s the most thoughtful gift you’ve given?,whats thoughtful gift youve given
+0,Do you collect anything?,collect anything
+0,What’s your favorite smell?,whats favorite smell
+0,Are you a coffee drinker?,coffee drinker
+0,Have you ever ridden a horse?,ever ridden horse
+0,Do you like roller coasters?,like roller coaster
+0,What’s your biggest fear?,whats biggest fear
+0,Are you a morning coffee or tea person?,morning coffee tea person
+0,Have you ever tried meditation?,ever tried meditation
+0,What’s the best meal you’ve ever had?,whats best meal youve ever
+0,Do you enjoy gardening?,enjoy gardening
+0,What’s your favorite type of music?,whats favorite type music
+0,Do you play any video games?,play video game
+0,What’s your favorite childhood memory?,whats favorite childhood memory
+0,Do you have a favorite vacation spot?,favorite vacation spot
+0,Are you more of an introvert or extrovert?,introvert extrovert
+0,Have you ever tried painting or drawing?,ever tried painting drawing
+0,What’s something you’re really good at?,whats something youre really good
+0,Do you enjoy going to concerts?,enjoy going concert
+0,What’s your favorite way to relax?,whats favorite way relax
+0,Do you have a role model?,role model
+0,Have you ever baked a cake from scratch?,ever baked cake scratch
+0,Do you have any phobias?,phobia
+0,What’s your favorite movie genre?,whats favorite movie genre
+0,Do you like to work out?,like work
+0,What’s your favorite ice cream flavor?,whats favorite ice cream flavor
+0,Have you ever gone hiking?,ever gone hiking
+0,What’s your favorite comfort food?,whats favorite comfort food
+0,Do you enjoy puzzles or riddles?,enjoy puzzle riddle
+0,What’s the best compliment you’ve received?,whats best compliment youve received
+0,Are you interested in history?,interested history
+0,What’s something that makes you happy?,whats something make happy
+0,Have you ever gone fishing?,ever gone fishing
+0,What’s a skill you’d like to learn?,whats skill youd like learn
+0,Do you like to read poetry?,like read poetry
+0,Have you ever tried a new hobby recently?,ever tried new hobby recently
+0,What’s your go-to karaoke song?,whats goto karaoke song
+0,Do you enjoy watching sports?,enjoy watching sport
+0,What’s your favorite animal?,whats favorite animal
+0,Are you into fashion?,fashion
+0,Do you like to go to the beach?,like go beach
+0,Have you ever tried journaling?,ever tried journaling
+0,What’s your favorite thing about your hometown?,whats favorite thing hometown
+0,Are you a fan of road trips?,fan road trip
+0,Do you like to watch documentaries?,like watch documentary
+0,What’s the funniest thing that happened to you?,whats funniest thing happened
+0,Have you ever gone scuba diving?,ever gone scuba diving
+0,Do you enjoy rainy days?,enjoy rainy day
+0,What’s the best place to watch a sunset?,whats best place watch sunset
+0,Have you ever done a road trip?,ever done road trip
+0,What’s a language you’d like to learn?,whats language youd like learn
+0,Do you have any favorite podcasts?,favorite podcasts
+0,Have you ever been in a play?,ever play
+0,What’s your favorite outdoor activity?,whats favorite outdoor activity
+0,Do you enjoy going to the theater?,enjoy going theater
+0,What’s your favorite color?,whats favorite color
+0,Do you prefer city life or countryside?,prefer city life countryside
+0,What’s the coolest thing you’ve ever built?,whats coolest thing youve ever built
+0,Do you enjoy taking photographs?,enjoy taking photograph
+0,Are you a fan of horror movies?,fan horror movie
+0,What’s something you’ve always wanted to do?,whats something youve always wanted
+0,Do you have a favorite dessert?,favorite dessert
+0,What’s your favorite breakfast food?,whats favorite breakfast food
+0,Do you enjoy writing?,enjoy writing
+0,What’s your favorite subject in school?,whats favorite subject school
+0,Are you a dog or a cat person?,dog cat person
+0,What’s something that always makes you laugh?,whats something always make laugh
+0,Do you enjoy singing?,enjoy singing
+0,What’s your favorite type of weather?,whats favorite type weather
+0,Have you ever been on a boat?,ever boat
+0,Do you like to dance?,like dance
+0,What’s the best book you’ve ever read?,whats best book youve ever read
+0,Do you have a favorite season?,favorite season
+0,What’s the most beautiful place you’ve been?,whats beautiful place youve
+0,Have you ever tried skiing?,ever tried skiing
+0,What’s something you can’t live without?,whats something cant live without
+0,Do you like to volunteer?,like volunteer
+0,What’s your favorite family tradition?,whats favorite family tradition
+0,Have you ever gone rock climbing?,ever gone rock climbing
+0,Do you enjoy hiking?,enjoy hiking
+0,Have you ever tried snowboarding?,ever tried snowboarding
+0,What’s a recent goal you achieved?,whats recent goal achieved
+0,Are you more into sweet or savory foods?,sweet savory food
+0,Have you ever been on a hot air balloon ride?,ever hot air balloon ride
+0,What’s your favorite kind of pizza?,whats favorite kind pizza
+0,Do you prefer sunrise or sunset?,prefer sunrise sunset
+0,What’s a new skill you’ve picked up recently?,whats new skill youve picked recently
+0,Do you enjoy going to museums?,enjoy going museum
+0,What’s your favorite childhood movie?,whats favorite childhood movie
+0,Have you ever been whale watching?,ever whale watching
+0,What’s your favorite day of the week?,whats favorite day week
+0,Do you like to explore new cities?,like explore new city
+0,Have you ever been to a music festival?,ever music festival
+0,What’s your favorite thing to do with friends?,whats favorite thing friend
+0,Do you have a favorite workout routine?,favorite workout routine
+0,What’s your favorite snack?,whats favorite snack
+0,Are you into photography?,photography
+0,Have you ever made a bucket list?,ever made bucket list
+0,What’s a unique experience you’ve had?,whats unique experience youve
+0,Do you prefer morning walks or evening strolls?,prefer morning walk evening stroll
+0,Are you a fan of cooking shows?,fan cooking show
+0,Have you ever tried origami?,ever tried origami
+0,Do you enjoy arts and crafts?,enjoy art craft
+0,What’s something you’d like to learn?,whats something youd like learn
+0,What’s your favorite type of coffee?,whats favorite type coffee
+0,Do you have a favorite animal?,favorite animal
+0,Are you a gamer?,gamer
+0,Have you ever tried rock climbing?,ever tried rock climbing
+0,What’s the best concert you’ve been to?,whats best concert youve
+0,Do you enjoy movie nights?,enjoy movie night
+0,What’s a food you’d like to try?,whats food youd like try
+0,Do you enjoy playing board games?,enjoy playing board game
+0,What’s something you’re passionate about?,whats something youre passionate

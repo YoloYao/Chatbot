@@ -29,7 +29,7 @@ class TrainModelController:
         Utils.save_serialize_data(
             (X_train, y_train), file_dir + 'train/train_' + Utils.change_file_suffix(file_name))
         Utils.save_serialize_data(
-            (X_val, y_val), file_dir + 'val/val_' + Utils.change_file_suffix(file_name))
+            (X_val, y_val), file_dir + 'validation/validation_' + Utils.change_file_suffix(file_name))
         Utils.save_serialize_data(
             (X_test, y_test), file_dir + 'test/test_' + Utils.change_file_suffix(file_name))
         # 创建分类模型

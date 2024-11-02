@@ -1,6 +1,8 @@
 import ssl
 import pickle
 import json
+import re
+import pandas as pd
 from nltk.corpus.reader.util import StreamBackedCorpusView
 
 
@@ -26,7 +28,12 @@ class Utils:
     @staticmethod
     def change_file_suffix(file_name):
         return file_name.replace('.txt', '.pkl').replace('.csv', '.pkl')
-    
+
+    # 读取csv文件内容
+    @staticmethod
+    def read_csv(file_path):
+        return pd.read_csv(file_path)
+
     # 读取文件内容
     @staticmethod
     def read_file(file_path):
@@ -66,14 +73,27 @@ class Utils:
 
     # 序列化内容存储到文件
     @staticmethod
-    def save_padding_data(data, file_path):
+    def save_serialize_data(data, file_path):
         with open(file_path, 'wb') as file:
             pickle.dump(data, file)
-            
+
     # 读取序列化文件
     @staticmethod
-    def read_padding_data(file_path):
+    def read_serialize_data(file_path):
         content = None
         with open(file_path, 'rb') as file:
             content = pickle.load(file)
         return content
+
+    # 清理用户输入，去除空字符串、换行符等无效内容
+    @staticmethod
+    def clean_input(user_input):
+        # 去除前后空格和换行符
+        cleaned_input = user_input.strip()
+        # 去除所有多余的空格和换行符
+        cleaned_input = re.sub(r'\s+', ' ', cleaned_input)
+
+        # 检查清理后的字符串是否为空或仅包含空白字符
+        if not cleaned_input or cleaned_input == "":
+            return None  # 无效输入
+        return cleaned_input

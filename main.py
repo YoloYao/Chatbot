@@ -3,7 +3,6 @@
 from scripts.utils import Utils
 from scripts.preprocess import PreProcessController
 from scripts.train import TrainModelController
-import nltk
 import traceback
 
 
@@ -15,13 +14,15 @@ class Chatbot:
 
     def run(self):
         Utils.connectSSL()
-        print("My name is " + self.name)
+        # print("My name is " + self.name)
         # 1.预处理数据
         # self.pre_processor.preprocess_csv_corpus()
         # self.pre_processor.preprocess_corpus()
-        # 2.训练模型
-        self.model_trainer.predict_test()
-        print("Success")
+        # 2.生成模型
+        # self.model_trainer.create_model()
+        # 3.基于意图识别进行聊天
+        self.model_trainer.chat()
+
 
 if __name__ == '__main__':
     try:

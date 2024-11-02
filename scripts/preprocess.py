@@ -5,38 +5,29 @@ import pandas as pd
 import copy
 from urllib import request
 from nltk.corpus import stopwords
-from nltk.corpus import gutenberg
 from nltk.tokenize import sent_tokenize
 from nltk import ngrams
 from scripts.utils import Utils
+from config.constants import Constants
 from collections import Counter
-# from spellchecker import SpellChecker
 from nltk.stem import WordNetLemmatizer
-from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB
 from sklearn.cluster import KMeans
-from sklearn.model_selection import train_test_split
-# from tensorflow.keras.preprocessing.text import Tokenizer
 
 
 class PreProcessController:
-    def __init__(self):
+    def init(self):
         Utils.connectSSL()
         nltk.download('stopwords')
         self.stop_words = set(stopwords.words('english'))
         nltk.download('wordnet')
         nltk.download('punkt')
 
-    # 分词
-    def tokenize(self, input):
-        tokens = nltk.word_tokenize(input)
-        return tokens
-
     # 去除标点符号
     def clean_text(self, content):
         content = re.sub(r'<.*?>', '', content)
         string.punctuation = string.punctuation + "’" + "-" + "‘" + "-"
+        # 不去除句号
         string.punctuation = string.punctuation.replace(".", "")
         content_nl_removed = ""
         for line in content:
@@ -50,6 +41,11 @@ class PreProcessController:
         content_p = content_p.lower().strip()
         return content_p
 
+    # 分词
+    def tokenize(self, input):
+        tokens = nltk.word_tokenize(input)
+        return tokens
+
     # 去除停用词
     def remove_stopwords(self, tokens):
         return [word for word in tokens if word not in self.stop_words]
@@ -59,19 +55,14 @@ class PreProcessController:
         lemmatizer = WordNetLemmatizer()
         return [lemmatizer.lemmatize(token) for token in tokens]
 
-    # 拼写检查
-    def correct_spelling(self, tokens):
-        spell = SpellChecker()
-        corrected_tokens = [spell.correction(token) for token in tokens]
-        return corrected_tokens
-
     # 生成n-gram特征
     def generate_ngrams(self, tokens, n):
         n_grams = list(ngrams(tokens, n))
         return [' '.join(grams) for grams in n_grams]
-    
+
     # 预处理单个文本数据
     def preprocess_data(self, input_data):
+        # 1.清洗数据（Clean Data）
         content = self.clean_text(input_data)
         # 2.分词（Tokenization）
         tokens = self.tokenize(content)
@@ -79,12 +70,6 @@ class PreProcessController:
         tokens = self.remove_stopwords(tokens)
         # 4.词干提取或词形还原（Stemming/Lemmatization）
         tokens = self.lemmatize(tokens)
-        # 5.移除少见和高频词
-        # tokens = self.remove_rare_and_frequent_words(tokens)
-        # 6.拼写检查
-        # tokens = self.correct_spelling(tokens)
-        # 7.生成ngram特征
-        # tokens = self.generate_ngrams(tokens, 2)
         return tokens
 
     # 预处理文本数组数据
@@ -94,59 +79,11 @@ class PreProcessController:
             list[i] = " ".join(self.preprocess_data(list[i]))
         return list
 
-    # 生成测试集
-    def gen_test_dataset(self, data, file_dir, file_name):
-        labels = data['intent']
-        vectorizer = CountVectorizer()
-        vector_data = vectorizer.fit_transform(data['text'])
-        X_train, X_val, X_test, y_train, y_val, y_test = self.split_dataset(
-            vector_data, labels)
-        train_data = {'text': [], 'label': []}
-        val_data = {'text': [], 'label': []}
-        test_data = {'text': [], 'label': []}
-        train_data['text'].append(X_train)
-        train_data['label'].append(y_train)
-        val_data['text'].append(X_val)
-        val_data['label'].append(y_val)
-        test_data['text'].append(X_test)
-        test_data['label'].append(y_test)
-        Utils.save_padding_data(
-            (X_train, y_train), file_dir + 'train/train_' + Utils.change_file_suffix(file_name))
-        Utils.save_padding_data(
-            (X_val, y_val), file_dir + 'val/val_' + Utils.change_file_suffix(file_name))
-        Utils.save_padding_data(
-            (X_test, y_test), file_dir + 'test/test_' + Utils.change_file_suffix(file_name))
-        model = MultinomialNB()  # 使用朴素贝叶斯模型
-        model.fit(X_train, y_train)
-        # save model
-        Utils.save_padding_data(
-            model, file_dir + 'model_' + Utils.change_file_suffix(file_name))
-        # save vector space
-        Utils.save_padding_data(
-            vectorizer, file_dir + 'vector_' + Utils.change_file_suffix(file_name))
-        print("Split dataset succeeded!")
-
-    # 向量化
-    def vectorize(self, texts):
-        vectorizer = CountVectorizer()
-        return vectorizer.fit_transform(texts)  # 将文本转换为特征向量
-
-    # 数据集拆分
-    def split_dataset(self, X, y):
-        test_size = 0.2
-        validation_size = 0.1
-        X_train, X_test, y_train, y_test = train_test_split(
-            X, y, test_size=test_size)
-        X_train, X_val, y_train, y_val = train_test_split(
-            X_train, y_train, test_size=validation_size)
-        return X_train, X_val, X_test, y_train, y_val, y_test
-
     # 下载语料库
-    def download_corpus(self, corpus_name):
+    def download_corpus(self, corpus_name, aim_file_name):
         nltk.download(corpus_name)
-        selected_file = 'stopwords.txt'
         text_content = stopwords.words('english')
-        Utils.write_file_list(selected_file, text_content)
+        Utils.write_file_list(aim_file_name, text_content)
         print("finish")
 
     # 下载网页信息
@@ -166,27 +103,30 @@ class PreProcessController:
 
     # 预处理csv数据集
     def preprocess_csv_corpus(self):
-        file_name = 'intent_dataset.csv'
-        file_dir = './data/'
+        self.init()
+        file_name = Constants.INTENT_DATASET_FILE_NAME
+        file_dir = Constants.DATA_FILE_DIR
         file_path = file_dir + file_name
-        data = pd.read_csv(file_path)
-        tokens = self.preprocess_list_data(data['text'])
-        # 添加标签
+        data = Utils.read_csv(file_path)
+        # 预处理数据集中的text数据
+        sentences = self.preprocess_list_data(data[Constants.TEXT_LABEL])
+        # 添加标签(根据数据集内容进行聚类，区分出不同意图类别)
         # labels = self.create_labels(tokens2, 5)
-        data['cleaned text'] = tokens
+        data['cleaned text'] = sentences
         # for i in range(5):
         #     print(f"\nCluster {i} examples:")
-        #     print(data['intent'][i])
-        #     print(tokens2[data['intent'] == i].head())
-        
-        data.to_csv("./data/labeled_intent_dataset.csv", index=False)
-        self.gen_test_dataset(data, file_dir, file_name)
-        print("Preprocess data succeeded!")
+        #     print(data[Constants.INTENT_LABEL][i])
+        #     print(tokens2[data[Constants.INTENT_LABEL] == i].head())
+        # 预处理后的数据存入文件
+        data.to_csv(
+            file_dir + Constants.INTENT_DATASET_PREPROCESSED_FILE_NAME, index=False)
+        print("Preprocess data succeed!")
 
     # 预处理文本数据集
     def preprocess_corpus(self):
+        self.init()
         file_name = 'dataset1.txt'
-        file_dir = './data/'
+        file_dir = Constants.DATA_FILE_DIR
         file_path = file_dir + file_name
         preprocessed_data = {
             "text": [],

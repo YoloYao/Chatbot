@@ -18,10 +18,10 @@ from sklearn.cluster import KMeans
 class PreProcessController:
     def init(self):
         Utils.connectSSL()
-        nltk.download('stopwords')
+        nltk.download('stopwords', quiet=True)
         self.stop_words = set(stopwords.words('english'))
-        nltk.download('wordnet')
-        nltk.download('punkt')
+        nltk.download('wordnet', quiet=True)
+        nltk.download('punkt', quiet=True)
 
     # 去除标点符号
     def clean_text(self, content):
@@ -109,19 +109,59 @@ class PreProcessController:
         file_path = file_dir + file_name
         data = Utils.read_csv(file_path)
         # 预处理数据集中的text数据
-        sentences = self.preprocess_list_data(data[Constants.TEXT_LABEL])
+        sentences = self.preprocess_list_data(data[Constants.QUESTION_LABEL])
         # 添加标签(根据数据集内容进行聚类，区分出不同意图类别)
-        # labels = self.create_labels(tokens2, 5)
         data['cleaned text'] = sentences
-        # for i in range(5):
-        #     print(f"\nCluster {i} examples:")
-        #     print(data[Constants.INTENT_LABEL][i])
-        #     print(tokens2[data[Constants.INTENT_LABEL] == i].head())
         # 预处理后的数据存入文件
         data.to_csv(
             file_dir + Constants.INTENT_DATASET_PREPROCESSED_FILE_NAME, index=False)
         print("Preprocess data succeed!")
 
+    # 给数据集分类生成标签
+    def generate_labeled_csv_corpus(self):
+        self.init()
+        file_path = './data/CW1_Dataset.csv'
+        csv_data = Utils.read_csv("data/CW1-Dataset.csv")
+        questions = csv_data['Question']
+        sentences = self.preprocess_list_data(questions)
+        labels = self.create_labels(sentences, 5)
+        # for i in range(5):
+        #     print(f"\nCluster {i} examples:")
+        #     print(data[Constants.INTENT_LABEL][i])
+        #     print(tokens2[data[Constants.INTENT_LABEL] == i].head())
+        csv_data['Label'] = labels
+        csv_data.to_csv('./data/labeled_CW1_Dataset.csv', index=False)
+    
+    def operate(self):
+        self.init()
+        # csv_data = Utils.read_csv("data/answer/small_talk_answer.csv")
+        # data = Utils.read_csv("data/answer/nomal_answer.csv")
+        csv_data = pd.read_csv("data/answer/new_answer.csv", encoding='latin1')
+        # data = pd.read_csv("data/answer/nomal_answer.csv", encoding='latin1')
+        # combined_data = pd.concat([csv_data, data], axis=0)
+        # csv_data = pd.read_csv("data/small_talk_dataset.csv", encoding='latin1')
+        
+        # questions = csv_data['Question']
+        # answers = csv_data['Answer']
+        # intents = [3]*len(questions)
+        # new_data = {
+        #     "intent": [],
+        #     "question": []
+        # }
+        answer_data = {
+            "intent": [],
+            "answer": []
+        }
+        # new_data['intent'] = intents
+        # new_data['question'] = questions
+        # answer_data['intent'] = intents
+        # answer_data['answer'] = answers
+        # data_frame1 = pd.DataFrame(new_data)
+        # data_frame2 = pd.DataFrame(answer_data)
+        # data_frame1.to_csv('./data/small_talk_dataset.csv', index=False)
+        # data_frame2.to_csv('./data/answer/small_talk_answer.csv', index=False)
+        csv_data.to_csv('./data/answer/answer.csv', encoding='utf-8', index=False)
+        
     # 预处理文本数据集
     def preprocess_corpus(self):
         self.init()

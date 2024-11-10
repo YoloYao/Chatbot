@@ -1,0 +1,4 @@
+{
+    "whitelist": ["Alice", "Beffy", "Dylan", "Lucy", "Mike"],
+    "blacklist": []
+}

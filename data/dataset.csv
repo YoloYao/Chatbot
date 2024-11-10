@@ -1,484 +1,498 @@
-﻿intent,text
-1,"I forgot my password, what should I do?"
-1,How can I change my login information?
-1,Can you help me reset my account password?
-1,I want to update my personal profile.
-1,Please assist me in changing my email address.
-1,How do I update my profile picture?
-1,Can I change my username?
-1,Is there a way to delete my account?
-1,How can I secure my account?
-1,What steps should I take to recover my password?
-1,Can I reset my security questions?
-1,How can I update my phone number?
-1,How do I activate two-factor authentication?
+intent,question
+3,What is the the North American Free Trade Agreement?
+3,what is tmz stand for
+3,what is impingement of the shoulder
+3,where is La Palma africa
+3,where was hillary clinton born
+3,who was the first one to invent medicine
+3,When was 27th amendment proposed
+3,what is singapore's currency
+3,Who was Daniel J Daly?
+3,where was paul revere born
+3,what is the plot of the shawshank redemption?
+3,what is an information technology manager
+3,what is the scientific name of a cardinal bird
+3,where are kenworth trucks built
+3,what is the type of democracy in which all citizens have the right to make  government decisions
+3,when is the feast of St. Rita
+3,where is j.cole from
+3,what is ratchet from ratchet and clank
+3,where was the first real roller coaster
+3,what is in a will
+3,what is the gdp for greenland 2010?
+3,What is hydrogen in
+3,where is UWA on world list of universities
+3,what is bracketing in photography
+3,What is the disk defragmenter tool
+3,what is level of agreement mean
+3,when was purple haze by jimi hendrix made?
+3,where was martin luther born
+3,who is the actor that plays harry potter
+3,"what is the concept of ""wellness"" ?"
+3,what is the mortality rate of sepsis
+3,where is kos from?
+3,what is the defensive line in football called
+3,what is the measurements of saturn's moons
+3,what is the @ sign called?
+3,who is the book the catcher in the rye by?
+3,who are the girls from the bad girls club?
+3,what is prince williams last name
+3,what is IBRIX
+3,what is bilirubin total
+3,what was bernie madoff selling
+3,what is quasi judicial agency
+3,who is inventor of the radio
+3,who is the founder of twitter
+3,what is scurvy disease
+3,what is google openid
+3,who is bj's wholesale club
+3,what is atherosclerotic heart disease
+3,what is atherosclerotic heart disease
+3,what is atherosclerotic heart disease
+3,what is atherosclerotic heart disease
+3,what was the name of the uss john kennedy before
+3,what is the name of the wizard of oz
+3,what is the name of the wizard of oz
+3,what were 3 important things that douglas MacArthur did?
+3,what is homebrew for wii
+3,what is homebrew for wii
+3,what is santa's wife's name
+3,when was Saddle Creek founded
+3,what is korean money called
+3,what is three phase electrical
+3,What is the significance of Good Friday?
+3,What is the significance of Good Friday?
+3,What is the significance of Good Friday?
+3,Who is the highest scoring NBA player
+3,where is the great basin located on a us map
+3,what is direct marketing channel
+3,what was the date of pearl harbor
+3,what is disney's magic kingdom
+3,what is the kanji for language
+3,what is in fruitcake
+3,what is the name of the family who own the biltmore estates in nc
+3,who was the congressman who was caught with an escort in ny
+3,where are the kidneys in your body
+3,what is lockton affinity
+3,what is lockton affinity
+3,what is white chocolate made of
+3,what is the latest season of psych
+3,what is the main component of vaccines
+3,what is the name of chris cornell's band?
+3,what is preciosa crystal?
+3,where is the chupacabra found
+3,What is the purpose of North American Free Trade Agreement
+3,who are all of the jonas brothers
+3,what is in the alpine mountain systems
+3,what is in the alpine mountain systems
+3,who is mary matalin married to
+3,where is basque spoken
+3,where is the brisket from
+3,what is human chorionic
+3,where is dear john filmed at
+3,what is busiest airport in US
+3,where is osaka japan
+3,where is osaka japan
+3,what is surname and given name
+3,what is melissa and joey about
+3,What is an economic feature?
+3,What is an economic feature?
+3,What is an economic feature?
+3,what is the average american income
+3,When was Apple Computer founded
+3,what is section eight housing
+3,what is section eight housing
+3,what are stocks and bonds
+0,Hello! How are you today?
+0,Hi there! Nice to meet you!
+0,Good morning! What's on your mind?
+0,How are you doing?
+0,Hey! What's new?
+0,Greetings! How can I assist you today?
+0,Hi! What's up?
+0,Hello! How can I be of service?
+0,Hi! Hope you're having a good day!
+0,Hey there! How can I support you today?
+0,Hi there! How's your day going?
+0,Good to see you! What brings you here today?
+0,How's everything with you?
+0,Hello! Hope you're doing well.
+0,Hey! Long time no see!
+0,Hi! What can I help you with today?
+0,Good afternoon! How can I assist?
+0,Hello! Anything I can do for you?
+0,Hi! What's happening?
+0,Greetings! What's new?
+0,Hi! How have you been?
+0,Hello! What's your day like?
+0,Good evening! How can I be of service?
+0,Hey! What's going on?
+0,Hi! Anything interesting happening?
+0,Hello there! How can I help you today?
+0,Greetings! What's on your mind?
+0,Hi! How's it going?
+0,Hello! Hope you're having a good time.
+0,Hey! How's your week so far?
+0,Hi! What would you like to talk about?
+0,Hello! Anything exciting to share?
+0,Hi! How are things with you?
+0,Good day! How can I assist you?
+0,Hey! What's new and exciting?
+0,Hi! How's your morning/afternoon/evening?
+0,Greetings! What can I do for you today?
+0,Hello! Need any help?
+0,Hey! What's happening in your world?
+0,Hi! How's your weekend going?
+0,Good morning! Ready to chat?
+0,Hello! What's your plan for today?
+0,Hi there! What's the latest?
+0,Hey! Do you have a minute to chat?
+0,Hello! How can I brighten your day?
+0,Hi! Anything on your mind?
+0,Greetings! Hope you're doing well.
+0,Hello! Long time no talk!
+0,Hey! What brings you here?
+0,Hi! Great to see you.
+0,Good evening! How has your day been?
+0,Hello! What's keeping you busy these days?
+0,Hi! Let's catch up.
+0,Hey there! Ready to share your thoughts?
+0,Good day! Any special plans?
+0,Hello! What can I help you achieve today?
+0,Hi! Want to chat for a bit?
+0,Greetings! How may I assist you?
+0,Hey! Hope everything's good on your end.
+0,Hi! Got any fun stories?
+0,Hello! How's life treating you?
+0,Hey! How was your last trip/adventure?
+0,Hi! What's up with you lately?
+0,Hello! Looking forward to anything exciting?
+0,Good day! How's your mood today?
+0,Hi! Anything you'd like to discuss?
+0,Greetings! Tell me something interesting.
+0,Hello! Want to talk about your favorite things?
+0,Hey! Any cool recommendations you have?
+0,Hi! I'm all ears. What's on your mind?
+0,Hello! How are you?
+0,Hi! How's it going?
+0,Good morning! How are you today?
+0,Hey! What's up?
+0,Hi there! What's new?
+0,Hello! Hope you're well.
+0,Hey! How have you been?
+0,Hi! How's your day?
+0,Hello! How's everything going?
+0,Good evening! How are you doing?
+0,Hi! What's going on?
+0,Hey! How's life?
+0,Hello! How's it been?
+0,Hi! How are things?
+0,Good day! How are you feeling?
+0,Hey! How's today treating you?
+0,Hi there! How have you been lately?
+0,Hello! What's on your mind today?
+0,Hey! How do you do?
+0,Hi! What's happening?
+0,Hello! What brings you here?
+0,Hi! How's your week been?
+0,Hey! How are you holding up?
+0,Hi! What's your mood like today?
+0,Good morning! How can I help?
+0,Hello! Nice to see you.
+0,Hey! Got a moment to chat?
+0,Hi! How's your evening?
+0,Hello! What can I do for you today?
+0,Hey! Hope your day is going well.
+1,How do I reset my password?
+1,Can I change my account email address?
+1,What steps do I take to recover my username?
+1,How can I update my security questions?
+1,How do I enable two-factor authentication?
+1,Can I link my account with social media?
+1,How do I update my profile information?
 1,What should I do if my account is locked?
-1,How do I add a recovery email?
-1,How can I deactivate my account temporarily?
-1,Can I unlink my social media accounts?
+1,How can I delete my account permanently?
+1,Is it possible to change my username?
+1,How do I change my password?
+1,What should I do if I forget my security question answers?
+1,Can I update my phone number linked to the account?
 1,How do I enable login alerts?
-1,How do I set up a recovery phone number?
-1,Can I change my account’s primary email?
-1,How do I delete saved login information?
-1,Can I disable two-factor authentication?
-1,What should I do if I suspect unauthorized access?
-1,How do I find my account security settings?
-1,Is there a way to restrict login locations?
-1,How do I view recent login activity?
-1,Can I make my profile private?
-1,How can I lock my account temporarily?
-1,How do I link another email to my account?
-1,How do I check my account verification status?
-1,What is the process to recover a deleted account?
-1,How can I check if my password is strong enough?
-1,How do I remove an old phone number?
-1,How do I enable notifications for login attempts?
-1,Can I set a profile security question?
-1,How do I verify my identity for account recovery?
-1,What are the steps to add backup login options?
-1,Can I see my login history for the past month?
-1,How do I change my security settings?
-1,Can I add an alternative email for recovery?
-1,How can I confirm my email address?
-1,What should I do if my account is compromised?
-1,How do I secure my account when traveling?
-1,Can I restrict login times for my account?
-1,How can I reset my password without an email?
-1,How do I recover my password using my phone?
-1,How do I verify my account for extra security?
-1,Can I turn off login alerts temporarily?
-1,How do I remove linked accounts?
-1,Is there a way to monitor my account activity?
-1,How can I reset my security questions?
-1,How do I report a compromised account?
-1,How do I set up a security PIN?
-1,How can I receive alerts for unusual activity?
-1,Where can I see my active sessions?
-1,How can I disable account recovery options?
-1,Can I deactivate my profile temporarily?
-1,How do I reset my two-factor authentication?
-1,Can I receive an alert if someone logs into my account?
-1,How can I check recent security updates?
-1,What should I do if I notice unusual activity?
-1,How can I deactivate my account temporarily?
-1,Can I set up login alerts for added security?
-1,How do I restrict access to my profile page?
-1,What are the steps to add a backup login method?
-1,How do I change the security question?
-1,Is there a way to hide my account from public search?
-1,How can I enable additional authentication?
-1,How do I find out if someone accessed my account?
-1,Can I request a security audit for my account?
+1,How do I recover a deleted account?
+1,Is it possible to disable two-factor authentication?
+1,How can I verify my email address?
+1,Where can I check my recent login activity?
+1,How do I secure my account from unauthorized access?
+1,Can I add a backup email for recovery?
+1,What options do I have for account recovery?
+1,How do I restrict access to my profile?
+1,Can I temporarily deactivate my account?
+1,What steps should I take to change my security settings?
+1,Is there a way to unlink my account from third-party services?
+1,How can I add an alternative phone number for verification?
+1,Can I remove saved login details from my account?
+1,How do I check if my account has been compromised?
+1,How do I change my profile picture?
+1,Is there a way to lock my account manually?
+1,How can I deactivate account recovery options?
+1,Can I customize my account's privacy settings?
+1,How do I set up a new security PIN?
+1,What should I do if I suspect my account was hacked?
+1,How do I manage connected devices?
+1,Can I receive alerts for login attempts from unknown locations?
+1,Where can I manage linked accounts?
+1,How do I add a recovery question to my account?
+1,Is it possible to view my account's access history?
+1,How can I prevent unauthorized logins?
+1,How do I enable automatic account lockout?
+1,Can I set specific login hours for my account?
 1,How can I verify my phone number?
-1,How do I block suspicious login attempts?
-1,Can I change the primary email address for my account?
-1,How do I make my profile information private?
-1,What’s the best way to secure my account?
-1,Can I view my account’s security history?
-1,How do I disable login from unknown locations?
-1,How can I add a recovery question?
-1,Can I restrict logins to specific devices?
-1,How can I get notified of password changes?
-1,How do I ensure my account is secure?
-1,How do I view my last login location?
-1,Can I delete my account permanently?
-1,How do I protect my account from hackers?
-1,Is there a way to update my security preferences?
-1,How do I link an additional phone number?
-1,What options are available for two-factor authentication?
-1,Can I change my security PIN?
-1,How can I remove all connected devices?
-1,How do I check if my email was verified?
-1,Can I set an automatic account lockout time?
-1,How do I see my login devices?
-1,What should I do if my email is compromised?
-1,How can I reset my login history?
-1,Can I add more than one recovery email?
-1,How do I enable two-step verification?
-1,Is there an option to hide my login details?
-1,How do I reset my security answers?
-1,Can I prevent others from viewing my profile?
-1,How do I activate account protection features?
-1,How can I delete old login sessions?
-1,What’s the best way to keep my account safe?
-1,How do I check my last account activity?
-1,Can I lock my account during inactivity?
-1,How do I disable login notifications?
-1,How do I set up email verification?
-1,How can I limit my login attempts?
-1,How do I protect my profile information?
-1,Can I remove an old recovery email?
-1,How do I check the last account login time?
-1,How can I hide my profile details?
-1,Can I add multiple security questions?
-1,How do I delete previous account settings?
-1,How do I enable biometric login?
-1,Is there a way to disable login notifications?
-1,How can I view account activity alerts?
-1,What should I do to secure my information?
-1,How do I make my profile unsearchable?
-1,How do I reset my PIN for account access?
-1,How can I stop password change notifications?
-1,How do I restrict my profile view?
-1,How do I update my contact verification?
-1,Can I set up automatic account recovery?
-1,How can I limit my profile visibility?
-1,How do I enable session timeout?
-1,How do I stop login alerts?
-1,How do I enable login confirmations?
-1,Can I receive alerts for password changes?
-1,How can I block unknown devices?
-1,How do I delete my activity history?
-1,How do I restrict login to trusted networks?
-1,How can I set a secondary password?
-1,How do I clear my login history?
-1,Can I limit logins to specific times?
-1,How do I ensure my details are private?
-1,How can I view my security history?
-1,How do I reset my recovery email?
-1,How can I lock my profile information?
-1,How do I enable login IP restrictions?
-1,How do I remove inactive devices?
-1,Can I delete saved security answers?
-1,How do I activate login failure alerts?
-1,How do I check for unauthorized login attempts?
-1,How can I manage account recovery settings?
-1,How do I change my recovery options?
-1,How can I see all devices logged into my account?
-1,How do I manage profile security settings?
-1,Can I prevent access from public networks?
-1,How do I block login attempts from other regions?
-1,How do I reset the two-factor authentication?
-1,How can I verify my backup email?
-1,How do I receive alerts for account recovery?
-1,How do I find out when my account was accessed last?
-1,How can I set up an account lock after login attempts?
-1,How do I delete my last login details?
-1,How do I protect my information from viewing?
-1,How do I limit account access to trusted devices?
-2,Can you recommend some popular restaurants nearby?
-2,What are some interesting places to visit here?
-2,Do you have suggestions for good coffee shops?
-2,Can you tell me about nearby attractions?
+1,Where can I see the devices logged into my account?
+1,How do I enable or disable login notifications?
+1,Can I limit access to specific devices?
+1,How do I set up a security phrase for verification?
+1,Can I restrict access based on geographic location?
+1,How can I delete my backup recovery methods?
+1,Is there a way to check login attempts?
+1,How do I verify my account through a phone call?
+1,Can I change my recovery email?
+1,How do I restrict logins to specific IP addresses?
+1,What happens if I enter the wrong password too many times?
+1,How can I make my profile private?
+1,How do I create a strong password?
+1,Is there a way to enable biometric login?
+1,How can I link another email to my account?
+1,Can I receive notifications for changes made to my account?
+1,How do I review past login sessions?
+1,Is it possible to delete my profile information?
+1,How can I change my email?
+1,How do I update my phone number?
+1,Can I reset my password?
+1,How do I delete my account?
+1,What should I do if I forget my username?
+1,How do I link my social media account?
+1,Can I update my security settings?
+1,How do I check my login history?
+1,How can I change my username?
+1,How do I recover my account?
+1,Where can I find my account settings?
+1,How do I enable two-factor authentication?
+1,Can I remove a linked device?
+1,How do I change my profile picture?
+1,How can I add a recovery email?
+1,How do I make my profile private?
+1,What should I do if my account is locked?
+1,Can I receive alerts for account changes?
+1,How do I verify my phone number?
+1,How can I update my security questions?
+2,Can you recommend some popular attractions nearby?
+2,Where can I find a good restaurant?
+2,What are some must-see places in the area?
+2,Are there any parks close to me?
+2,Where can I go shopping?
+2,Can you suggest a nearby coffee shop?
 2,What events are happening this weekend?
-2,Are there any local festivals coming up?
-2,Can you suggest some top-rated hotels in the area?
-2,Where can I find good shopping spots around here?
-2,Are there any parks or outdoor spaces nearby?
-2,What’s a popular tourist spot I should visit?
-2,Do you have recommendations for local activities?
-2,Are there any good movie theaters near me?
-2,Can you recommend a nearby bookstore?
-2,Are there any must-see landmarks around here?
-2,What’s the best place for a family outing nearby?
-2,Do you know any popular nightclubs in the area?
-2,Can you suggest a nice walking trail nearby?
-2,What are some well-known museums around here?
-2,Can you recommend a place to see live music?
-2,Are there any highly-rated gyms or fitness centers nearby?
-2,Where can I find the best local art galleries?
-2,Are there any popular beaches nearby?
-2,Can you suggest a place with a great city view?
-2,Where’s a good spot for a picnic around here?
-2,Are there any famous historical sites nearby?
-2,What’s a good place to relax in this area?
-2,Can you recommend a quiet cafe for studying?
-2,Are there any good libraries near me?
-2,Do you know any scenic viewpoints around here?
-2,What’s the best area for nightlife here?
-2,Can you suggest any upcoming concerts nearby?
-2,Where can I find unique local shops?
-2,Are there any well-known theaters in the area?
-2,Can you recommend a popular market nearby?
-2,Where’s the best place to take a walk around here?
-2,What are the top-rated tourist attractions nearby?
-2,Do you know any local farmer’s markets?
-2,Are there any great spots for photography around?
-2,Can you tell me about popular outdoor activities?
-2,Are there any hidden gems I should know about here?
-2,Where can I find the best rooftop bars nearby?
-2,Can you suggest a quiet place to read in the area?
-2,Are there any hidden coffee shops nearby?
-2,Where’s a good spot for brunch on the weekend?
-2,What are some trendy new restaurants in town?
-2,Are there any good escape rooms around here?
-2,Can you recommend a place for wine tasting?
-2,Where’s a popular area for street art?
-2,Are there any famous monuments nearby?
-2,Can you suggest a place with live entertainment?
-2,Where can I go for a scenic drive?
-2,Are there any unique art installations around?
-2,Can you tell me about local sports events?
-2,Where’s a good place to try local foods?
-2,Are there any historical walking tours available?
-2,Can you recommend an outdoor yoga spot?
-2,Where’s the best area for people-watching?
-2,Are there any community theaters in the area?
-2,What are some popular jazz clubs nearby?
-2,Can you suggest a place for dance classes?
-2,Are there any local artisan markets coming up?
-2,Where’s a good place to go stargazing?
-2,Can you recommend a romantic restaurant nearby?
-2,Are there any nearby places to rent bikes?
-2,Where can I find a scenic picnic area?
-2,Are there any good places for a photo shoot?
-2,Can you suggest a cozy spot with fireplaces?
-2,Where’s a popular area for vintage shopping?
-2,Are there any botanical gardens nearby?
-2,Can you recommend a place with seasonal decorations?
-2,Are there any good bakeries I should try?
-2,Where can I find the best donuts around here?
-2,Are there any places offering pottery classes?
-2,Can you recommend a local fish market?
-2,Are there any popular nature trails in the area?
-2,Where can I find a scenic lookout?
-2,Are there any old-fashioned diners nearby?
-2,Can you suggest a nearby spot for birdwatching?
-2,Where’s a popular flea market in town?
-2,Are there any haunted locations nearby?
-2,Can you recommend a sunset viewpoint?
-2,Are there any dog-friendly parks around here?
-2,Where’s a good place for a morning jog?
-2,Are there any local food festivals this month?
-2,Can you suggest a spot for open-mic nights?
-2,Where’s a good place to watch the sunrise?
-2,Are there any all-day breakfast spots nearby?
-2,Can you recommend a unique tea house?
-2,Are there any kid-friendly activities in the area?
-2,Where’s the best place to buy fresh produce?
-2,Can you suggest a nearby thrift store?
-2,Are there any places with cooking classes?
-2,Where’s a good place to listen to live folk music?
-2,Are there any local craft breweries to try?
-2,Where can I find a good pizza place around here?
-2,Can you recommend a bookshop with rare finds?
-2,Are there any aquariums or zoos nearby?
-2,Where’s a fun place to go roller skating?
-2,Can you suggest a nearby spot with good seafood?
-2,Are there any waterparks in the area?
-2,Where can I find locally-made souvenirs?
-2,Are there any scenic lakes or ponds nearby?
-2,Can you recommend a nearby flower market?
-2,Where’s a good area for pub crawls?
-2,Are there any vintage clothing stores around here?
-2,Can you suggest a spot with weekend brunch deals?
-2,Where can I go to see seasonal foliage?
-2,Are there any nearby farms for apple picking?
-2,Can you recommend a nice spot for hiking?
-2,Are there any outdoor skating rinks nearby?
-2,Where’s a good place to rent kayaks or canoes?
-2,Can you tell me about any local fairs or carnivals?
-2,Are there any good places to buy antiques?
-2,Where’s a good spot for summer festivals?
-2,Are there any adventure parks around here?
-2,Can you recommend a place to play board games?
-2,Are there any nearby cooking schools?
-2,Where’s the best place to try local desserts?
-2,Are there any annual events worth attending?
-2,Can you suggest a popular beach for swimming?
-2,Are there any science museums or planetariums nearby?
-2,Where can I go horseback riding around here?
-2,Are there any good pottery shops in the area?
-2,Can you recommend a nice place for high tea?
-2,Where can I buy fresh flowers locally?
-2,Are there any storytelling events nearby?
-2,Where can I find good quality spices?
-2,Are there any costume stores nearby?
-2,Can you suggest a spot for afternoon tea?
-2,Where’s a place known for good milkshakes?
-2,Are there any local chocolatiers around?
-2,Can you recommend a good ice cream parlor?
-2,Where can I find artisanal cheese shops nearby?
-2,Are there any local jazz or blues bars?
-2,Can you suggest a restaurant with an outdoor patio?
-2,Where’s a popular place for seafood near here?
-2,Are there any markets with organic produce?
-2,Where can I find local woodworking shops?
-2,Are there any nearby meditation centers?
-2,Where’s the best spot for live stand-up comedy?
-2,Can you recommend a spot for kite flying?
-2,Are there any good sushi bars in the area?
-0,How’s your day going?
-0,What’s your favorite color?
-0,Tell me something interesting.
-0,Do you know any jokes?
-0,What’s the weather like today?
-0,Do you have any hobbies?
-0,What’s your favorite movie?
-0,Do you like music?
-0,What’s your favorite food?
-0,Have you heard any interesting news?
-0,Do you have any pets?
-0,What’s your favorite place to visit?
-0,Can you tell me a fun fact?
-0,Do you enjoy reading books?
-0,How old are you?
-0,Do you have any travel plans?
-0,What’s your favorite thing to do on weekends?
-0,Are you a morning or night person?
-0,Do you prefer coffee or tea?
-0,What’s something that made you smile recently?
-0,What’s the best part of your day?
-0,Do you have a favorite hobby?
-0,What’s your favorite song right now?
-0,Are you a cat person or a dog person?
-0,Have you ever met anyone famous?
-0,What’s the most interesting place you’ve visited?
-0,Do you like to cook?
-0,What’s something you’ve always wanted to try?
-0,Do you play any musical instruments?
-0,What’s your favorite season?
-0,What’s one thing you can’t live without?
-0,Do you have a favorite superhero?
-0,What’s your favorite sport?
-0,Have you ever gone skydiving?
-0,What’s your dream job?
-0,Are you a morning person or a night owl?
-0,Do you have a favorite book?
-0,Have you seen any good movies lately?
-0,What’s a fun fact about yourself?
-0,Do you like spicy food?
-0,What’s the most beautiful place you’ve seen?
-0,Do you prefer the beach or the mountains?
-0,What’s something you’re grateful for?
-0,Do you like to dance?
-0,What’s the last book you read?
-0,Do you enjoy spending time outdoors?
-0,What’s your favorite holiday?
-0,What’s the best gift you’ve ever received?
-0,Do you prefer hot or cold weather?
-0,What’s your favorite dessert?
-0,Do you believe in luck?
-0,What’s the best advice you’ve ever received?
-0,Are you into any TV shows right now?
-0,Do you have a bucket list?
-0,What’s your favorite board game?
-0,Have you ever traveled abroad?
-0,Do you have a favorite quote?
-0,What’s the most adventurous thing you’ve done?
-0,Do you have any siblings?
-0,What’s your favorite type of cuisine?
-0,What’s the weirdest food you’ve tried?
-0,Do you prefer books or movies?
-0,What’s your favorite thing about weekends?
-0,Do you like animals?
-0,Have you ever been camping?
-0,What’s your favorite flower?
-0,Do you enjoy art?
-0,What’s your biggest pet peeve?
-0,Do you have a favorite artist or band?
-0,Are you good at any sports?
-0,Do you have any hidden talents?
-0,What’s the most thoughtful gift you’ve given?
-0,Do you collect anything?
-0,What’s your favorite smell?
-0,Are you a coffee drinker?
-0,Have you ever ridden a horse?
-0,Do you like roller coasters?
-0,What’s your biggest fear?
-0,Are you a morning coffee or tea person?
-0,Have you ever tried meditation?
-0,What’s the best meal you’ve ever had?
-0,Do you enjoy gardening?
-0,What’s your favorite type of music?
-0,Do you play any video games?
-0,What’s your favorite childhood memory?
-0,Do you have a favorite vacation spot?
-0,Are you more of an introvert or extrovert?
-0,Have you ever tried painting or drawing?
-0,What’s something you’re really good at?
-0,Do you enjoy going to concerts?
-0,What’s your favorite way to relax?
-0,Do you have a role model?
-0,Have you ever baked a cake from scratch?
-0,Do you have any phobias?
-0,What’s your favorite movie genre?
-0,Do you like to work out?
-0,What’s your favorite ice cream flavor?
-0,Have you ever gone hiking?
-0,What’s your favorite comfort food?
-0,Do you enjoy puzzles or riddles?
-0,What’s the best compliment you’ve received?
-0,Are you interested in history?
-0,What’s something that makes you happy?
-0,Have you ever gone fishing?
-0,What’s a skill you’d like to learn?
-0,Do you like to read poetry?
-0,Have you ever tried a new hobby recently?
-0,What’s your go-to karaoke song?
-0,Do you enjoy watching sports?
-0,What’s your favorite animal?
-0,Are you into fashion?
-0,Do you like to go to the beach?
-0,Have you ever tried journaling?
-0,What’s your favorite thing about your hometown?
-0,Are you a fan of road trips?
-0,Do you like to watch documentaries?
-0,What’s the funniest thing that happened to you?
-0,Have you ever gone scuba diving?
-0,Do you enjoy rainy days?
-0,What’s the best place to watch a sunset?
-0,Have you ever done a road trip?
-0,What’s a language you’d like to learn?
-0,Do you have any favorite podcasts?
-0,Have you ever been in a play?
-0,What’s your favorite outdoor activity?
-0,Do you enjoy going to the theater?
-0,What’s your favorite color?
-0,Do you prefer city life or countryside?
-0,What’s the coolest thing you’ve ever built?
-0,Do you enjoy taking photographs?
-0,Are you a fan of horror movies?
-0,What’s something you’ve always wanted to do?
-0,Do you have a favorite dessert?
-0,What’s your favorite breakfast food?
-0,Do you enjoy writing?
-0,What’s your favorite subject in school?
-0,Are you a dog or a cat person?
-0,What’s something that always makes you laugh?
-0,Do you enjoy singing?
-0,What’s your favorite type of weather?
-0,Have you ever been on a boat?
-0,Do you like to dance?
-0,What’s the best book you’ve ever read?
-0,Do you have a favorite season?
-0,What’s the most beautiful place you’ve been?
-0,Have you ever tried skiing?
-0,What’s something you can’t live without?
-0,Do you like to volunteer?
-0,What’s your favorite family tradition?
-0,Have you ever gone rock climbing?
-0,Do you enjoy hiking?
-0,Have you ever tried snowboarding?
-0,What’s a recent goal you achieved?
-0,Are you more into sweet or savory foods?
-0,Have you ever been on a hot air balloon ride?
-0,What’s your favorite kind of pizza?
-0,Do you prefer sunrise or sunset?
-0,What’s a new skill you’ve picked up recently?
-0,Do you enjoy going to museums?
-0,What’s your favorite childhood movie?
-0,Have you ever been whale watching?
-0,What’s your favorite day of the week?
-0,Do you like to explore new cities?
-0,Have you ever been to a music festival?
-0,What’s your favorite thing to do with friends?
-0,Do you have a favorite workout routine?
-0,What’s your favorite snack?
-0,Are you into photography?
-0,Have you ever made a bucket list?
-0,What’s a unique experience you’ve had?
-0,Do you prefer morning walks or evening strolls?
-0,Are you a fan of cooking shows?
-0,Have you ever tried origami?
-0,Do you enjoy arts and crafts?
-0,What’s something you’d like to learn?
-0,What’s your favorite type of coffee?
-0,Do you have a favorite animal?
-0,Are you a gamer?
-0,Have you ever tried rock climbing?
-0,What’s the best concert you’ve been to?
-0,Do you enjoy movie nights?
-0,What’s a food you’d like to try?
-0,Do you enjoy playing board games?
-0,What’s something you’re passionate about?
+2,Are there any local museums worth visiting?
+2,Can you find me a nearby bookstore?
+2,Where's a good spot for hiking?
+2,Are there any concerts happening tonight?
+2,Where can I find fresh produce markets?
+2,Can you recommend a quiet place to relax?
+2,Where are the best places for sightseeing?
+2,Are there any art galleries nearby?
+2,Can you find me a gym or fitness center?
+2,Where can I see live music?
+2,What's a popular place to watch the sunset?
+2,Are there any nearby theaters?
+2,Can you suggest a good walking trail?
+2,What are some good places for a weekend trip?
+2,Can you find me a pet-friendly park?
+2,Where's the best spot for photography?
+2,Are there any local breweries nearby?
+2,Can you recommend a popular tourist area?
+2,Where can I go for a picnic?
+2,What's the nearest library?
+2,Are there any good wine tasting spots?
+2,Can you find a nearby yoga class?
+2,Where are the best scenic views in the city?
+2,Is there a flea market happening soon?
+2,Can you find me a good seafood restaurant?
+2,Are there any free attractions nearby?
+2,Where can I go kayaking?
+2,What are the best beaches around?
+2,Can you suggest a place for night walks?
+2,Where is the nearest art supply store?
+2,Are there any guided tours available?
+2,Where can I find a farmers' market?
+2,What's the best local cuisine spot?
+2,Can you recommend a bookstore caf¨¦?
+2,Where's a quiet place to read?
+2,Are there any historical landmarks to visit?
+2,Where can I find unique local crafts?
+2,Are there any upcoming theater performances?
+2,Where's a good spot to watch sports games?
+2,What are some family-friendly activities?
+2,Can you suggest a good spa nearby?
+2,Are there any cooking classes around?
+2,Where can I rent bikes?
+2,What are the top-rated bakeries here?
+2,Is there a nearby community center?
+2,Where's the best area for antique shopping?
+2,Can you recommend an outdoor dining spot?
+2,Where can I try local street food?
+2,Are there any jazz clubs around?
+2,Can you find me a karaoke bar?
+2,Where can I find organic food stores?
+2,What are some good hiking trails?
+2,Is there a fitness center open 24 hours?
+2,Where's a good spot to take kids?
+2,Can you suggest a good rooftop bar?
+2,Where's a romantic place for dinner?
+2,Are there any nearby hot springs?
+2,Can you recommend a co-working space?
+2,Where can I see the stars clearly?
+2,What are the best spots for street food?
+2,Are there any local festivals this month?
+2,Where can I buy artisanal cheese?
+2,Can you suggest a scenic driving route?
+2,Where can I find a nearby park?
+2,Are there any good cafes around?
+2,Can you recommend a place to eat?
+2,Where's the nearest grocery store?
+2,Are there any museums close by?
+2,Where can I buy fresh fruits?
+2,Is there a library nearby?
+2,Can you find a quiet place to relax?
+2,Where's a good spot for a walk?
+2,Are there any local events today?
+2,Can you suggest a place for dinner?
+2,Where is the nearest hospital?
+2,Are there any playgrounds for kids?
+2,Where's a good place for shopping?
+2,Can you find a bookstore for me?
+2,Where can I get coffee?
+2,Is there a gym nearby?
+2,Where can I find a bakery?
+2,Are there any markets around here?
+2,Where can I go for a swim?
+3,How are you today?
+3,What's your favorite color?
+3,Do you have any hobbies?
+3,What's your favorite movie?
+3,How's the weather today?
+3,Have you read any good books lately?
+3,What kind of music do you like?
+3,Do you like coffee or tea?
+3,What's your favorite food?
+3,Do you enjoy traveling?
+3,How was your day?
+3,What's your favorite animal?
+3,Do you like sports?
+3,What do you do for fun?
+3,Are you a morning person?
+3,What's your favorite season?
+3,Have you watched any good shows recently?
+3,What's your dream job?
+3,Do you prefer the beach or the mountains?
+3,What's your favorite way to relax?
+3,What did you do over the weekend?
+3,Do you have a favorite TV show?
+3,What's your favorite holiday?
+3,Do you like animals?
+3,What kind of books do you enjoy?
+3,Have you ever been on a road trip?
+3,What do you like to do on weekends?
+3,Do you play any musical instruments?
+3,What's your favorite dessert?
+3,Are you into video games?
+3,Do you enjoy cooking?
+3,Have you been to any interesting places?
+3,What's your favorite childhood memory?
+3,Do you like art?
+3,How do you stay active?
+3,What's your go-to comfort food?
+3,Do you enjoy puzzles or brain teasers?
+3,Have you ever gone hiking?
+3,What's something you're passionate about?
+3,Do you have a pet?
+3,Are you more of an introvert or extrovert?
+3,What's your favorite ice cream flavor?
+3,How do you usually spend your free time?
+3,Have you tried any new recipes lately?
+3,What's your favorite genre of movies?
+3,Do you like camping?
+3,What's your ideal vacation spot?
+3,Have you been to any live concerts?
+3,Do you enjoy board games?
+3,What's the best gift you've ever received?
+3,Are you a fan of any sports teams?
+3,Do you prefer reading fiction or non-fiction?
+3,Have you ever kept a journal?
+3,What's a skill you'd like to learn?
+3,Do you collect anything?
+3,What's your favorite thing about your city?
+3,Do you have a role model?
+3,Are you into gardening?
+3,What's the last movie you watched?
+3,Do you enjoy DIY projects?
+3,What's your favorite thing to do outdoors?
+3,Have you ever gone fishing?
+3,What's your favorite beverage?
+3,Are you interested in history?
+3,Do you have any phobias?
+3,How do you unwind after a long day?
+3,Do you like to dance?
+3,What's your favorite breakfast?
+3,Have you ever tried meditation?
+3,What's a fun fact about you?
+3,Do you enjoy writing?
+3,Do you enjoy listening to podcasts?
+3,What's your favorite sport?
+3,Have you ever tried a new hobby recently?
+3,Do you like going to the movies?
+3,What's your favorite type of weather?
+3,Are you a coffee or tea person?
+3,What's something you're looking forward to?
+3,Do you like spicy food?
+3,Have you ever been to a theme park?
+3,What's a skill you admire in others?
+3,Are you into puzzles and riddles?
+3,What's your favorite animal and why?
+3,Do you prefer morning or night?
+3,What's the best meal you've ever had?
+3,Do you have a favorite flower?
+3,How do you stay organized?
+3,What's something you'd like to change in the world?
+3,Are you a tech enthusiast?
+3,What's your favorite childhood cartoon?
+3,Do you enjoy swimming?
+3,How do you celebrate your birthday?
+3,Are you more of a planner or spontaneous?
+3,Do you like to draw or paint?
+3,What's the most fun trip you've been on?
+3,Do you have any pets?
+3,What's your favorite thing about weekends?
+3,Do you like taking long walks?
+3,How do you relax at the end of the day?
+3,Have you ever been on a boat?
+3,What's the best advice you've received?
+3,Do you enjoy rainy days?
+3,What's your favorite season of the year?
+3,Have you ever baked a cake?
+3,Do you like trying new foods?
+3,What's a movie you can watch over and over?
+3,Do you have a favorite holiday tradition?
+3,What do you usually do on a lazy day?
+3,Are you a cat person or a dog person?
+3,Have you traveled to any new places recently?
+3,What's your dream destination?
+3,Do you enjoy playing any sports?
+3,How do you usually start your mornings?
+3,Have you tried any outdoor activities lately?
+3,What's your favorite memory from last year?
+3,Are you into fashion?
+3,What's your favorite thing to do with friends?
+3,Do you collect anything special?
+3,Have you ever tried journaling?
+3,What kind of music helps you focus?
+3,What's your go-to meal when you're hungry?
+3,Do you enjoy stargazing?

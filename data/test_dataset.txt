@@ -1098,7 +1098,7 @@ i'm looking for a japanese restaurant
  anywhere in berkeley . and  s- open on fridays
  something cheaper please
  what about japanese restaurants at any price
-can you give me information about yoshi's
+can you give me information about yosh's
 -screwed up right cause it's recording . although i've been silent for quite a while
 talking about spanish restaurants
  start over please
@@ -2745,7 +2745,7 @@ i want to spend between ten and twenty dollars today
 i have a car
 tell me about ristorante venezia
 show me the list again please
-tell me about bucci's please
+tell me about bucc's please
 let's start over
 do you have any california cuisine
 i wanna eat on the weekends
@@ -2827,7 +2827,7 @@ i would like to have indian food
 indian
 indian food
 i would like to have italian
-i want to have lunch at bucci's
+i want to have lunch at bucc's
 can i have some korean food
 can you tell me something about korean restaurants
 where is mcdonald's
@@ -2854,7 +2854,7 @@ weekend
 friday or saturday
 can you tell me more about lococo's restaurant
 can i see the list again
-can you tell me about bucci's
+can you tell me about bucc's
 show me the list again
 let's start again
 i'd like to know about vegetarian restaurants
@@ -2989,7 +2989,7 @@ not asian food
  japanese food
  i want to eat  this evening
  doesn't matter anywhere is okay
-tell me more about  yoshi's
+tell me more about  yosh's
  tell me about ochame
  could i see the japanese list again
  no no the distance isn't important
@@ -3330,7 +3330,7 @@ not very much
 fifteen minu-(tes)
 three miles
 i can spend twelve dollars
-tell me about yoshi's
+tell me about yosh's
 let's start over
 i would like american food
 wednesday
@@ -3799,7 +3799,7 @@ go back to the list
 how about joshu-ya
 go back to the list again
 what about ochame
-how about yoshi's
+how about yosh's
 go back to the list
 do you know any pizza places
 i want some pizza
@@ -3941,7 +3941,7 @@ i would like to eat dinner
 three dollar
 about twenty miles
 i would like to spend twenty dollars
-is bucci's restaurant open on saturday
+is bucc's restaurant open on saturday
 i like to have italian food
 give me information on oliveto's restaurant
 show me the list
@@ -3986,8 +3986,8 @@ do you have indian restaurants which are vegetarian
 how long is a typical wait for a party of five on friday night at bombay cuisine 
 can i see restaurants which have mediterranean food
 i want restaurants with mediterranean food which are less than ten miles from i__c__s__i and under  fifty dollars . on .    friday and i'm looking for a dinner menu
-may i see the information on bucci's
-may i see the information on bucci's
+may i see the information on bucc's
+may i see the information on bucc's
 may i see the information on *mediterranee*
 how many pizza restaurants are less than ten miles from i__c__s__i
 {(interest)-ed} in going to a greek restaurant and and i'm wondering whether there is  one here in the berkeley area .  . the food i like  is chicken 
@@ -4071,7 +4071,7 @@ i don't care
  any amount is fine 
  tell me about sushi-ko
 okay tell me about restaurants anywhere in berkeley
- what do you know about yoshi's 
+ what do you know about yosh's 
 (i')-m looking for a thai restaurant for under ten dollars within about six blocks
 thai
 tuesday
@@ -4338,8 +4338,8 @@ where is sweet basil located
 where is cha-am  located
 what is the address of cha-am
 i'd like to know about italian res-(taurants)
- how much does dinner cost at bucci's
-how much would i pay for dinner at bucci's
+ how much does dinner cost at bucc's
+how much would i pay for dinner at bucc's
 does dinner at cafe vin cost
 i'd like information on chez-panisse
 i'd like to know about all the mediterranean restaurants in the
@@ -4544,7 +4544,7 @@ i want thai food
 tell me about cha-am
 (i')-d like to eat mexican food . west of campus
 how far from icksee is juan's place
-tell me about panini's
+tell me about panin's
 bye
  should i speak here . let's start
 let's start over again
@@ -5503,7 +5503,7 @@ what's caffe giovanni like
 i'd like to have american food
 tell me about saul's deli
 i'd like to have italian food
-what can you tell me about bucci's
+what can you tell me about bucc's
 what can you tell about spats
 start over
 hello my name is bill
@@ -5531,7 +5531,7 @@ i want to spend no more than thirty dollars for two people
 i am looking for italian food
 i am willing to travel five miles
 i want to see oliveto's menu
-i would like to see bucci's menu
+i would like to see bucc's menu
 i would like to go to an italian restaurant that is within one mile of  i__c__s__i
 i would like to go to an italian restaurant
 i would like to see a dinner menu please
@@ -5604,7 +5604,7 @@ i would like to go back to the list of thai restaurants you gave me before
 can you tell me more about the first restaurant on this list
 i'd like to go back to the list of restaurants you gave me before
 please tell me about the italian restaurants in about     five to ten minutes walk from i__c__s__i
-please tell me more about bucci's
+please tell me more about bucc's
  i would like to know about what i could eat in this restaurant
 what else can you tell me about this restaurant
 can you tell me about any brazilian restaurant  i__c__s__i
@@ -5676,7 +5676,7 @@ where can i have italian food tonight
 are there any good italian restaurants within ten minutes from here
 what do you know about caffe giovanni
 can i make a reservation
-i would like to make a reservation at caffe giovanni's for tonight
+i would like to make a reservation at caffe giovann's for tonight
 do i need to make a reservation
 what about greek food
 where can i go for coffee
@@ -5914,7 +5914,7 @@ can you tell me something about lococo's restaurant
 i would like to know what oliveto's is serving
 what do you know about vietnamese food
 actually i would like to go for  an italian restaurant   about ten  minutes from i__c__s__i  and it should  not cost  no more  than twenty dollars
-you have some information on caffe giovanni's
+you have some information on caffe giovann's
 start over
 what do you know about european food in berkeley
 it should be on a sunday or on a friday and the cost does not matter 
@@ -5989,7 +5989,7 @@ like to go for lunch in indian restaurant
 what about indian restaurants
 okay i like to make a reservation
 can you give me information on sushi-ko
-can you tell me more about yoshi's
+can you tell me more about yosh's
 can you give me a list of all the mexican restaurants in the area
 i would like to eat on a wednesday
 i would like to eat dinner
@@ -7627,8 +7627,8 @@ hamburgers
 french fries
 how much is metropole
 i want japanese food
-how much is the food at yoshi's
-can i take a bus to yochi's
+how much is the food at yosh's
+can i take a bus to yoch's
 start over please
 please start over
 i'd like some vietnamese food
@@ -8413,8 +8413,8 @@ hamburgers
 french fries
 how much is metropole
 i want japanese food
-how much is the food at yoshi's
-can i take a bus to yochi's
+how much is the food at yosh's
+can i take a bus to yoch's
 start over please
 please start over
 i'd like some vietnamese food

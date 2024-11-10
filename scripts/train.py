@@ -17,7 +17,7 @@ class TrainModelController:
         labels = data[Constants.INTENT_LABEL]
         # 生成数据集的向量空间
         vectorizer = CountVectorizer()
-        vector_data = vectorizer.fit_transform(data[Constants.TEXT_LABEL])
+        vector_data = vectorizer.fit_transform(data[Constants.QUESTION_LABEL])
         # TF_IDF转换词频
         tf_transformer = TfidfTransformer(
             use_idf=True, sublinear_tf=True).fit(vector_data)
@@ -44,6 +44,14 @@ class TrainModelController:
             vectorizer, Constants.MODELS_FILE_DIR + Constants.VECTOR_FILE_NAME)
         print("Create model succeed!")
 
+    # def create_answer_model(self):
+    #     file_name = Constants.ANSWER_DATASET_FILE_NAME
+    #     file_dir = Constants.DATA_FILE_DIR
+    #     file_path = file_dir + file_name
+    #     # 读取经过预处理的数据
+    #     data = Utils.read_csv(file_path)
+    #     labels = data[Constants.INTENT_LABEL]
+
     # 数据集拆分
     def split_dataset(self, X, y):
         X_train, X_test, y_train, y_test = train_test_split(
@@ -56,32 +64,3 @@ class TrainModelController:
     def train(self, X_train, y_train):
         model = MultinomialNB()  # 使用朴素贝叶斯模型
         model.fit(X_train, y_train)
-
-    # 根据意图回答问题
-    def answer_question(self, intent):
-        intent_menu = Utils.read_json(Constants.INTENT_LABEL_FILEPATH)
-        return intent_menu[str(intent)]
-
-    # 使用模型对输入内容进行意图预测
-    def predict_intent(self, user_input):
-        vectorizer = Utils.read_serialize_data(
-            Constants.MODELS_FILE_DIR + Constants.VECTOR_FILE_NAME)
-        model = Utils.read_serialize_data(
-            Constants.MODELS_FILE_DIR + Constants.MODELS_FILE_NAME)
-        input_vector = vectorizer.transform([user_input])
-        intent_num = model.predict(input_vector)[0]
-        # print("Intent Number:" + str(intent))
-        return self.answer_question(intent_num)
-
-    def chat(self):
-        print("Welcome to the chatbot! Type 'exit' to quit.")
-        while True:
-            user_input = input("You: ")
-            filtered_input = Utils.clean_input(user_input)
-            if filtered_input == None:
-                continue
-            if filtered_input.lower() == "exit":
-                print("Goodbye!")
-                break
-            response = self.predict_intent(filtered_input)
-            print("Bot:", response)

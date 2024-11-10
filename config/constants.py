@@ -1,14 +1,20 @@
 class Constants:
     INTENT_LABEL = 'intent'
     TEXT_LABEL = 'text'
+    QUESTION_LABEL = 'question'
+    ANSWER_LABEL = 'answer'
     CLEANED_LABEL = 'cleaned text'
+    WHITELIST_LABEL = 'whitelist'
     DATA_FILE_DIR = './data/'
     MODELS_FILE_DIR = './models/'
     MODELS_FILE_NAME = 'language_model.pkl'
     VECTOR_FILE_NAME = 'vector_space.pkl'
     INTENT_DATASET_FILE_NAME = 'dataset.csv'
     INTENT_DATASET_PREPROCESSED_FILE_NAME = 'preprocessed_dataset.csv'
+    ANSWER_DATASET_FILE_NAME = 'preprocessed_dataset.csv'
     INTENT_LABEL_FILEPATH = './config/intent_labels.json'
+    USER_LIST_FILEPATH = './config/user_list.json'
     SPLIT_TEST_SIZE = 0.2
     SPLIT_VALIDATION_SIZE = 0.1
     RANDOM_RATE_1 = 1
+    DEFAULT_ANSWER = "Sorry. I couldn't find a suitable response. Can you rephrase your question?"

@@ -48,8 +48,8 @@ class ChatController:
         # for index in ranked_doc_indices[:5]:
         #     print(f"Document {
         #         index + 1} (Score: {cosine_similarities[index]:.4f}): {filtered_answers[index]}")
-        # important print
-        print(f"[Score: {cosine_similarities[ranked_doc_indices[0]]:.4f}]")
+        # //important print
+        # print(f"[Score: {cosine_similarities[ranked_doc_indices[0]]:.4f}]")
         # 相似度为0时返回默认回答
         if cosine_similarities[ranked_doc_indices[0]] == 0:
             return Constants.DEFAULT_ANSWER
@@ -63,7 +63,8 @@ class ChatController:
         intent_num = model.predict(tf_input)[0]
         intent_menu = Utils.read_json(Constants.INTENT_LABEL_FILEPATH)
         # 显示意图
-        print(f"[{intent_menu[str(intent_num)]}]")
+        # //important print
+        # print(f"[{intent_menu[str(intent_num)]}]")
         return intent_num
 
     # 生成并返回答案集的模型
@@ -92,8 +93,8 @@ class ChatController:
         preprocessor = PreProcessController()
         preprocessor.init()
         print("Welcome to the chatbot! Type 'exit' to quit.")
-        # user_name = self.authenticate()
-        user_name = "Dylan"
+        user_name = self.authenticate()
+        # user_name = "Dylan"
         # 鉴权错误次数过多或选择退出，则结束程序
         if user_name == "exit" or user_name == "":
             return

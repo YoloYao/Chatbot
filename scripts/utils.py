@@ -2,6 +2,7 @@ import ssl
 import pickle
 import json
 import re
+import os
 import pandas as pd
 from nltk.corpus.reader.util import StreamBackedCorpusView
 
@@ -17,6 +18,16 @@ class Utils:
         else:
             ssl._create_default_https_context = _create_unverified_https_context
 
+    # 在终端窗口清屏
+    @staticmethod
+    def clear_screen():
+        # 如果是 Windows 系统
+        if os.name == 'nt':
+            os.system('cls')
+        # 如果是其他系统 (如 Linux、macOS)
+        else:
+            os.system('clear')
+    
     # 读取JSON文件内容
     @staticmethod
     def read_json(file_path):

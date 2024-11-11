@@ -29,6 +29,7 @@ class Chatbot:
 
 if __name__ == '__main__':
     try:
+        Utils.clear_screen()
         chatbot = Chatbot()
         chatbot.init()
         chatbot.run()

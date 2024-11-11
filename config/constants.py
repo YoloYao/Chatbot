@@ -14,7 +14,9 @@ class Constants:
     ANSWER_DATASET_FILE_NAME = 'preprocessed_dataset.csv'
     INTENT_LABEL_FILEPATH = './config/intent_labels.json'
     USER_LIST_FILEPATH = './config/user_list.json'
+    ANSWER_FILEPATH = './data/answer.csv'
     SPLIT_TEST_SIZE = 0.2
     SPLIT_VALIDATION_SIZE = 0.1
     RANDOM_RATE_1 = 1
+    TOTAL_INTENT_NUM = 4
     DEFAULT_ANSWER = "Sorry. I couldn't find a suitable response. Can you rephrase your question?"

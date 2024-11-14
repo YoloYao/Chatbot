@@ -15,12 +15,11 @@ class Chatbot:
 
     def run(self):
         Utils.connectSSL()
-        # print("My name is " + self.name)
         # 1.预处理数据 preprocess data
-        self.pre_processor.refresh_dataset_numbers()
-        self.pre_processor.preprocess_corpus()
+        # self.pre_processor.refresh_dataset_numbers()
+        # self.pre_processor.preprocess_corpus()
         # 2.生成模型 generate model and vector space
-        self.model_trainer.create_model()
+        # self.model_trainer.create_model()
         # 3.基于意图识别进行聊天 Chat based on intention recognition
         self.chat_controller.chat()
 

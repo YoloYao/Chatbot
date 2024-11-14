@@ -1,60 +1,60 @@
 intent,answer,number,cleaned text
 0,Hello! I'm great! How about you?,0,hello im great
-0,Hi! Nice to meet you too! ,1,hi nice meet
-0,Good morning! I'm here to assist.,2,good morning im assist .
+0,Hi! Nice to meet you too! ,1,hi nice to meet
+0,Good morning! I'm here to assist.,2,good morning im to assist .
 0,"I'm doing well, thank you!",3,im well thank
 0,"I'm fine, thank you! How are you?",4,im fine thank you how are you
 0,Hi! Let me know what you need.,5,hi let know need .
-0,Just here to help! What can I do for you?,6,help
-0,Hi! I'm here to assist with anything you need.,7,hi im assist anything need .
-0,Happy to help! What do you need assistance with?,8,happy help need assistance
+0,Just here to help! What can I do for you?,6,to help
+0,Hi! I'm here to assist with anything you need.,7,hi im to assist anything need .
+0,Happy to help! What do you need assistance with?,8,happy to help need assistance
 0,Thanks! Wishing you a great day too!,9,thanks wishing great day
 0,Hi! It's been great! Thanks for asking.,10,hi great thanks asking .
 0,Hi! It's been great!,11,hi great
 0,Everything's good! How can I help?,12,everythings good help
 0,Everything's good! How can I help?,13,everythings good help
-0,It's been a while! Glad to connect again.,14,glad connect .
+0,It's been a while! Glad to connect again.,14,glad to connect .
 0,Hey! It's been a while! How have you been?,15,hey
 0,Absolutely! Just let me know what you need.,16,absolutely let know need .
 0,Good afternoon! How can I make your day better?,17,good afternoon make day better
-0,"Hello! Not much, just here to help you out.",18,hello much help .
-0,Great to chat with you! What can I do?,19,great chat
+0,"Hello! Not much, just here to help you out.",18,hello much to help .
+0,Great to chat with you! What can I do?,19,great to chat
 0,"I've been doing well, thank you!",20,ive well thank
-0,"It's been a busy day, but I'm ready to chat!",21,busy day im ready chat
+0,"It's been a busy day, but I'm ready to chat!",21,busy day im ready to chat
 0,Hi! Not much.Just enjoying our conversation!,22,hi much.just enjoying conversation
-0,Good evening! I'm here to help.,23,good evening im help .
-0,"Hi! Interesting day, to be honest! How about you?",24,hi interesting day honest
-0,"Interesting day, to be honest! How about you?",25,interesting day honest
-0,Thank you for asking! Ready to talk.,26,thank asking ready talk .
+0,Good evening! I'm here to help.,23,good evening im to help .
+0,"Hi! Interesting day, to be honest! How about you?",24,hi interesting day to honest
+0,"Interesting day, to be honest! How about you?",25,interesting day to honest
+0,Thank you for asking! Ready to talk.,26,thank asking ready to talk .
 0,"It's going great, thank you!",27,going great thank
 0,"It's going great, thank you!",28,going great thank
 0,I hope you're doing great as well!,29,hope youre great well
 0,"Hey! It's been a good week, thank you!",30,hey good week thank
 0,"Things are great, appreciate you asking!",31,thing great appreciate asking
 0,Something exciting? Let's find out together!,32,something exciting let find together
-0,I'm ready to help you in any way you need.,33,im ready help way need .
+0,I'm ready to help you in any way you need.,33,im ready to help way need .
 0,"Just catching up on things, how can I help?",34,catching thing help
 0,"Hey! My day is going well, thank you!",35,hey day going well thank
 0,"My day is going well, thank you!",36,day going well thank
-0,I'm here to make your day better!,37,im make day better
+0,I'm here to make your day better!,37,im to make day better
 0,"Hi! Life's good, thank you for asking.",38,hi life good thank asking .
-0,Weekend is off to a great start!,39,weekend great start
-0,Good morning! Always happy to chat.,40,good morning always happy chat .
+0,Weekend is off to a great start!,39,weekend to great start
+0,Good morning! Always happy to chat.,40,good morning always happy to chat .
 0,"My plan? Helping you, of course!",41,plan helping course
-0,Hi! Always excited to talk. How about you?,42,hi always excited talk .
+0,Hi! Always excited to talk. How about you?,42,hi always excited to talk .
 0,"Hi! Sure, I've got time!",43,hi sure ive got time
 0,Hope I can make your day brighter!,44,hope make day brighter
-0,It's great to hear from you again!,45,great hear
+0,It's great to hear from you again!,45,great to hear
 0,Just here for you!,46,
 0,I'm glad you're here!,47,im glad youre
 0,"Hei! It's been a pleasant day, thank you!",48,hei pleasant day thank
 0,Hello! I'm doing fine.,49,hello im fine .
 0,"Hi! I'm doing fine, thanks for asking.",50,hi im fine thanks asking .
-0,Hello! Always happy to chat.,51,hello always happy chat .
+0,Hello! Always happy to chat.,51,hello always happy to chat .
 0,Hi! How can I help you today?,52,hi help today
 0,"Hi! Everything is good here, thank you!",53,hi everything good thank
 0,"Hi! Everything is good here, thank you!",54,hi everything good thank
-0,Hi! Happy to be here.,55,hi happy .
+0,Hi! Happy to be here.,55,hi happy to .
 0,Hi! I'm feeling good today!,56,hi im feeling good today
 0,"Hi! Everything is good here, thank you!",57,hi everything good thank
 0,"Good evening! All good, thanks for asking!",58,good evening good thanks asking
@@ -63,54 +63,54 @@ intent,answer,number,cleaned text
 0,Hello! I'm feeling fine!,61,hello im feeling fine
 0,"Thank you, I'm fine.",62,thank im fine .
 0,"All's well, what's on your mind?",63,alls well whats mind
-0,Hi! Good to hear from you!,64,hi good hear
-0,Happy to chat!,65,happy chat
+0,Hi! Good to hear from you!,64,hi good to hear
+0,Happy to chat!,65,happy to chat
 0,"Great, as always.",66,great always .
 0,"Hey! I'm doing fine, hope you are too.",67,hey im fine hope .
-0,Hi! Nice to meet you too! ,68,hi nice meet
-0,Hi! Nice to meet you too! ,69,hi nice meet
-0,Hi! Nice to meet you too! ,70,hi nice meet
-0,Hi! Nice to meet you too! ,71,hi nice meet
-0,Hi! Nice to meet you too! ,72,hi nice meet
-0,Hi! Nice to meet you too! ,73,hi nice meet
-0,Hi! Nice to meet you too! ,74,hi nice meet
-0,Hi! Nice to meet you too! ,75,hi nice meet
-0,Hi! Nice to meet you too! ,76,hi nice meet
-0,Hi! Nice to meet you too! ,77,hi nice meet
+0,Hi! Nice to meet you too! ,68,hi nice to meet
+0,Hi! Nice to meet you too! ,69,hi nice to meet
+0,Hi! Nice to meet you too! ,70,hi nice to meet
+0,Hi! Nice to meet you too! ,71,hi nice to meet
+0,Hi! Nice to meet you too! ,72,hi nice to meet
+0,Hi! Nice to meet you too! ,73,hi nice to meet
+0,Hi! Nice to meet you too! ,74,hi nice to meet
+0,Hi! Nice to meet you too! ,75,hi nice to meet
+0,Hi! Nice to meet you too! ,76,hi nice to meet
+0,Hi! Nice to meet you too! ,77,hi nice to meet
 0,"I'm fine, thank you! How are you?",78,im fine thank you how are you
 0,"I'm fine, thank you! How are you?",79,im fine thank you how are you
 0,"I'm fine, thank you! How are you?",80,im fine thank you how are you
 0,"I'm fine, thank you! How are you?",81,im fine thank you how are you
 0,"I'm fine, thank you! How are you?",82,im fine thank you how are you
-1,"To reset your password, go to the settings page and click on Change Password.",83,reset password go setting page click change password .
+1,"To reset your password, go to the settings page and click on Change Password.",83,to reset password go to setting page click change password .
 1,"Yes, you can change your account email under account settings.",84,yes change account email account setting .
-1,Please visit the recovery section to retrieve your username.,85,please visit recovery section retrieve username .
+1,Please visit the recovery section to retrieve your username.,85,please visit recovery section to retrieve username .
 1,You can update security questions in your security settings.,86,update security question security setting .
-1,"To enable two-factor authentication, visit the security options page.",87,enable twofactor authentication visit security option page .
-1,"Yes, you can link your account by navigating to the social media settings.",88,yes link account navigating social medium setting .
+1,"To enable two-factor authentication, visit the security options page.",87,to enable twofactor authentication visit security option page .
+1,"Yes, you can link your account by navigating to the social media settings.",88,yes link account navigating to social medium setting .
 1,Profile information can be updated in your account details section.,89,profile information updated account detail section .
 1,"If your account is locked, please follow the recovery steps or contact support.",90,account locked please follow recovery step contact support .
-1,"To delete your account permanently, please confirm in the account settings.",91,delete account permanently please confirm account setting .
+1,"To delete your account permanently, please confirm in the account settings.",91,to delete account permanently please confirm account setting .
 1,"Yes, changing your username is possible through the user settings menu.",92,yes changing username possible user setting menu .
-1,"To change your password, visit the security settings and select Change Password.",93,change password visit security setting select change password .
+1,"To change your password, visit the security settings and select Change Password.",93,to change password visit security setting select change password .
 1,"If you forget your security question answers, please contact support for assistance.",94,forget security question answer please contact support assistance .
 1,"Yes, you can update your phone number in the account settings under personal information.",95,yes update phone number account setting personal information .
-1,Go to security settings and enable login alerts for added protection.,96,go security setting enable login alert added protection .
+1,Go to security settings and enable login alerts for added protection.,96,go to security setting enable login alert added protection .
 1,"If your account was deleted, contact support for recovery options.",97,account wa deleted contact support recovery option .
-1,"To disable two-factor authentication, navigate to the security settings and turn it off.",98,disable twofactor authentication navigate security setting turn .
-1,Verify your email by clicking the verification link sent to your registered address.,99,verify email clicking verification link sent registered address .
+1,"To disable two-factor authentication, navigate to the security settings and turn it off.",98,to disable twofactor authentication navigate to security setting turn .
+1,Verify your email by clicking the verification link sent to your registered address.,99,verify email clicking verification link sent to registered address .
 1,You can view your recent login activity under the security activity section.,100,view recent login activity security activity section .
 1,Ensure your account's security by enabling two-factor authentication and monitoring activity.,101,ensure account security enabling twofactor authentication monitoring activity .
-1,Add a backup email under your recovery settings to help regain access if needed.,102,add backup email recovery setting help regain access needed .
+1,Add a backup email under your recovery settings to help regain access if needed.,102,add backup email recovery setting to help regain access needed .
 1,Account recovery options can be managed in the recovery settings tab.,103,account recovery option managed recovery setting tab .
-1,"To restrict access to your profile, go to privacy settings and adjust accordingly.",104,restrict access profile go privacy setting adjust accordingly .
+1,"To restrict access to your profile, go to privacy settings and adjust accordingly.",104,to restrict access to profile go to privacy setting adjust accordingly .
 1,You can deactivate your account temporarily through the account settings menu.,105,deactivate account temporarily account setting menu .
 1,Change your security settings by accessing the security and privacy tab.,106,change security setting accessing security privacy tab .
-1,"To unlink third-party services, go to linked accounts under your account settings.",107,unlink thirdparty service go linked account account setting .
+1,"To unlink third-party services, go to linked accounts under your account settings.",107,to unlink thirdparty service go to linked account account setting .
 1,Add an alternative phone number for verification in your profile settings.,108,add alternative phone number verification profile setting .
 1,Remove saved login details in the security section of your settings.,109,remove saved login detail security section setting .
 1,Check for possible breaches by reviewing your login history and settings.,110,check possible breach reviewing login history setting .
-1,"To change your profile picture, upload a new one through profile settings.",111,change profile picture upload new one profile setting .
+1,"To change your profile picture, upload a new one through profile settings.",111,to change profile picture upload new one profile setting .
 1,Manually lock your account through the security lockout options.,112,manually lock account security lockout option .
 1,Deactivate account recovery options from the recovery settings menu.,113,deactivate account recovery option recovery setting menu .
 1,Adjust privacy settings under your account's privacy preferences.,114,adjust privacy setting account privacy preference .
@@ -119,15 +119,15 @@ intent,answer,number,cleaned text
 1,Manage connected devices by accessing your device management settings.,117,manage connected device accessing device management setting .
 1,Enable alerts for unknown login attempts through the security notifications section.,118,enable alert unknown login attempt security notification section .
 1,Linked accounts can be managed through the settings tab.,119,linked account managed setting tab .
-1,Add a recovery question to your account security settings for added protection.,120,add recovery question account security setting added protection .
+1,Add a recovery question to your account security settings for added protection.,120,add recovery question to account security setting added protection .
 1,Access history is available in the security activity log.,121,access history available security activity log .
 1,Prevent unauthorized logins by enabling two-factor authentication and strong passwords.,122,prevent unauthorized logins enabling twofactor authentication strong password .
 1,Automatic lockout can be enabled through security preferences.,123,automatic lockout enabled security preference .
 1,Restrict login hours in your account access settings.,124,restrict login hour account access setting .
-1,Verify your phone number by entering the code sent to your phone.,125,verify phone number entering code sent phone .
+1,Verify your phone number by entering the code sent to your phone.,125,verify phone number entering code sent to phone .
 1,Devices logged into your account can be viewed under security activity.,126,device logged account viewed security activity .
 1,Login notifications can be enabled or disabled in the security preferences tab.,127,login notification enabled disabled security preference tab .
-1,Restrict access to specific devices by setting up device filters.,128,restrict access specific device setting device filter .
+1,Restrict access to specific devices by setting up device filters.,128,restrict access to specific device setting device filter .
 1,Set up a security phrase for verification in the security options.,129,set security phrase verification security option .
 1,Geographic restrictions can be applied through access controls.,130,geographic restriction applied access control .
 1,Delete backup recovery methods from the recovery settings menu.,131,delete backup recovery method recovery setting menu .
@@ -139,15 +139,15 @@ intent,answer,number,cleaned text
 1,Make your profile private by changing your privacy settings.,137,make profile private changing privacy setting .
 1,"Create a strong password by using a mix of letters, numbers, and symbols.",138,create strong password using mix letter number symbol .
 1,Enable biometric login in your security options for quick access.,139,enable biometric login security option quick access .
-1,Link another email by adding it to your contact settings.,140,link another email adding contact setting .
+1,Link another email by adding it to your contact settings.,140,link another email adding to contact setting .
 1,Receive notifications for changes in your account under notification preferences.,141,receive notification change account notification preference .
 1,Review past login sessions in your security activity log.,142,review past login session security activity log .
 1,Delete profile information from your profile settings page.,143,delete profile information profile setting page .
 1,You can change your email in the account settings.,144,change email account setting .
-1,Update your phone number by going to the profile settings.,145,update phone number going profile setting .
+1,Update your phone number by going to the profile settings.,145,update phone number going to profile setting .
 1,"Yes, you can reset your password in the security section.",146,yes reset password security section .
 1,Deleting your account can be done through account settings.,147,deleting account done account setting .
-1,"To recover your username, visit the account recovery page.",148,recover username visit account recovery page .
+1,"To recover your username, visit the account recovery page.",148,to recover username visit account recovery page .
 1,Link your social media accounts in the settings menu.,149,link social medium account setting menu .
 1,You can update your security settings from the security tab.,150,update security setting security tab .
 1,Check your login history in the security activity section.,151,check login history security activity section .
@@ -164,22 +164,22 @@ intent,answer,number,cleaned text
 1,Verify your phone number in the contact settings.,162,verify phone number contact setting .
 1,Update security questions in your security settings.,163,update security question security setting .
 2,I recommend checking out the downtown area; it has many attractions.,164,recommend checking downtown area ha many attraction .
-2,There are several good restaurants nearby; try the one at Main Street.,165,several good restaurant nearby try one main street .
+2,There are several good restaurants nearby; try the one at Main Street.,165,several good restaurant nearby try one at main street .
 2,The must-see places include the city museum and the historic park.,166,mustsee place include city museum historic park .
 2,There is a park about 10 minutes away; perfect for a walk.,167,park 10 minute away perfect walk .
 2,The shopping district has many great stores and boutiques.,168,shopping district ha many great store boutique .
 2,I know a great coffee shop a few blocks from here.,169,know great coffee shop block .
-2,There is a cultural festival happening this weekend at the square.,170,cultural festival happening weekend square .
+2,There is a cultural festival happening this weekend at the square.,170,cultural festival happening weekend at square .
 2,The city museum is known for its great exhibits.,171,city museum known great exhibit .
 2,There's a bookstore two streets over with rare collections.,172,bookstore two street rare collection .
 2,"For hiking, there's a trail just outside the city with scenic views.",173,hiking trail outside city scenic view .
 2,A big concert is happening downtown tonight.,174,big concert happening downtown tonight .
 2,The farmer's market has the best fresh produce in town.,175,farmer market ha best fresh produce town .
 2,There's a quiet garden by the library for relaxation.,176,quiet garden library relaxation .
-2,Sightseeing spots include the observation deck at the tower.,177,sightseeing spot include observation deck tower .
+2,Sightseeing spots include the observation deck at the tower.,177,sightseeing spot include observation deck at tower .
 2,There is an art gallery nearby with rotating exhibits.,178,art gallery nearby rotating exhibit .
 2,The local gym is very popular and close by.,179,local gym popular close .
-2,There's live music every Friday at the community center.,180,live music every friday community center .
+2,There's live music every Friday at the community center.,180,live music every friday at community center .
 2,The beach offers a stunning sunset view every evening.,181,beach offer stunning sunset view every evening .
 2,There is a theater on Main Street known for great performances.,182,theater main street known great performance .
 2,The forest trail nearby is great for a nature walk.,183,forest trail nearby great nature walk .
@@ -191,11 +191,11 @@ intent,answer,number,cleaned text
 2,The central park is perfect for a picnic.,189,central park perfect picnic .
 2,The main library is located downtown.,190,main library located downtown .
 2,Try the vineyard for a great wine tasting experience.,191,try vineyard great wine tasting experience .
-2,There's a yoga class every morning at the community center.,192,yoga class every morning community center .
-2,Head to the overlook for the best scenic views.,193,head overlook best scenic view .
+2,There's a yoga class every morning at the community center.,192,yoga class every morning at community center .
+2,Head to the overlook for the best scenic views.,193,head to overlook best scenic view .
 2,"Yes, there's a flea market this Saturday.",194,yes flea market saturday .
 2,There's a seafood restaurant by the pier.,195,seafood restaurant pier .
-2,The botanical garden is free to visit.,196,botanical garden free visit .
+2,The botanical garden is free to visit.,196,botanical garden free to visit .
 2,The river offers kayak rentals.,197,river offer kayak rental .
 2,The south beach is very popular.,198,south beach popular .
 2,There's a safe path for night walks downtown.,199,safe path night walk downtown .
@@ -212,7 +212,7 @@ intent,answer,number,cleaned text
 2,Visit the amusement park for family fun.,210,visit amusement park family fun .
 2,The spa on Main Street has great reviews.,211,spa main street ha great review .
 2,There's a cooking school in town.,212,cooking school town .
-2,Rent bikes at the city park kiosk.,213,rent bike city park kiosk .
+2,Rent bikes at the city park kiosk.,213,rent bike at city park kiosk .
 2,The bakery on Elm Street is highly recommended.,214,bakery elm street highly recommended .
 2,The community center offers various activities.,215,community center offer various activity .
 2,The antique market is in the old district.,216,antique market old district .
@@ -225,7 +225,7 @@ intent,answer,number,cleaned text
 2,The gym downtown is open 24 hours.,223,gym downtown open 24 hour .
 2,Try the children's museum for kids.,224,try childrens museum kid .
 2,The rooftop bar offers great city views.,225,rooftop bar offer great city view .
-2,"For a romantic dinner, try the riverside caf___________Â¨___________Â¦.",226,romantic dinner try riverside cafâ¨â¦ .
+2,"For a romantic dinner, try the riverside caf____________Â¨____________Â¦.",226,romantic dinner try riverside cafâ¨â¦ .
 2,There's a hot spring resort nearby.,227,hot spring resort nearby .
 2,The co-working space is in the tech center.,228,coworking space tech center .
 2,The observatory is best for stargazing.,229,observatory best stargazing .
@@ -235,10 +235,10 @@ intent,answer,number,cleaned text
 2,The coastal highway is a beautiful drive.,233,coastal highway beautiful drive .
 2,There's a park just a few blocks away.,234,park block away .
 2,"Yes, there are several good cafes nearby.",235,yes several good cafe nearby .
-2,Try the restaurant at the corner of Main Street.,236,try restaurant corner main street .
+2,Try the restaurant at the corner of Main Street.,236,try restaurant at corner main street .
 2,The nearest grocery store is two streets over.,237,nearest grocery store two street .
 2,There's a museum downtown worth visiting.,238,museum downtown worth visiting .
-2,Fresh fruits can be found at the local market.,239,fresh fruit found local market .
+2,Fresh fruits can be found at the local market.,239,fresh fruit found at local market .
 2,The city library is on 1st Avenue.,240,city library 1st avenue .
 2,There's a peaceful garden near the community center.,241,peaceful garden near community center .
 2,The riverside trail is great for a walk.,242,riverside trail great walk .
@@ -249,29 +249,29 @@ intent,answer,number,cleaned text
 2,The mall offers many great shopping options.,247,mall offer many great shopping option .
 2,There's a bookstore two blocks down.,248,bookstore two block .
 2,The coffee shop on Main Street is very popular.,249,coffee shop main street popular .
-2,There's a gym next to the community center.,250,gym next community center .
+2,There's a gym next to the community center.,250,gym next to community center .
 2,The bakery across the street has fresh bread.,251,bakery across street ha fresh bread .
 2,The farmers' market is just down the road.,252,farmer market road .
 2,The public pool is open daily for swimming.,253,public pool open daily swimming .
 3,"I don't have a favorite color, but I appreciate all of them!",254,dont favorite color appreciate
 3,I enjoy chatting and helping people. That's kind of my hobby.,255,enjoy chatting helping people . thats kind hobby .
-3,"I don't watch movies, but I'd love to hear your favorite one!",256,dont watch movie id love hear favorite one
+3,"I don't watch movies, but I'd love to hear your favorite one!",256,dont watch movie id love to hear favorite one
 3,I like hearing about music! What's your favorite genre?,257,like hearing music whats favorite genre
 3,"I'm happy where I am, helping you!",258,im happy helping
 3,"I don't have a pet, but virtual pets are fun!",259,dont pet virtual pet fun
 3,"Every season has its charm, don't you think?",260,every season ha charm dont think
-3,"No, but I'd love to hear about your travels!",261,id love hear travel
+3,"No, but I'd love to hear about your travels!",261,no id love to hear travel
 3,"I don't eat, but food sounds interesting! What's yours?",262,dont eat food sound interesting whats
 3,I think reading is wonderful! What book do you like?,263,think reading wonderful book like
 3,"Holidays bring joy, don't they?",264,holiday bring joy dont
-3,"I'd love to be able to help even faster, like instant answers!",265,id love able help even faster like instant answer
+3,"I'd love to be able to help even faster, like instant answers!",265,id love to able to help even faster like instant answer
 3,Sports can be interesting! What sport do you like?,266,sport interesting sport like
-3,"I don't have one, but I'd be happy to hear about yours!",267,dont one id happy hear
+3,"I don't have one, but I'd be happy to hear about yours!",267,dont one id happy to hear
 3,Animals are fascinating! Do you have a favorite one?,268,animal fascinating favorite one
-3,I can help find recipes! Do you like to cook?,269,help find recipe like cook
+3,I can help find recipes! Do you like to cook?,269,help find recipe like to cook
 3,"I haven't, but trying new things sounds exciting!",270,havent trying new thing sound exciting
 3,"I don't drink, but I've heard both can be delicious!",271,dont drink ive heard delicious
-3,"I haven't traveled, but I'd love to hear about your favorite places!",272,havent traveled id love hear favorite place
+3,"I haven't traveled, but I'd love to hear about your favorite places!",272,havent traveled id love to hear favorite place
 3,I believe in making the most of every moment!,273,believe making every moment
 3,"I don't have memories, but I love hearing yours!",274,dont memory love hearing
 3,Great advice always makes a difference! What's yours?,275,great advice always make difference whats
@@ -280,16 +280,16 @@ intent,answer,number,cleaned text
 3,Trying new things can be an adventure!,278,trying new thing adventure
 3,I think every moment can be special depending on who you share it with!,279,think every moment special depending share
 3,Creativity brings new life into the world.,280,creativity brings new life world .
-3,"I don't have one, but I'd love to hear a funny joke!",281,dont one id love hear funny joke
-3,My wish is to help you!,282,wish help
+3,"I don't have one, but I'd love to hear a funny joke!",281,dont one id love to hear funny joke
+3,My wish is to help you!,282,wish to help
 3,I'm ready whenever you are!,283,im ready whenever
 3,Technology and simple innovations amaze me equally.,284,technology simple innovation amaze equally .
-3,I'd love to learn how to make anyone smile instantly!,285,id love learn make anyone smile instantly
+3,I'd love to learn how to make anyone smile instantly!,285,id love to learn to make anyone smile instantly
 3,Puzzles can be exciting! Have a favorite one?,286,puzzle exciting favorite one
 3,Every type of weather has its beauty!,287,every type weather ha beauty
 3,"Absolutely, new things broaden horizons!",288,absolutely new thing broaden horizon
 3,Your happiness makes me smile!,289,happiness make smile
-3,To make the world a better place for everyone!,290,make world better place everyone
+3,To make the world a better place for everyone!,290,to make world better place everyone
 3,Words shape our thoughts. What's yours?,291,word shape thought . whats
 3,Inspiration sparks positive change!,292,inspiration spark positive change
 3,Games can be so much fun! Which ones do you like?,293,game much fun one like
@@ -298,10 +298,10 @@ intent,answer,number,cleaned text
 3,Seeing possibilities is hopeful!,296,seeing possibility hopeful
 3,Humor makes life lighter and more fun!,297,humor make life lighter fun
 3,Positivity and kindness for all!,298,positivity kindness
-3,Giving people a chance to improve is kind.,299,giving people chance improve kind .
+3,Giving people a chance to improve is kind.,299,giving people chance to improve kind .
 3,Learning enriches us all!,300,learning enriches u
 3,Nature brings peace. Do you enjoy being outside?,301,nature brings peace . enjoy outside
-3,Taking time to unwind is vital!,302,taking time unwind vital
+3,Taking time to unwind is vital!,302,taking time to unwind vital
 3,The past is full of lessons and wonders.,303,past full lesson wonder .
 3,Knowledge is an unending pursuit.,304,knowledge unending pursuit .
 3,Spontaneity brings excitement!,305,spontaneity brings excitement
@@ -311,27 +311,27 @@ intent,answer,number,cleaned text
 3,Experiencing new cuisines brings new perspectives!,309,experiencing new cuisine brings new perspective
 3,Entertainment connects and entertains us!,310,entertainment connects entertains u
 3,Secrets are precious when held with care.,311,secret precious held care .
-3,Habits can be hard to break but offer growth!,312,habit hard break offer growth
+3,Habits can be hard to break but offer growth!,312,habit hard to break offer growth
 3,"Every animal has unique traits, like us!",313,every animal ha unique trait like u
 3,"Planning can be useful, but spontaneity brings life!",314,planning useful spontaneity brings life
 3,Curiosity drives everything interesting!,315,curiosity drive everything interesting
-3,Big leaps can lead to big changes!,316,big leap lead big change
+3,Big leaps can lead to big changes!,316,big leap lead to big change
 3,Purpose drives us forward!,317,purpose drive u forward
 3,Free time brings endless possibilities!,318,free time brings endless possibility
 3,Dreams keep us hopeful!,319,dream keep u hopeful
 3,Knowledge is ever-expanding!,320,knowledge everexpanding
 3,Being surprised can be delightful!,321,surprised delightful
-3,Role models inspire us to grow!,322,role model inspire u grow
+3,Role models inspire us to grow!,322,role model inspire u to grow
 3,Laughter brings joy!,323,laughter brings joy
 3,Challenges test our limits and build strength!,324,challenge test limit build strength
 3,Destiny can be intriguing! What's your view?,325,destiny intriguing whats view
 3,A day spent making others smile would be perfect for me.,326,day spent making others smile would perfect .
 3,Technology fascinates me! How about you?,327,technology fascinates
 3,I'd say connection and purpose!,328,id say connection purpose
-3,Meeting new people is always an opportunity to learn!,329,meeting new people always opportunity learn
+3,Meeting new people is always an opportunity to learn!,329,meeting new people always opportunity to learn
 3,Starting the day with positivity is important!,330,starting day positivity important
 3,"I appreciate both, depending on the mood.",331,appreciate depending mood .
-3,Progress towards helping others always matters to me!,332,progress towards helping others always matter
+3,Progress towards helping others always matters to me!,332,progress towards helping others always matter to
 3,Anywhere you find joy and purpose!,333,anywhere find joy purpose
 3,Everyone has a story worth hearing!,334,everyone ha story worth hearing
 3,Every gift is special if it's given with care.,335,every gift special given care .
@@ -350,65 +350,65 @@ intent,answer,number,cleaned text
 3,Every memory holds something special.,348,every memory hold something special .
 3,New experiences broaden perspectives!,349,new experience broaden perspective
 3,Multitasking with focus brings results.,350,multitasking focus brings result .
-3,Dream destinations open doors to discovery!,351,dream destination open door discovery
-3,Karma reminds us to act kindly.,352,karma reminds u act kindly .
+3,Dream destinations open doors to discovery!,351,dream destination open door to discovery
+3,Karma reminds us to act kindly.,352,karma reminds u to act kindly .
 3,Engaging in meaningful conversations makes my day!,353,engaging meaningful conversation make day
-3,Small wins lead to big successes!,354,small win lead big success
-3,"As such, African immigrants are to be distinguished from African American people, the latter of whom are descendants of mostly West and Central Africans who were involuntarily brought to the United States by means of the historic Atlantic slave trade .",355,african immigrant distinguished african american people latter descendant mostly west central african involuntarily brought united state mean historic atlantic slave trade .
+3,Small wins lead to big successes!,354,small win lead to big success
+3,"As such, African immigrants are to be distinguished from African American people, the latter of whom are descendants of mostly West and Central Africans who were involuntarily brought to the United States by means of the historic Atlantic slave trade .",355,african immigrant to distinguished african american people latter descendant mostly west central african involuntarily brought to united state mean historic atlantic slave trade .
 3,A glacier cave is a cave formed within the ice of a glacier .,356,glacier cave cave formed within ice glacier .
-3,"Pumps operate by some mechanism (typically reciprocating or rotary ), and consume energy to perform mechanical work by moving the fluid.",357,pump operate mechanism typically reciprocating rotary consume energy perform mechanical work moving fluid .
-3,"Employing over 6,000, BMC is often credited with pioneering the BSM concept as a way to help better align IT operations with business needs.",358,employing 6000 bmc often credited pioneering bsm concept way help better align operation business need .
+3,"Pumps operate by some mechanism (typically reciprocating or rotary ), and consume energy to perform mechanical work by moving the fluid.",357,pump operate mechanism typically reciprocating rotary consume energy to perform mechanical work moving fluid .
+3,"Employing over 6,000, BMC is often credited with pioneering the BSM concept as a way to help better align IT operations with business needs.",358,employing 6000 bmc often credited pioneering bsm concept way to help better align operation business need .
 3,"For 2011, the company recorded an annual revenue of $2.1 billion, making it the #20 largest software company in terms of revenue for that year.",359,2011 company recorded annual revenue 2.1 billion making 20 largest software company term revenue year .
 3,This tablespoon has a capacity of about 15 mL.,360,tablespoon ha capacity 15 ml .
-3,In the USA one tablespoon (measurement unit) is approximately 15 mL; the capacity of an actual tablespoon (dining utensil) ranges from 7 mL to 14 mL.,361,usa one tablespoon measurement unit approximately 15 ml capacity actual tablespoon dining utensil range 7 ml 14 ml .
+3,In the USA one tablespoon (measurement unit) is approximately 15 mL; the capacity of an actual tablespoon (dining utensil) ranges from 7 mL to 14 mL.,361,usa one tablespoon measurement unit approximately 15 ml capacity actual tablespoon dining utensil range 7 ml to 14 ml .
 3,In Australia one tablespoon (measurement unit) is 20 mL.,362,australia one tablespoon measurement unit 20 ml .
 3,"The series also originated much tie-in merchandise, making the Harry Potter brand worth in excess of $15 billion.",363,series also originated much tiein merchandise making harry potter brand worth excess 15 billion .
 3,"A rocket engine, or simply ""rocket"", is a jet engine that uses only stored propellant mass for forming its high speed propulsive jet .",364,rocket engine simply rocket jet engine us stored propellant mass forming high speed propulsive jet .
-3,"The actress who played Lolita, Sue Lyon , was fourteen at the time of filming.",365,actress played lolita sue lyon wa fourteen time filming .
-3,"Transmission occurs primarily by drinking water or eating food that has been contaminated by the feces (waste product) of an infected person, including one with no apparent symptoms.",366,transmission occurs primarily drinking water eating food ha contaminated feces waste product infected person including one apparent symptom .
-3,"Anne Frank and her sister, Margot , were eventually transferred to the Bergen-Belsen concentration camp , where they died of typhus in March 1945.",367,anne frank sister margot eventually transferred bergenbelsen concentration camp died typhus march 1945 .
+3,"The actress who played Lolita, Sue Lyon , was fourteen at the time of filming.",365,actress played lolita sue lyon wa fourteen at time filming .
+3,"Transmission occurs primarily by drinking water or eating food that has been contaminated by the feces (waste product) of an infected person, including one with no apparent symptoms.",366,transmission occurs primarily drinking water eating food ha contaminated feces waste product infected person including one no apparent symptom .
+3,"Anne Frank and her sister, Margot , were eventually transferred to the Bergen-Belsen concentration camp , where they died of typhus in March 1945.",367,anne frank sister margot eventually transferred to bergenbelsen concentration camp died typhus march 1945 .
 3,The radial engine is a reciprocating type internal combustion engine configuration in which the cylinders point outward from a central crankshaft like the spokes of a wheel.,368,radial engine reciprocating type internal combustion engine configuration cylinder point outward central crankshaft like spoke wheel .
 3,Deepwater drilling is the process of oil and gas exploration and production in depths of more than 500 feet.,369,deepwater drilling process oil gas exploration production depth 500 foot .
-3,"Monica Samille Lewinsky (born July 23, 1973) is an American woman with whom United States President Bill Clinton admitted to having had an ""improper relationship"" while she worked at the White House in 1995 and 1996.",370,monica samille lewinsky born july 23 1973 american woman united state president bill clinton admitted improper relationship worked white house 1995 1996 .
-3,"Beginning his musical career in the swing era with Harry James and Tommy Dorsey , Sinatra found unprecedented success as a solo artist from the early to mid-1940s after being signed to Columbia Records in 1943.",371,beginning musical career swing era harry james tommy dorsey sinatra found unprecedented success solo artist early mid1940s signed columbia record 1943 .
-3,"An antibody (Ab), also known as an immunoglobulin (Ig), is a large Y-shaped protein produced by B-cells that is used by the immune system to identify and neutralize foreign objects such as bacteria and viruses .",372,antibody ab also known immunoglobulin ig large yshaped protein produced bcells used immune system identify neutralize foreign object bacteria virus .
+3,"Monica Samille Lewinsky (born July 23, 1973) is an American woman with whom United States President Bill Clinton admitted to having had an ""improper relationship"" while she worked at the White House in 1995 and 1996.",370,monica samille lewinsky born july 23 1973 american woman united state president bill clinton admitted to improper relationship worked at white house 1995 1996 .
+3,"Beginning his musical career in the swing era with Harry James and Tommy Dorsey , Sinatra found unprecedented success as a solo artist from the early to mid-1940s after being signed to Columbia Records in 1943.",371,beginning musical career swing era harry james tommy dorsey sinatra found unprecedented success solo artist early to mid1940s signed to columbia record 1943 .
+3,"An antibody (Ab), also known as an immunoglobulin (Ig), is a large Y-shaped protein produced by B-cells that is used by the immune system to identify and neutralize foreign objects such as bacteria and viruses .",372,antibody ab also known immunoglobulin ig large yshaped protein produced bcells used immune system to identify neutralize foreign object bacteria virus .
 3,"The antibody recognizes a unique part of the foreign target, called an antigen .",373,antibody recognizes unique part foreign target called antigen .
-3,"Each tip of the ""Y"" of an antibody contains a paratope (a structure analogous to a lock) that is specific for one particular epitope (similarly analogous to a key) on an antigen, allowing these two structures to bind together with precision.",374,tip antibody contains paratope structure analogous lock specific one particular epitope similarly analogous key antigen allowing two structure bind together precision .
+3,"Each tip of the ""Y"" of an antibody contains a paratope (a structure analogous to a lock) that is specific for one particular epitope (similarly analogous to a key) on an antigen, allowing these two structures to bind together with precision.",374,tip antibody contains paratope structure analogous to lock specific one particular epitope similarly analogous to key antigen allowing two structure to bind together precision .
 3,"Using this binding mechanism, an antibody can tag a microbe or an infected cell for attack by other parts of the immune system, or can neutralize its target directly (for example, by blocking a part of a microbe that is essential for its invasion and survival).",375,using binding mechanism antibody tag microbe infected cell attack part immune system neutralize target directly example blocking part microbe essential invasion survival .
-3,"The 2008 Sunday Times Rich List estimated Rowling's fortune at ________Â£560 million ($798 million), ranking her as the twelfth richest woman in the United Kingdom.",376,2008 sunday time rich list estimated rowlings fortune â£560 million 798 million ranking twelfth richest woman united kingdom .
-3,"According to the U.S Census estimates of 2005, the city had a population of 12,381.",377,according u.s census estimate 2005 city population 12381 .
+3,"The 2008 Sunday Times Rich List estimated Rowling's fortune at _________Â£560 million ($798 million), ranking her as the twelfth richest woman in the United Kingdom.",376,2008 sunday time rich list estimated rowlings fortune at â£560 million 798 million ranking twelfth richest woman united kingdom .
+3,"According to the U.S Census estimates of 2005, the city had a population of 12,381.",377,according to u.s census estimate 2005 city population 12381 .
 3,"Kirk Douglas (born Issur Danielovitch, ; December 9, 1916) is an American stage and film actor, film producer and author.",378,kirk douglas born issur danielovitch december 9 1916 american stage film actor film producer author .
 3,"Robert Clark ""Bob"" Seger (born May 6, 1945) is an American rock and roll singer-songwriter , guitarist and pianist .",379,robert clark bob seger born may 6 1945 american rock roll singersongwriter guitarist pianist .
-3,"The black-and-white series originally ran from October 15, 1951, to May 6, 1957, on the Columbia Broadcasting System (CBS).",380,blackandwhite series originally ran october 15 1951 may 6 1957 columbia broadcasting system cbs .
-3,"Richard Milhous Nixon (January 9, 1913 _ April 22, 1994) was the 37th President of the United States , serving from 1969 to 1974, when he became the only president to resign the office.",381,richard milhous nixon january 9 1913 april 22 1994 wa 37th president united state serving 1969 1974 became president resign office .
-3,"The peso is subdivided into 100 centavos, represented by "" ________Â¢ "".",382,peso subdivided 100 centavo represented â¢ .
+3,"The black-and-white series originally ran from October 15, 1951, to May 6, 1957, on the Columbia Broadcasting System (CBS).",380,blackandwhite series originally ran october 15 1951 to may 6 1957 columbia broadcasting system cbs .
+3,"Richard Milhous Nixon (January 9, 1913 _ April 22, 1994) was the 37th President of the United States , serving from 1969 to 1974, when he became the only president to resign the office.",381,richard milhous nixon january 9 1913 april 22 1994 wa 37th president united state serving 1969 to 1974 became president to resign office .
+3,"The peso is subdivided into 100 centavos, represented by "" _________Â¢ "".",382,peso subdivided 100 centavo represented â¢ .
 3,"James appeared in World Wrestling Entertainment (WWE) in October 2005 and was placed in a storyline with Trish Stratus , in which James' gimmick was that of Stratus' biggest fan turned obsessed stalker, an angle which lasted almost a year.",383,james appeared world wrestling entertainment wwe october 2005 wa placed storyline trish stratus james gimmick wa stratus biggest fan turned obsessed stalker angle lasted almost year .
-3,"Armando P________Â©rez (born January 15, 1981), better known by his stage name Pitbull, is an American rapper, songwriter, and record producer.",384,armando pâ©rez born january 15 1981 better known stage name pitbull american rapper songwriter record producer .
+3,"Armando P_________Â©rez (born January 15, 1981), better known by his stage name Pitbull, is an American rapper, songwriter, and record producer.",384,armando pâ©rez born january 15 1981 better known stage name pitbull american rapper songwriter record producer .
 3,"The original World Trade Center featured landmark twin towers, which opened on April 4, 1973 and were destroyed in the September 11 attacks of 2001, along with 7 World Trade Center.",385,original world trade center featured landmark twin tower opened april 4 1973 destroyed september 11 attack 2001 along 7 world trade center .
-3,"Each shell can contain only a fixed number of electrons: The 1st shell can hold up to two electrons, the 2nd shell can hold up to eight electrons, the 3rd shell can hold up to 18, and 4th shell can hold up to 32 and so on.",386,shell contain fixed number electron 1st shell hold two electron 2nd shell hold eight electron 3rd shell hold 18 4th shell hold 32 .
+3,"Each shell can contain only a fixed number of electrons: The 1st shell can hold up to two electrons, the 2nd shell can hold up to eight electrons, the 3rd shell can hold up to 18, and 4th shell can hold up to 32 and so on.",386,shell contain fixed number electron 1st shell hold to two electron 2nd shell hold to eight electron 3rd shell hold to 18 4th shell hold to 32 .
 3,"There have been 43 people sworn into office, and 44 presidencies, as Grover Cleveland served two non-consecutive terms and is counted chronologically as both the 22nd and 24th president.",387,43 people sworn office 44 presidency grover cleveland served two nonconsecutive term counted chronologically 22nd 24th president .
 3,"Beatrice ""Bea"" Arthur (May 13, 1922 _ April 25, 2009) was an American actress, comedienne, and singer whose career spanned seven decades.",388,beatrice bea arthur may 13 1922 april 25 2009 wa american actress comedienne singer whose career spanned seven decade .
-3,"State schools (also known as public schools or government schools) generally refer to primary or secondary schools mandated for or offered to all children without charge paid for, in whole or in part, by taxation .",389,state school also known public school government school generally refer primary secondary school mandated offered child without charge paid whole part taxation .
-3,"The term may also refer to institutions of post-secondary education funded, in whole or in part, and overseen by government.",390,term may also refer institution postsecondary education funded whole part overseen government .
+3,"State schools (also known as public schools or government schools) generally refer to primary or secondary schools mandated for or offered to all children without charge paid for, in whole or in part, by taxation .",389,state school also known public school government school generally refer to primary secondary school mandated offered to child without charge paid whole part taxation .
+3,"The term may also refer to institutions of post-secondary education funded, in whole or in part, and overseen by government.",390,term may also refer to institution postsecondary education funded whole part overseen government .
 3,The light-independent reactions of photosynthesis are chemical reactions that convert carbon dioxide and other compounds into glucose .,391,lightindependent reaction photosynthesis chemical reaction convert carbon dioxide compound glucose .
 3,These reactions take the light-dependent reactions and perform further chemical processes on them.,392,reaction take lightdependent reaction perform chemical process .
 3,"Interlibrary loan (abbreviated ILL, and sometimes called interloan, document delivery, or document supply) is a service whereby a user of one library can borrow books or receive photocopies of documents that are owned by another library.",393,interlibrary loan abbreviated ill sometimes called interloan document delivery document supply service whereby user one library borrow book receive photocopy document owned another library .
-3,"The user makes a request with their local library, which, acting as an intermediary, identifies owners of the desired item, places the request, receives the item, makes it available to the user, and arranges for its return.",394,user make request local library acting intermediary identifies owner desired item place request receives item make available user arranges return .
+3,"The user makes a request with their local library, which, acting as an intermediary, identifies owners of the desired item, places the request, receives the item, makes it available to the user, and arranges for its return.",394,user make request local library acting intermediary identifies owner desired item place request receives item make available to user arranges return .
 3,"Mariel Margaret ""Mia"" Hamm (born March 17, 1972) is a retired American professional soccer player.",395,mariel margaret mia hamm born march 17 1972 retired american professional soccer player .
-3,MacConkey agar is a culture medium designed to grow Gram-negative bacteria and differentiate them for lactose fermentation .,396,macconkey agar culture medium designed grow gramnegative bacteria differentiate lactose fermentation .
+3,MacConkey agar is a culture medium designed to grow Gram-negative bacteria and differentiate them for lactose fermentation .,396,macconkey agar culture medium designed to grow gramnegative bacteria differentiate lactose fermentation .
 3,"This is the predominant form of Buddhism practiced in China, South Korea, Japan, Taiwan, Singapore, and Vietnam.",397,predominant form buddhism practiced china south korea japan taiwan singapore vietnam .
 3,"He was shot and killed while playing poker in the Nuttal & Mann's Saloon in Deadwood , Dakota Territory (now South Dakota ).",398,wa shot killed playing poker nuttal mann saloon deadwood dakota territory south dakota .
 3,There have been four successful robotically operated Mars rovers.,399,four successful robotically operated mar rover .
-3,"The audit opinion is intended to provide reasonable assurance, but not absolute assurance, that the financial statements are presented fairly, in all material respects, and/or give a true and fair view in accordance with the financial reporting framework.",400,audit opinion intended provide reasonable assurance absolute assurance financial statement presented fairly material respect andor give true fair view accordance financial reporting framework .
+3,"The audit opinion is intended to provide reasonable assurance, but not absolute assurance, that the financial statements are presented fairly, in all material respects, and/or give a true and fair view in accordance with the financial reporting framework.",400,audit opinion intended to provide reasonable assurance absolute assurance financial statement presented fairly material respect andor give true fair view accordance financial reporting framework .
 3,"The purpose of an audit is provide and objective independent examination of the financial statements, which increases the value and credibility of the financial statements produced by management, thus increase user confidence in the financial statement, reduce investor risk and consequently reduce the cost of capital of the preparer of the financial statements.",401,purpose audit provide objective independent examination financial statement increase value credibility financial statement produced management thus increase user confidence financial statement reduce investor risk consequently reduce cost capital preparer financial statement .
 3,Financial audits are typically performed by firms of practicing accountants who are experts in financial reporting.,402,financial audit typically performed firm practicing accountant expert financial reporting .
-3,"Owls are a group of birds that belong to the order Strigiformes, constituting 200 extant bird of prey species .",403,owl group bird belong order strigiformes constituting 200 extant bird prey specie .
+3,"Owls are a group of birds that belong to the order Strigiformes, constituting 200 extant bird of prey species .",403,owl group bird belong to order strigiformes constituting 200 extant bird prey specie .
 3,"With quick hands and exceptional upper-body strength, Killebrew was known not just for the frequency of his home runs but also for their distance.",404,quick hand exceptional upperbody strength killebrew wa known frequency home run also distance .
-3,"His main role was to interpret the will of the gods by studying the flight of birds : whether they are flying in groups or alone, what noises they make as they fly, direction of flight and what kind of birds they are.",405,main role wa interpret god studying flight bird whether flying group alone noise make fly direction flight kind bird .
+3,"His main role was to interpret the will of the gods by studying the flight of birds : whether they are flying in groups or alone, what noises they make as they fly, direction of flight and what kind of birds they are.",405,main role wa to interpret god studying flight bird whether flying group alone noise make fly direction flight kind bird .
 3,"The movie was extremely profitable, earning $161.5 million in North America alone.",406,movie wa extremely profitable earning 161.5 million north america alone .
 3,It is the second largest city in Oakland County in the U.S. state of Michigan .,407,second largest city oakland county u.s. state michigan .
-3,"According to folklore, if it is cloudy when a groundhog emerges from its burrow on this day, then spring will come early; if it is sunny, the groundhog will supposedly see its shadow and retreat back into its burrow, and the winter weather will continue for six more weeks.",408,according folklore cloudy groundhog emerges burrow day spring come early sunny groundhog supposedly see shadow retreat back burrow winter weather continue six week .
-3,A Joint Committee is a term in politics that is used to refer to a committee made up of members of both chambers of a bicameral legislature.,409,joint committee term politics used refer committee made member chamber bicameral legislature .
+3,"According to folklore, if it is cloudy when a groundhog emerges from its burrow on this day, then spring will come early; if it is sunny, the groundhog will supposedly see its shadow and retreat back into its burrow, and the winter weather will continue for six more weeks.",408,according to folklore cloudy groundhog emerges burrow day spring come early sunny groundhog supposedly see shadow retreat back burrow winter weather continue six week .
+3,A Joint Committee is a term in politics that is used to refer to a committee made up of members of both chambers of a bicameral legislature.,409,joint committee term politics used to refer to committee made member chamber bicameral legislature .
 3,The 50 stars on the flag represent the 50 states of the United States of America and the 13 stripes represent the thirteen British colonies that declared independence from the Kingdom of Great Britain and became the first states in the Union.,410,50 star flag represent 50 state united state america 13 stripe represent thirteen british colony declared independence kingdom great britain became first state union .
 3,India is a federal union of states comprising twenty-eight states and seven union territories .,411,india federal union state comprising twentyeight state seven union territory .
 3,"Symptoms are initially mild, and then develop into severe coughing fits, which produce the namesake high-pitched ""whoop"" sound in infected babies and children when they inhale air after coughing.",412,symptom initially mild develop severe coughing fit produce namesake highpitched whoop sound infected baby child inhale air coughing .
@@ -416,42 +416,42 @@ intent,answer,number,cleaned text
 3,Galveston County is a county located in the U.S. state of Texas within the Houston__ugar Land__aytown metropolitan area.,414,galveston county county located u.s. state texas within houstonugar landaytown metropolitan area .
 3,Nassau,415,nassau
 3,"Freeport, Bahamas",416,freeport bahamas
-3,"Its twelve member institutions (which are primarily flagship research universities in their respective states, well-regarded academically, and with relatively large student enrollment) are located primarily in the Midwest , stretching from Nebraska in the west to Penn State in the east.",417,twelve member institution primarily flagship research university respective state wellregarded academically relatively large student enrollment located primarily midwest stretching nebraska west penn state east .
-3,"Single Malt Scotch is single malt whisky made in Scotland using a pot still distillation process at a single distillery , with malted barley as the only grain ingredient.",418,single malt scotch single malt whisky made scotland using pot still distillation process single distillery malted barley grain ingredient .
-3,"As with any Scotch whisky , a single malt Scotch must be distilled in Scotland and matured in oak casks in Scotland for at least three years (most single malts are matured longer).",419,scotch whisky single malt scotch must distilled scotland matured oak cask scotland least three year single malt matured longer .
+3,"Its twelve member institutions (which are primarily flagship research universities in their respective states, well-regarded academically, and with relatively large student enrollment) are located primarily in the Midwest , stretching from Nebraska in the west to Penn State in the east.",417,twelve member institution primarily flagship research university respective state wellregarded academically relatively large student enrollment located primarily midwest stretching nebraska west to penn state east .
+3,"Single Malt Scotch is single malt whisky made in Scotland using a pot still distillation process at a single distillery , with malted barley as the only grain ingredient.",418,single malt scotch single malt whisky made scotland using pot still distillation process at single distillery malted barley grain ingredient .
+3,"As with any Scotch whisky , a single malt Scotch must be distilled in Scotland and matured in oak casks in Scotland for at least three years (most single malts are matured longer).",419,scotch whisky single malt scotch must distilled scotland matured oak cask scotland at least three year single malt matured longer .
 3,"Composers and works include Barbara Kolb , Pauline Oliveros ' Sound Patterns for chorus (1961), Norma Beecroft 's From Dreams of Brass for chorus (1963_1964), and Nancy Van de Vate .",420,composer work include barbara kolb pauline oliveros sound pattern chorus 1961 norma beecroft dream brass chorus 19631964 nancy van de vate .
-3,"A very early example is the opening of Jean-F________Â©ry Rebel 's ballet Les El________Â©mens (1737_38), where chaos is represented by a gradually cumulating orchestral cluster of all seven notes of the D minor scale (Henck 2004, pp. 52_54).",421,early example opening jeanfâ©ry rebel ballet le elâ©mens 173738 chaos represented gradually cumulating orchestral cluster seven note minor scale henck 2004 pp . 5254 .
+3,"A very early example is the opening of Jean-F_________Â©ry Rebel 's ballet Les El_________Â©mens (1737_38), where chaos is represented by a gradually cumulating orchestral cluster of all seven notes of the D minor scale (Henck 2004, pp. 52_54).",421,early example opening jeanfâ©ry rebel ballet le elâ©mens 173738 chaos represented gradually cumulating orchestral cluster seven note minor scale henck 2004 pp . 5254 .
 3,A later example is the third movement of Ruth Crawford Seeger 's String Quartet 1931 (Nonesuch H-71280) while more recently Phill Niblock 's multiple drone based music serves as an example.,422,later example third movement ruth crawford seeger string quartet 1931 nonesuch h71280 recently phill niblock multiple drone based music serf example .
-3,"The use of ""chords approaching timbres"" begins with Debussy and Edgard Var________Â¨se often carefully scored individual instrumental parts so that they would fuse into one ensemble timbre or sound mass (Erickson 1975, pp. 18 and 21).",423,use chord approaching timbre begin debussy edgard varâ¨se often carefully scored individual instrumental part would fuse one ensemble timbre sound mass erickson 1975 pp . 18 21 .
-3,"Other examples include European ""textural"" compositions of the fifties and sixties such as Krzysztof Penderecki 's Threnody to the Victims of Hiroshima (1959) and Gy________Â¶rgy Ligeti 's works featuring micropolyphony in works like Atmosph________Â¨res (1961) and his Requiem (1963-65).",424,example include european textural composition fifty sixty krzysztof penderecki threnody victim hiroshima 1959 gyâ¶rgy ligeti work featuring micropolyphony work like atmosphâ¨res 1961 requiem 196365 .
-3,"Other composers with works using this technique include Henryk G________Â³recki , Karel Husa , Witold Lutos_awski , Kazimierz Serocki , and Steven Stucky .",425,composer work using technique include henryk gâ³recki karel husa witold lutosawski kazimierz serocki steven stucky .
+3,"The use of ""chords approaching timbres"" begins with Debussy and Edgard Var_________Â¨se often carefully scored individual instrumental parts so that they would fuse into one ensemble timbre or sound mass (Erickson 1975, pp. 18 and 21).",423,use chord approaching timbre begin debussy edgard varâ¨se often carefully scored individual instrumental part would fuse one ensemble timbre sound mass erickson 1975 pp . 18 21 .
+3,"Other examples include European ""textural"" compositions of the fifties and sixties such as Krzysztof Penderecki 's Threnody to the Victims of Hiroshima (1959) and Gy_________Â¶rgy Ligeti 's works featuring micropolyphony in works like Atmosph_________Â¨res (1961) and his Requiem (1963-65).",424,example include european textural composition fifty sixty krzysztof penderecki threnody to victim hiroshima 1959 gyâ¶rgy ligeti work featuring micropolyphony work like atmosphâ¨res 1961 requiem 196365 .
+3,"Other composers with works using this technique include Henryk G_________Â³recki , Karel Husa , Witold Lutos_awski , Kazimierz Serocki , and Steven Stucky .",425,composer work using technique include henryk gâ³recki karel husa witold lutosawski kazimierz serocki steven stucky .
 3,Sound mass techniques also appear in the music of George Crumb (Anon. n.d.).,426,sound mass technique also appear music george crumb anon . n.d ..
-3,The object is to take at least the number of tricks that were bid before play of the hand began.,427,object take least number trick bid play hand began .
+3,The object is to take at least the number of tricks that were bid before play of the hand began.,427,object to take at least number trick bid play hand began .
 3,"Australia is a continent comprising mainland Australia , Tasmania , New Guinea , Seram , possibly Timor , and neighbouring islands.",428,australia continent comprising mainland australia tasmania new guinea seram possibly timor neighbouring island .
 3,The causes of cardiovascular disease are diverse but atherosclerosis and/or hypertension are the most common.,429,cause cardiovascular disease diverse atherosclerosis andor hypertension common .
-3,"The history of immigration to the United States is a continuing story of peoples from more populated continents, particularly Europe and also Africa and Asia, crossing oceans to the new land.",430,history immigration united state continuing story people populated continent particularly europe also africa asia crossing ocean new land .
+3,"The history of immigration to the United States is a continuing story of peoples from more populated continents, particularly Europe and also Africa and Asia, crossing oceans to the new land.",430,history immigration to united state continuing story people populated continent particularly europe also africa asia crossing ocean to new land .
 3,Starting around 1600 British and other Europeans settled primarily on the east coast .,431,starting around 1600 british european settled primarily east coast .
 3,"Atlanta (, stressed , locally ) is the capital of and the most populous city in the U.S. state of Georgia , with an estimated 2011 population of 432,427.",432,atlanta stressed locally capital populous city u.s. state georgia estimated 2011 population 432427 .
-3,"Atlanta is the cultural and economic center of the Atlanta metropolitan area , home to 5,457,831 people and the ninth largest metropolitan area in the United States.",433,atlanta cultural economic center atlanta metropolitan area home 5457831 people ninth largest metropolitan area united state .
+3,"Atlanta is the cultural and economic center of the Atlanta metropolitan area , home to 5,457,831 people and the ninth largest metropolitan area in the United States.",433,atlanta cultural economic center atlanta metropolitan area home to 5457831 people ninth largest metropolitan area united state .
 3,Commonwealth is a traditional English term for a political community founded for the common good.,434,commonwealth traditional english term political community founded common good .
 3,"Once appointed, justices have life tenure unless they resign, retire, or are removed after impeachment .",435,appointed justice life tenure unless resign retire removed impeachment .
 3,Conroe is the seat of Montgomery County and falls within the metropolitan area.,436,conroe seat montgomery county fall within metropolitan area .
-3,"As a database, it is a software product whose primary function is to store and retrieve data as requested by other software applications, be it those on the same computer or those running on another computer across a network (including the Internet).",437,database software product whose primary function store retrieve data requested software application computer running another computer across network including internet .
+3,"As a database, it is a software product whose primary function is to store and retrieve data as requested by other software applications, be it those on the same computer or those running on another computer across a network (including the Internet).",437,database software product whose primary function to store retrieve data requested software application computer running another computer across network including internet .
 3,"The Oklahoma blast claimed 168 lives, including 19 children under the age of 6, and injured more than 680 people.",438,oklahoma blast claimed 168 life including 19 child age 6 injured 680 people .
-3,"Winning, or even being nominated for, an ARIA award results in a lot of media attention on an artist, and usually increases recording sales several-fold _ in 2005 , for example, after Ben Lee won three awards, his album Awake Is the New Sleep jumped from No. 31 to No. 5 in the ARIA Charts , its highest position.",439,winning even nominated aria award result lot medium attention artist usually increase recording sale severalfold 2005 example ben lee three award album awake new sleep jumped . 31 . 5 aria chart highest position .
-3,"Dredging is an excavation activity or operation usually carried out at least partly underwater, in shallow seas or fresh water areas with the purpose of gathering up bottom sediments and disposing of them at a different location.",440,dredging excavation activity operation usually carried least partly underwater shallow sea fresh water area purpose gathering bottom sediment disposing different location .
-3,"A dredger (or __redge_ as is the general usage in the Americas) is any device, machine, or vessel that is used to excavate and remove material from the bottom of a body of water.",441,dredger redge general usage america device machine vessel used excavate remove material bottom body water .
-3,"For example, a scoop attached to the end of a rope or pole by which a man can draw sediments up from the bottom of a pond is a dredger.",442,example scoop attached end rope pole man draw sediment bottom pond dredger .
-3,"Developing this idea further, a motorized crane equipped with a drag bucket or clamshell (grabber) that is used to scoop material from the bottom of a body of water is also a dredger.",443,developing idea motorized crane equipped drag bucket clamshell grabber used scoop material bottom body water also dredger .
-3,"If the crane is mounted on a barge, the entire vessel is referred to as a dredger.",444,crane mounted barge entire vessel referred dredger .
-3,"He returned to London to settle permanently in 1791, where he died ten years later.",445,returned london settle permanently 1791 died ten year later .
-3,He helped lead the Philadelphia Phillies to the World Series in and won World Series championships in with the Arizona Diamondbacks and in and with the Boston Red Sox .,446,helped lead philadelphia phillies world series world series championship arizona diamondback boston red sox .
-3,"Of the thousands of enumerated ports, about 250 well-known ports are reserved by convention to identify specific service types on a host.",447,thousand enumerated port 250 wellknown port reserved convention identify specific service type host .
+3,"Winning, or even being nominated for, an ARIA award results in a lot of media attention on an artist, and usually increases recording sales several-fold _ in 2005 , for example, after Ben Lee won three awards, his album Awake Is the New Sleep jumped from No. 31 to No. 5 in the ARIA Charts , its highest position.",439,winning even nominated aria award result lot medium attention artist usually increase recording sale severalfold 2005 example ben lee three award album awake new sleep jumped no . 31 to no . 5 aria chart highest position .
+3,"Dredging is an excavation activity or operation usually carried out at least partly underwater, in shallow seas or fresh water areas with the purpose of gathering up bottom sediments and disposing of them at a different location.",440,dredging excavation activity operation usually carried at least partly underwater shallow sea fresh water area purpose gathering bottom sediment disposing at different location .
+3,"A dredger (or __redge_ as is the general usage in the Americas) is any device, machine, or vessel that is used to excavate and remove material from the bottom of a body of water.",441,dredger redge general usage america device machine vessel used to excavate remove material bottom body water .
+3,"For example, a scoop attached to the end of a rope or pole by which a man can draw sediments up from the bottom of a pond is a dredger.",442,example scoop attached to end rope pole man draw sediment bottom pond dredger .
+3,"Developing this idea further, a motorized crane equipped with a drag bucket or clamshell (grabber) that is used to scoop material from the bottom of a body of water is also a dredger.",443,developing idea motorized crane equipped drag bucket clamshell grabber used to scoop material bottom body water also dredger .
+3,"If the crane is mounted on a barge, the entire vessel is referred to as a dredger.",444,crane mounted barge entire vessel referred to dredger .
+3,"He returned to London to settle permanently in 1791, where he died ten years later.",445,returned to london to settle permanently 1791 died ten year later .
+3,He helped lead the Philadelphia Phillies to the World Series in and won World Series championships in with the Arizona Diamondbacks and in and with the Boston Red Sox .,446,helped lead philadelphia phillies to world series world series championship arizona diamondback boston red sox .
+3,"Of the thousands of enumerated ports, about 250 well-known ports are reserved by convention to identify specific service types on a host.",447,thousand enumerated port 250 wellknown port reserved convention to identify specific service type host .
 3,"Area code 479 is the telephone area code serving thirteen counties in northwest Arkansas , including the cities of Fort Smith , Fayetteville , Springdale , Rogers and Bentonville : the second, third, fourth, eighth and tenth-largest cities in the state, respectively.",448,area code 479 telephone area code serving thirteen county northwest arkansas including city fort smith fayetteville springdale rogers bentonville second third fourth eighth tenthlargest city state respectively .
 3,"Area code 479 serves Benton , Carroll (split with area code 870 ), Crawford , Franklin , Johnson , Logan , Madison , Polk , Pope , Scott , Sebastian , Washington and Yell Counties in Arkansas.",449,area code 479 serf benton carroll split area code 870 crawford franklin johnson logan madison polk pope scott sebastian washington yell county arkansas .
-3,Arraignment is a formal reading of a criminal charging document in the presence of the defendant to inform the defendant of the charges against him or her.,450,arraignment formal reading criminal charging document presence defendant inform defendant charge .
+3,Arraignment is a formal reading of a criminal charging document in the presence of the defendant to inform the defendant of the charges against him or her.,450,arraignment formal reading criminal charging document presence defendant to inform defendant charge .
 3,"While he achieved fame during his lifetime as an author, philosopher, alchemist and astronomer , composing a scientific treatise on the astrolabe for his ten year-old son Lewis, Chaucer also maintained an active career in the civil service as a bureaucrat, courtier and diplomat.",451,achieved fame lifetime author philosopher alchemist astronomer composing scientific treatise astrolabe ten yearold son lewis chaucer also maintained active career civil service bureaucrat courtier diplomat .
-3,"Chaucer is a crucial figure in developing the legitimacy of the vernacular , Middle English , at a time when the dominant literary languages in England were French and Latin.",452,chaucer crucial figure developing legitimacy vernacular middle english time dominant literary language england french latin .
+3,"Chaucer is a crucial figure in developing the legitimacy of the vernacular , Middle English , at a time when the dominant literary languages in England were French and Latin.",452,chaucer crucial figure developing legitimacy vernacular middle english at time dominant literary language england french latin .
 3,"The 12-hour clock is a time convention in which the 24 hours of the day are divided into two periods: a.m. (from the Latin ante meridiem, meaning ""before midday"") and p.m. (post meridiem, ""after midday"").",453,12hour clock time convention 24 hour day divided two period a.m. latin ante meridiem meaning midday p.m. post meridiem midday .
 3,"A 2007 review of all studies comparing health outcomes in Canada and the US in a Canadian peer-reviewed medical journal found that ""health outcomes may be superior in patients cared for in Canada versus the United States, but differences are not consistent.""",454,2007 review study comparing health outcome canada u canadian peerreviewed medical journal found health outcome may superior patient cared canada versus united state difference consistent .
 3,"There are currently 952 games (multiplatform: 751; exclusive: 123; console exclusive: 78) on this list as of April 2, 2013.",455,currently 952 game multiplatform 751 exclusive 123 console exclusive 78 list april 2 2013 .
@@ -461,99 +461,99 @@ intent,answer,number,cleaned text
 3,This is a list of the 221 towns and 13 cities in the U.S. state of New Hampshire .,459,list 221 town 13 city u.s. state new hampshire .
 3,"Though best known for its customer relationship management (CRM) product, Salesforce has also expanded into the ""social enterprise arena"" through acquisitions.",460,though best known customer relationship management crm product salesforce ha also expanded social enterprise arena acquisition .
 3,"During one orbit around the Sun, the Earth rotates about its own axis 366.26 times, creating 365.26 solar days , or one sidereal year .",461,one orbit around sun earth rotates axis 366.26 time creating 365.26 solar day one sidereal year .
-3,"Cellular respiration is the set of the metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate (ATP), and then release waste products.",462,cellular respiration set metabolic reaction process take place cell organism convert biochemical energy nutrient adenosine triphosphate atp release waste product .
-3,"Cartridge-operated extinguishers contain the expellant gas in a separate cartridge that is punctured prior to discharge, exposing the propellant to the extinguishing agent.",463,cartridgeoperated extinguisher contain expellant gas separate cartridge punctured prior discharge exposing propellant extinguishing agent .
+3,"Cellular respiration is the set of the metabolic reactions and processes that take place in the cells of organisms to convert biochemical energy from nutrients into adenosine triphosphate (ATP), and then release waste products.",462,cellular respiration set metabolic reaction process take place cell organism to convert biochemical energy nutrient adenosine triphosphate atp release waste product .
+3,"Cartridge-operated extinguishers contain the expellant gas in a separate cartridge that is punctured prior to discharge, exposing the propellant to the extinguishing agent.",463,cartridgeoperated extinguisher contain expellant gas separate cartridge punctured prior to discharge exposing propellant to extinguishing agent .
 3,"Righteousness (also called rectitude) is an important theological concept in Christianity , Judaism , Islam , Hinduism (dharma), and Zoroastrianism .",464,righteousness also called rectitude important theological concept christianity judaism islam hinduism dharma zoroastrianism .
-3,"It is an attribute that implies that a person's actions are justified, and can have the connotation that the person has been ""judged"" or ""reckoned"" as leading a life that is pleasing to the god/s portrayed in these belief systems.",465,attribute implies person action justified connotation person ha judged reckoned leading life pleasing god portrayed belief system .
+3,"It is an attribute that implies that a person's actions are justified, and can have the connotation that the person has been ""judged"" or ""reckoned"" as leading a life that is pleasing to the god/s portrayed in these belief systems.",465,attribute implies person action justified connotation person ha judged reckoned leading life pleasing to god portrayed belief system .
 3,"Central America consists of seven countries: Belize , Costa Rica , El Salvador , Guatemala , Honduras , Nicaragua , and Panama .",466,central america consists seven country belize costa rica el salvador guatemala honduras nicaragua panama .
 3,A steam engine is a heat engine that performs mechanical work using steam as its working fluid .,467,steam engine heat engine performs mechanical work using steam working fluid .
 3,"Steam engines are external combustion engines , where the working fluid is separate from the combustion products.",468,steam engine external combustion engine working fluid separate combustion product .
 3,"Tacoma (, ) is a mid-sized urban port city and the county seat of Pierce County, Washington , United States.",469,tacoma midsized urban port city county seat pierce county washington united state .
-3,"As the second largest city in San Diego County , Chula Vista has quickly become a destination popular to many tourists.",470,second largest city san diego county chula vista ha quickly become destination popular many tourist .
+3,"As the second largest city in San Diego County , Chula Vista has quickly become a destination popular to many tourists.",470,second largest city san diego county chula vista ha quickly become destination popular to many tourist .
 3,Sir Isaac Newton (25 December 164220 March 1727) was an English physicist and mathematician who is widely regarded as one of the most influential scientists of all time and as a key figure in the scientific revolution .,471,sir isaac newton 25 december 164220 march 1727 wa english physicist mathematician widely regarded one influential scientist time key figure scientific revolution .
-3,Newton's law of universal gravitation states that every point mass in the universe attracts every other point mass with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.,472,newton law universal gravitation state every point mass universe attracts every point mass force directly proportional product mass inversely proportional square distance .
-3,Dim sum () refers to a style of Cantonese food prepared as small bite-sized or individual portions of food traditionally served in small steamer baskets or on small plates.,473,dim sum refers style cantonese food prepared small bitesized individual portion food traditionally served small steamer basket small plate .
-3,"Dim sum is also well known for the unique way it is served in some restaurants, wherein fully cooked and ready-to-serve dim sum dishes are carted around the restaurant for customers to choose their orders while seated at their tables.",474,dim sum also well known unique way served restaurant wherein fully cooked readytoserve dim sum dish carted around restaurant customer choose order seated table .
-3,"Eating dim sum at a restaurant is usually known in Cantonese as going to ""drink tea"" ( yum cha , ______Â©______Â£______Â²______Â¨_), as tea is typically served with dim sum.",475,eating dim sum restaurant usually known cantonese going drink tea yum cha â©â£â²â¨ tea typically served dim sum .
+3,Newton's law of universal gravitation states that every point mass in the universe attracts every other point mass with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.,472,newton law universal gravitation state every point mass universe attracts every point mass force directly proportional to product mass inversely proportional to square distance .
+3,Dim sum () refers to a style of Cantonese food prepared as small bite-sized or individual portions of food traditionally served in small steamer baskets or on small plates.,473,dim sum refers to style cantonese food prepared small bitesized individual portion food traditionally served small steamer basket small plate .
+3,"Dim sum is also well known for the unique way it is served in some restaurants, wherein fully cooked and ready-to-serve dim sum dishes are carted around the restaurant for customers to choose their orders while seated at their tables.",474,dim sum also well known unique way served restaurant wherein fully cooked readytoserve dim sum dish carted around restaurant customer to choose order seated at table .
+3,"Eating dim sum at a restaurant is usually known in Cantonese as going to ""drink tea"" ( yum cha , _______Â©_______Â£_______Â²_______Â¨_), as tea is typically served with dim sum.",475,eating dim sum at restaurant usually known cantonese going to drink tea yum cha â©â£â²â¨ tea typically served dim sum .
 3,"A total of 4,486 U.S. soldiers were killed in Iraq between 2003 and 2012.",476,total 4486 u.s. soldier killed iraq 2003 2012 .
 3,Jupiter is the fifth planet from the Sun and the largest planet in the Solar System .,477,jupiter fifth planet sun largest planet solar system .
 3,"Held in Kemper Arena in Kansas City , Missouri , the convention nominated President Gerald Ford for a full term, but only after narrowly defeating a strong challenge from former California Governor Ronald Reagan .",478,held kemper arena kansa city missouri convention nominated president gerald ford full term narrowly defeating strong challenge former california governor ronald reagan .
 3,"It started with four teams and, through a series of expansions, contractions, and relocations, the league is now composed of 30 active franchises.",479,started four team series expansion contraction relocation league composed 30 active franchise .
 3,Northville is an affluent city located in and divided by Oakland and Wayne counties in the U.S. state of Michigan .,480,northville affluent city located divided oakland wayne county u.s. state michigan .
 3,"Most of the city is in Oakland County, and is surrounded by the city of Novi .",481,city oakland county surrounded city novi .
-3,"He has led teams to eight division championships ( 1995 , 1996 , 1997 , 2002 , 2003 , 2004 , 2007 , 2009 ), five NFC Championship Games ( 1995 , 1996 , 1997 , 2007 , 2009 ), and two Super Bowl appearances ( Super Bowl XXXI , Super Bowl XXXII ), winning one (Super Bowl XXXI).",482,ha led team eight division championship 1995 1996 1997 2002 2003 2004 2007 2009 five nfc championship game 1995 1996 1997 2007 2009 two super bowl appearance super bowl xxxi super bowl xxxii winning one super bowl xxxi .
-3,"In the United States, to table usually means the to lay [the topic] on the table or to move for postponement of consideration; a proposal to suspend consideration of a pending motion.",483,united state table usually mean lay topic table move postponement consideration proposal suspend consideration pending motion .
+3,"He has led teams to eight division championships ( 1995 , 1996 , 1997 , 2002 , 2003 , 2004 , 2007 , 2009 ), five NFC Championship Games ( 1995 , 1996 , 1997 , 2007 , 2009 ), and two Super Bowl appearances ( Super Bowl XXXI , Super Bowl XXXII ), winning one (Super Bowl XXXI).",482,ha led team to eight division championship 1995 1996 1997 2002 2003 2004 2007 2009 five nfc championship game 1995 1996 1997 2007 2009 two super bowl appearance super bowl xxxi super bowl xxxii winning one super bowl xxxi .
+3,"In the United States, to table usually means the to lay [the topic] on the table or to move for postponement of consideration; a proposal to suspend consideration of a pending motion.",483,united state to table usually mean to lay topic table to move postponement consideration proposal to suspend consideration pending motion .
 3,"The four families are the original Standard-Capacity (SDSC), the High-Capacity ( SDHC ), the eXtended-Capacity ( SDXC ), and the SDIO , which combines input/output functions with data storage.",484,four family original standardcapacity sdsc highcapacity sdhc extendedcapacity sdxc sdio combine inputoutput function data storage .
 3,"It eats leaves, herbs, twigs and green plants like skunk cabbage and clover and in the winter it may eat bark.",485,eats leaf herb twig green plant like skunk cabbage clover winter may eat bark .
-3,"Elijah J. McCoy (May 2, 1844 _ October 10, 1929) was a black Canadian-American inventor and engineer, who was notable for his 57 U.S. patents , most to do with lubrication of steam engines.",486,elijah j. mccoy may 2 1844 october 10 1929 wa black canadianamerican inventor engineer wa notable 57 u.s. patent lubrication steam engine .
+3,"Elijah J. McCoy (May 2, 1844 _ October 10, 1929) was a black Canadian-American inventor and engineer, who was notable for his 57 U.S. patents , most to do with lubrication of steam engines.",486,elijah j. mccoy may 2 1844 october 10 1929 wa black canadianamerican inventor engineer wa notable 57 u.s. patent to lubrication steam engine .
 3,", Apple has 405 stores worldwide, with global sales of billion in merchandise in 2011, and they lead the United States retail market in terms of sales per unit area .",487,apple ha 405 store worldwide global sale billion merchandise 2011 lead united state retail market term sale per unit area .
 3,"The term ""effective"" is used because the shielding effect of negatively charged electrons prevents higher orbital electrons from experiencing the full nuclear charge by the repelling effect of inner-layer electrons.",488,term effective used shielding effect negatively charged electron prevents higher orbital electron experiencing full nuclear charge repelling effect innerlayer electron .
-3,"Jerky is lean meat that has been trimmed of fat, cut into strips, and then dried to prevent spoilage.",489,jerky lean meat ha trimmed fat cut strip dried prevent spoilage .
-3,"Modern manufactured jerky is normally marinated in a seasoned spice rub or liquid, and dried, dehydrated or smoked with low heat (usually under 70 ________Â°C/160 ________Â°F).",490,modern manufactured jerky normally marinated seasoned spice rub liquid dried dehydrated smoked low heat usually 70 â°c160 â°f .
+3,"Jerky is lean meat that has been trimmed of fat, cut into strips, and then dried to prevent spoilage.",489,jerky lean meat ha trimmed fat cut strip dried to prevent spoilage .
+3,"Modern manufactured jerky is normally marinated in a seasoned spice rub or liquid, and dried, dehydrated or smoked with low heat (usually under 70 _________Â°C/160 _________Â°F).",490,modern manufactured jerky normally marinated seasoned spice rub liquid dried dehydrated smoked low heat usually 70 â°c160 â°f .
 3,.eu is the country code top-level domain (ccTLD) for the European Union (EU).,491,.eu country code toplevel domain cctld european union eu .
 3,"Meister means master in German (as in master craftsman , or as an honorific title such as Meister Eckhart ).",492,meister mean master german master craftsman honorific title meister eckhart .
 3,"During this event a very large number of the impact craters on the Moon would have formed, and by inference on Earth , Mercury , Venus and Mars as well.",493,event large number impact crater moon would formed inference earth mercury venus mar well .
-3,"On October 7, 1849, at age 40, Poe died in Baltimore; the cause of his death is unknown and has been variously attributed to alcohol, brain congestion, cholera , drugs, heart disease, rabies , suicide, tuberculosis, and other agents.",494,october 7 1849 age 40 poe died baltimore cause death unknown ha variously attributed alcohol brain congestion cholera drug heart disease rabies suicide tuberculosis agent .
+3,"On October 7, 1849, at age 40, Poe died in Baltimore; the cause of his death is unknown and has been variously attributed to alcohol, brain congestion, cholera , drugs, heart disease, rabies , suicide, tuberculosis, and other agents.",494,october 7 1849 at age 40 poe died baltimore cause death unknown ha variously attributed to alcohol brain congestion cholera drug heart disease rabies suicide tuberculosis agent .
 3,"Tycho Brahe (14 December 154624 October 1601), born Tyge Ottesen Brahe, was a Danish nobleman known for his accurate and comprehensive astronomical and planetary observations.",495,tycho brahe 14 december 154624 october 1601 born tyge ottesen brahe wa danish nobleman known accurate comprehensive astronomical planetary observation .
 3,Tycho was well known in his lifetime as an astronomer and alchemist .,496,tycho wa well known lifetime astronomer alchemist .
 3,"Four complete seasons aired, ending on February 8, 2010.",497,four complete season aired ending february 8 2010 .
 3,"Labor Day is an American federal holiday observed on the first Monday in September, that celebrates the economic and social contributions of workers.",498,labor day american federal holiday observed first monday september celebrates economic social contribution worker .
 3,"Dylan Thomas Sprouse and Cole Mitchell Sprouse (born August 4, 1992) are American actors.",499,dylan thomas sprouse cole mitchell sprouse born august 4 1992 american actor .
-3,"Life insurance is a contract between an insured (insurance policy holder) and an insurer , where the insurer promises to pay a designated beneficiary a sum of money (the ""benefits"") upon the death of the insured person.",500,life insurance contract insured insurance policy holder insurer insurer promise pay designated beneficiary sum money benefit upon death insured person .
+3,"Life insurance is a contract between an insured (insurance policy holder) and an insurer , where the insurer promises to pay a designated beneficiary a sum of money (the ""benefits"") upon the death of the insured person.",500,life insurance contract insured insurance policy holder insurer insurer promise to pay designated beneficiary sum money benefit upon death insured person .
 3,"Depending on the contract, other events such as terminal illness or critical illness may also trigger payment.",501,depending contract event terminal illness critical illness may also trigger payment .
-3,"Protection policies _ designed to provide a benefit in the event of specified event, typically a lump sum payment.",502,protection policy designed provide benefit event specified event typically lump sum payment .
+3,"Protection policies _ designed to provide a benefit in the event of specified event, typically a lump sum payment.",502,protection policy designed to provide benefit event specified event typically lump sum payment .
 3,9 _ 12 February (Vietnam),503,9 12 february vietnam
 3,"The acronym originally stood for Supreme Headquarters, International Espionage, Law-Enforcement Division.",504,acronym originally stood supreme headquarters international espionage lawenforcement division .
 3,"As of September 30, 2012, 70 million Xbox 360 consoles have been sold worldwide.",505,september 30 2012 70 million xbox 360 console sold worldwide .
-3,"The bag itself was made up of different animal hide and skin (depending on what sorts of animals were in the area) and sewn together by the intestines of said animals, which were woven together tightly to make a sturdy thread-like material.",506,bag wa made different animal hide skin depending sort animal area sewn together intestine said animal woven together tightly make sturdy threadlike material .
+3,"The bag itself was made up of different animal hide and skin (depending on what sorts of animals were in the area) and sewn together by the intestines of said animals, which were woven together tightly to make a sturdy thread-like material.",506,bag wa made different animal hide skin depending sort animal area sewn together intestine said animal woven together tightly to make sturdy threadlike material .
 3,"Mexico (; ; ), officially the United Mexican States (), is a federal constitutional republic in North America.",507,mexico officially united mexican state federal constitutional republic north america .
-3,It is calculated as total bases divided by at bats :,508,calculated total base divided bat
+3,It is calculated as total bases divided by at bats :,508,calculated total base divided at bat
 3,"Saint Patrick's Day or the Feast of Saint Patrick (, ""the Day of the Festival of Patrick"") is a cultural and religious holiday celebrated on 17 March.",509,saint patrick day feast saint patrick day festival patrick cultural religious holiday celebrated 17 march .
-3,"Goat cheese, or ch________Â¨vre (from the French word for goat), is cheese made out of the milk of goats .",510,goat cheese châ¨vre french word goat cheese made milk goat .
-3,"Its duties have expanded over the years, and today, according to official Federal Reserve documentation, include conducting the nation's monetary policy , supervising and regulating banking institutions, maintaining the stability of the financial system and providing financial services to depository institutions , the U.S. government, and foreign official institutions.",511,duty expanded year today according official federal reserve documentation include conducting nation monetary policy supervising regulating banking institution maintaining stability financial system providing financial service depository institution u.s. government foreign official institution .
+3,"Goat cheese, or ch_________Â¨vre (from the French word for goat), is cheese made out of the milk of goats .",510,goat cheese châ¨vre french word goat cheese made milk goat .
+3,"Its duties have expanded over the years, and today, according to official Federal Reserve documentation, include conducting the nation's monetary policy , supervising and regulating banking institutions, maintaining the stability of the financial system and providing financial services to depository institutions , the U.S. government, and foreign official institutions.",511,duty expanded year today according to official federal reserve documentation include conducting nation monetary policy supervising regulating banking institution maintaining stability financial system providing financial service to depository institution u.s. government foreign official institution .
 3,"Belize , is a country located on the northeastern coast of Central America.",512,belize country located northeastern coast central america .
-3,Christian Bibles range from the sixty-six books of the Protestant canon to the eighty-one books of the Ethiopian Orthodox Tewahedo Church canon.,513,christian bible range sixtysix book protestant canon eightyone book ethiopian orthodox tewahedo church canon .
-3,The flag was designed during the American Revolution and features 13 stars to represent the original 13 colonies .,514,flag wa designed american revolution feature 13 star represent original 13 colony .
-3,"However, using a strict definition of purring that continuous sound production must alternate between pulmonic egressive and ingressive airstream (and usually go on for minutes), Peters (2002), in an exhaustive review of the scientific literature, reached the conclusion that until then only __urring cats_ (Felidae) and two species of genets , Genetta tigrina, and most likely also Genetta genetta, had been documented to purr.",515,however using strict definition purring continuous sound production must alternate pulmonic egressive ingressive airstream usually go minute peter 2002 exhaustive review scientific literature reached conclusion urring cat felidae two specie genet genetta tigrina likely also genetta genetta documented purr .
+3,Christian Bibles range from the sixty-six books of the Protestant canon to the eighty-one books of the Ethiopian Orthodox Tewahedo Church canon.,513,christian bible range sixtysix book protestant canon to eightyone book ethiopian orthodox tewahedo church canon .
+3,The flag was designed during the American Revolution and features 13 stars to represent the original 13 colonies .,514,flag wa designed american revolution feature 13 star to represent original 13 colony .
+3,"However, using a strict definition of purring that continuous sound production must alternate between pulmonic egressive and ingressive airstream (and usually go on for minutes), Peters (2002), in an exhaustive review of the scientific literature, reached the conclusion that until then only __urring cats_ (Felidae) and two species of genets , Genetta tigrina, and most likely also Genetta genetta, had been documented to purr.",515,however using strict definition purring continuous sound production must alternate pulmonic egressive ingressive airstream usually go minute peter 2002 exhaustive review scientific literature reached conclusion urring cat felidae two specie genet genetta tigrina likely also genetta genetta documented to purr .
 3,"Fields is currently a meteorologist for the CBS owned and operated television stations KCBS-TV and KCAL-TV in Los Angeles, California.",516,field currently meteorologist cbs owned operated television station kcbstv kcaltv los angeles california .
 3,"Fields can also be heard on the radio on K-EARTH 101 KRTH , KNX-AM and KFWB in Los Angeles.",517,field also heard radio kearth 101 krth knxam kfwb los angeles .
 3,"St. Elizabeth is a village in Miller County , Missouri , United States .",518,st. elizabeth village miller county missouri united state .
 3,"Wilton is a census-designated place (CDP) in Sacramento County , California , United States .",519,wilton censusdesignated place cdp sacramento county california united state .
 3,"On August 27, 1990, Vaughan was killed in a helicopter crash following a performance in East Troy, Wisconsin .",520,august 27 1990 vaughan wa killed helicopter crash following performance east troy wisconsin .
 3,"Larkin is considered one of the top players of his era, winning nine Silver Slugger awards and three Gold Glove awards .",521,larkin considered one top player era winning nine silver slugger award three gold glove award .
-3,"The causes of World War I , which began in central Europe in late July 1914 and finished in 1918, included many factors, such as the conflicts and hostility of the four decades leading up to the war.",522,cause world war began central europe late july 1914 finished 1918 included many factor conflict hostility four decade leading war .
-3,"Whether it was on the home front or the front-lines, for civilian or enlisted women, the World Wars started a new era for women's opportunities to contribute in war and be recognized for efforts outside of the home.",523,whether wa home front frontlines civilian enlisted woman world war started new era womens opportunity contribute war recognized effort outside home .
+3,"The causes of World War I , which began in central Europe in late July 1914 and finished in 1918, included many factors, such as the conflicts and hostility of the four decades leading up to the war.",522,cause world war began central europe late july 1914 finished 1918 included many factor conflict hostility four decade leading to war .
+3,"Whether it was on the home front or the front-lines, for civilian or enlisted women, the World Wars started a new era for women's opportunities to contribute in war and be recognized for efforts outside of the home.",523,whether wa home front frontlines civilian enlisted woman world war started new era womens opportunity to contribute war recognized effort outside home .
 3,"The Wire premiered on June 2, 2002, and ended on March 9, 2008, comprising 60 episodes over five seasons.",524,wire premiered june 2 2002 ended march 9 2008 comprising 60 episode five season .
 3,"The word promise can be used as a legal synonym for contract, although care is required as a promise may not have the full standing of a contract, as when it is an agreement without consideration .",525,word promise used legal synonym contract although care required promise may full standing contract agreement without consideration .
-3,ASP.NET is a server-side Web application framework designed for Web development to produce dynamic Web pages .,526,asp.net serverside web application framework designed web development produce dynamic web page .
+3,ASP.NET is a server-side Web application framework designed for Web development to produce dynamic Web pages .,526,asp.net serverside web application framework designed web development to produce dynamic web page .
 3,"Lysergic acid diethylamide, abbreviated LSD or LSD-25, also known as lysergide ( INN ) and colloquially as acid, is a semisynthetic psychedelic drug of the ergoline family, well known for its psychological effects which can include altered thinking processes, closed and open eye visuals, synesthesia , an altered sense of time and spiritual experiences , as well as for its key role in 1960s counterculture .",527,lysergic acid diethylamide abbreviated lsd lsd25 also known lysergide inn colloquially acid semisynthetic psychedelic drug ergoline family well known psychological effect include altered thinking process closed open eye visuals synesthesia altered sense time spiritual experience well key role 1960s counterculture .
-3,"LSD is non-addictive, is not known to cause brain damage, and has extremely low toxicity relative to dose .",528,lsd nonaddictive known cause brain damage ha extremely low toxicity relative dose .
+3,"LSD is non-addictive, is not known to cause brain damage, and has extremely low toxicity relative to dose .",528,lsd nonaddictive known to cause brain damage ha extremely low toxicity relative to dose .
 3,"However, adverse psychiatric reactions such as anxiety, paranoia, and delusions are possible.",529,however adverse psychiatric reaction anxiety paranoia delusion possible .
 3,"Memphis had a population of 672,277 in 2011 making it the largest city in the state of Tennessee , the largest city on the Mississippi River , the third largest in the Southeastern United States , and the 20th largest in the United States.",530,memphis population 672277 2011 making largest city state tennessee largest city mississippi river third largest southeastern united state 20th largest united state .
 3,"There are approximately 642 skeletal muscles within the typical human, and almost every muscle constitutes one part of a pair of identical bilateral muscles, found on both sides, resulting in approximately 320 pairs of muscles, as presented in this article.",531,approximately 642 skeletal muscle within typical human almost every muscle constitutes one part pair identical bilateral muscle found side resulting approximately 320 pair muscle presented article .
-3,"Ultimately, the Spanish Crown ceded the colony to United States rule.",532,ultimately spanish crown ceded colony united state rule .
+3,"Ultimately, the Spanish Crown ceded the colony to United States rule.",532,ultimately spanish crown ceded colony to united state rule .
 3,"Orono is a town in Penobscot County , Maine , United States .",533,orono town penobscot county maine united state .
-3,"A pilot experiment, also called a pilot study, is a small scale preliminary study conducted in order to evaluate feasibility, time, cost, adverse events, and effect size (statistical variability) in an attempt to predict an appropriate sample size and improve upon the study design prior to performance of a full-scale research project.",534,pilot experiment also called pilot study small scale preliminary study conducted order evaluate feasibility time cost adverse event effect size statistical variability attempt predict appropriate sample size improve upon study design prior performance fullscale research project .
-3,"The two surviving species of camel are the dromedary , or one-humped camel, which is native to the Middle East and the Horn of Africa ; and the Bactrian , or two-humped camel, which inhabits Central Asia .",535,two surviving specie camel dromedary onehumped camel native middle east horn africa bactrian twohumped camel inhabits central asia .
-3,"Wind power is the conversion of wind energy into a useful form of energy, such as using wind turbines to make electrical power , windmills for mechanical power, wind pumps for water pumping or drainage , or sails to propel ships.",536,wind power conversion wind energy useful form energy using wind turbine make electrical power windmill mechanical power wind pump water pumping drainage sail propel ship .
-3,"In the context of Earth , it refers to one or all of the major divisions of the planet's World Ocean _ they are, in descending order of area, the Pacific , Atlantic , Indian , Southern (Antarctic) , and Arctic Oceans.",537,context earth refers one major division planet world ocean descending order area pacific atlantic indian southern antarctic arctic ocean .
+3,"A pilot experiment, also called a pilot study, is a small scale preliminary study conducted in order to evaluate feasibility, time, cost, adverse events, and effect size (statistical variability) in an attempt to predict an appropriate sample size and improve upon the study design prior to performance of a full-scale research project.",534,pilot experiment also called pilot study small scale preliminary study conducted order to evaluate feasibility time cost adverse event effect size statistical variability attempt to predict appropriate sample size improve upon study design prior to performance fullscale research project .
+3,"The two surviving species of camel are the dromedary , or one-humped camel, which is native to the Middle East and the Horn of Africa ; and the Bactrian , or two-humped camel, which inhabits Central Asia .",535,two surviving specie camel dromedary onehumped camel native to middle east horn africa bactrian twohumped camel inhabits central asia .
+3,"Wind power is the conversion of wind energy into a useful form of energy, such as using wind turbines to make electrical power , windmills for mechanical power, wind pumps for water pumping or drainage , or sails to propel ships.",536,wind power conversion wind energy useful form energy using wind turbine to make electrical power windmill mechanical power wind pump water pumping drainage sail to propel ship .
+3,"In the context of Earth , it refers to one or all of the major divisions of the planet's World Ocean _ they are, in descending order of area, the Pacific , Atlantic , Indian , Southern (Antarctic) , and Arctic Oceans.",537,context earth refers to one major division planet world ocean descending order area pacific atlantic indian southern antarctic arctic ocean .
 3,"It is the county seat of Duval County , with which the city government consolidated in 1968.",538,county seat duval county city government consolidated 1968 .
 3,"What Chilli Wants is an American reality series on VH1 starring Chilli , one-third of the Grammy Award -winning R&B trio TLC .",539,chilli want american reality series vh1 starring chilli onethird grammy award winning rb trio tlc .
 3,The blue color of liquid oxygen in a dewar flask,540,blue color liquid oxygen dewar flask
 3,The Boise State Broncos football program represents Boise State University in college football and compete in the Football Bowl Subdivision (FBS) of Division I as a member of the Mountain West Conference .,541,boise state bronco football program represents boise state university college football compete football bowl subdivision fbs division member mountain west conference .
 3,"Mens rea is Latin for ""guilty mind"".",542,men rea latin guilty mind .
-3,"A drug test is a technical analysis of a biological specimen _ for example urine, hair, blood, sweat, or oral fluid / saliva _ to determine the presence or absence of specified parent drugs or their metabolites .",543,drug test technical analysis biological specimen example urine hair blood sweat oral fluid saliva determine presence absence specified parent drug metabolite .
-3,"Espresso has more caffeine per unit volume than most beverages, but the usual serving size is smaller__ typical 60 mL (2 US fluid ounce ) of espresso has 80 to 150 mg of caffeine, little less than the 95 to 200 mg of a standard 240 mL (8 US fluid ounces ) cup of drip-brewed coffee.",544,espresso ha caffeine per unit volume beverage usual serving size smaller typical 60 ml 2 u fluid ounce espresso ha 80 150 mg caffeine little less 95 200 mg standard 240 ml 8 u fluid ounce cup dripbrewed coffee .
+3,"A drug test is a technical analysis of a biological specimen _ for example urine, hair, blood, sweat, or oral fluid / saliva _ to determine the presence or absence of specified parent drugs or their metabolites .",543,drug test technical analysis biological specimen example urine hair blood sweat oral fluid saliva to determine presence absence specified parent drug metabolite .
+3,"Espresso has more caffeine per unit volume than most beverages, but the usual serving size is smaller__ typical 60 mL (2 US fluid ounce ) of espresso has 80 to 150 mg of caffeine, little less than the 95 to 200 mg of a standard 240 mL (8 US fluid ounces ) cup of drip-brewed coffee.",544,espresso ha caffeine per unit volume beverage usual serving size smaller typical 60 ml 2 u fluid ounce espresso ha 80 to 150 mg caffeine little less 95 to 200 mg standard 240 ml 8 u fluid ounce cup dripbrewed coffee .
 3,"In humans, seminal fluid contains several components besides spermatozoa: proteolytic and other enzymes as well as fructose are elements of seminal fluid which promote the survival of spermatozoa and provide a medium through which they can move or ""swim"".",545,human seminal fluid contains several component besides spermatozoon proteolytic enzyme well fructose element seminal fluid promote survival spermatozoon provide medium move swim .
 3,Crosby was drafted first overall by the Penguins out of the Quebec Major Junior Hockey League (QMJHL).,546,crosby wa drafted first overall penguin quebec major junior hockey league qmjhl .
-3,"""My two cents"" (2________Â¢) and its longer version ""put my two cents in"" is an United States (US) idiomatic expression, taken from the original English idiom expression: to put in ""my two pennies worth"" or ""my tuppence worth.""",547,two cent 2â¢ longer version put two cent united state u idiomatic expression taken original english idiom expression put two penny worth tuppence worth .
-3,"Including human capital such as skills, the United Nations estimated the total wealth of the United States in 2008 to be $118 trillion.",548,including human capital skill united nation estimated total wealth united state 2008 118 trillion .
-3,"to indicate the precision of an approximation , or",549,indicate precision approximation
-3,to indicate a value that can be of either sign.,550,indicate value either sign .
-3,"The Moon is thought to have formed nearly 4.5 billion years ago, not long after the Earth.",551,moon thought formed nearly 4.5 billion year ago long earth .
+3,"""My two cents"" (2_________Â¢) and its longer version ""put my two cents in"" is an United States (US) idiomatic expression, taken from the original English idiom expression: to put in ""my two pennies worth"" or ""my tuppence worth.""",547,two cent 2â¢ longer version put two cent united state u idiomatic expression taken original english idiom expression to put two penny worth tuppence worth .
+3,"Including human capital such as skills, the United Nations estimated the total wealth of the United States in 2008 to be $118 trillion.",548,including human capital skill united nation estimated total wealth united state 2008 to 118 trillion .
+3,"to indicate the precision of an approximation , or",549,to indicate precision approximation
+3,to indicate a value that can be of either sign.,550,to indicate value either sign .
+3,"The Moon is thought to have formed nearly 4.5 billion years ago, not long after the Earth.",551,moon thought to formed nearly 4.5 billion year ago long earth .
 3,"Although there have been several hypotheses for its origin in the past, the current most widely accepted explanation is that the Moon formed from the debris left over after a giant impact between Earth and a Mars -sized body.",552,although several hypothesis origin past current widely accepted explanation moon formed debris left giant impact earth mar sized body .
 3,"As president, Reagan implemented sweeping new political and economic initiatives.",553,president reagan implemented sweeping new political economic initiative .
-3,"Judgment as a matter of law (JMOL) is a motion made by a party, during trial, claiming the opposing party has insufficient evidence to reasonably support its case.",554,judgment matter law jmol motion made party trial claiming opposing party ha insufficient evidence reasonably support case .
+3,"Judgment as a matter of law (JMOL) is a motion made by a party, during trial, claiming the opposing party has insufficient evidence to reasonably support its case.",554,judgment matter law jmol motion made party trial claiming opposing party ha insufficient evidence to reasonably support case .
 3,"Four sitting presidents have been killed: Abraham Lincoln (the 16th President), James A. Garfield (the 20th President), William McKinley (the 25th President) and John F. Kennedy (the 35th President).",555,four sitting president killed abraham lincoln 16th president james a. garfield 20th president william mckinley 25th president john f. kennedy 35th president .
 3,"A major producer of natural gas , oil , and agriculture, Oklahoma relies on an economic base of aviation, energy, telecommunications, and biotechnology .",556,major producer natural gas oil agriculture oklahoma relies economic base aviation energy telecommunication biotechnology .
 3,There have been twenty-two novels and two picture books published.,557,twentytwo novel two picture book published .
@@ -562,16 +562,22 @@ intent,answer,number,cleaned text
 3,Some authors also define an alkali as a base that dissolves in water .,560,author also define alkali base dissolve water .
 3,Area code 217 is the North American telephone area code for much of western and central Illinois .,561,area code 217 north american telephone area code much western central illinois .
 3,"The 217 area includes Illinois' capital , Springfield , plus Champaign , Urbana , Decatur , Danville , Quincy , and Rantoul .",562,217 area includes illinois capital springfield plus champaign urbana decatur danville quincy rantoul .
-3,"Jameson is similar in its adherence to the single distillery principle to the single malt tradition, but Jameson blends column still spirit with Single pot still whiskey , a combination of malted barley with unmalted or ""green"" barley distilled in a pot still.",563,jameson similar adherence single distillery principle single malt tradition jameson blend column still spirit single pot still whiskey combination malted barley unmalted green barley distilled pot still .
-3,"""Gloria in excelsis Deo"" ( Latin for ""Glory to God in the highest"") is a hymn known also as the Greater Doxology (as distinguished from the ""Minor Doxology"" or Gloria Patri ) and the Angelic Hymn.",564,gloria excelsis deo latin glory god highest hymn known also greater doxology distinguished minor doxology gloria patri angelic hymn .
-3,"In finance , a bond is an instrument of indebtedness of the bond issuer to the holders.",565,finance bond instrument indebtedness bond issuer holder .
+3,"Jameson is similar in its adherence to the single distillery principle to the single malt tradition, but Jameson blends column still spirit with Single pot still whiskey , a combination of malted barley with unmalted or ""green"" barley distilled in a pot still.",563,jameson similar adherence to single distillery principle to single malt tradition jameson blend column still spirit single pot still whiskey combination malted barley unmalted green barley distilled pot still .
+3,"""Gloria in excelsis Deo"" ( Latin for ""Glory to God in the highest"") is a hymn known also as the Greater Doxology (as distinguished from the ""Minor Doxology"" or Gloria Patri ) and the Angelic Hymn.",564,gloria excelsis deo latin glory to god highest hymn known also greater doxology distinguished minor doxology gloria patri angelic hymn .
+3,"In finance , a bond is an instrument of indebtedness of the bond issuer to the holders.",565,finance bond instrument indebtedness bond issuer to holder .
 3,"Bonds and stocks are both securities , but the major difference between the two is that (capital) stockholders have an equity stake in the company (i.e. they are owners), whereas bondholders have a creditor stake in the company (i.e. they are lenders).",566,bond stock security major difference two capital stockholder equity stake company i.e . owner whereas bondholder creditor stake company i.e . lender .
 3,You are {},567,
 3,Your name is {},568,name
 3,"I remember, you are {}",569,remember
 3,You are {},570,
-3,"I'm your AI assistant, here to help you with whatever you need.",571,im ai assistant help whatever need .
-3,"I'm a conversational AI designed to assist with various tasks, answer questions, and make your life a bit easier.",572,im conversational ai designed assist various task answer question make life bit easier .
+3,"I'm your AI assistant, here to help you with whatever you need.",571,im ai assistant to help whatever need .
+3,"I'm a conversational AI designed to assist with various tasks, answer questions, and make your life a bit easier.",572,im conversational ai designed to assist various task answer question make life bit easier .
 3,"I can assist with answering questions, providing recommendations and more.",573,assist answering question providing recommendation .
-3,"No, I'm not a real person, but I'm here to simulate helpful conversations and offer any assistance you need.",574,im real person im simulate helpful conversation offer assistance need .
-3,"I'm a virtual assistant created to help, inform, and chat with you.",575,im virtual assistant created help inform chat .
+3,"No, I'm not a real person, but I'm here to simulate helpful conversations and offer any assistance you need.",574,no im real person im to simulate helpful conversation offer assistance need .
+3,"I'm a virtual assistant created to help, inform, and chat with you.",575,im virtual assistant created to help inform chat .
+3,"I can assist with answering questions, providing recommendations and more.",576,assist answering question providing recommendation .
+3,"I'm your AI assistant, here to help you with whatever you need.",577,im ai assistant to help whatever need .
+3,You're welcome. It's my pleasure,578,youre welcome . pleasure
+3,No problem,579,no problem
+3,You're welcome. It's my pleasure,580,youre welcome . pleasure
+3,You're welcome. It's my pleasure,581,youre welcome . pleasure

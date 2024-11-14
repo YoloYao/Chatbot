@@ -2,12 +2,19 @@ from scripts.utils import Utils
 from scripts.preprocess import PreProcessController
 from models.model import Model
 from config.constants import Constants
+from config.contexts import Contexts
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
 
 
 class ChatController:
+    def __init__(self):
+        self.context = {}
+
+    def add_to_context(self, key, value):
+        self.context[key] = value
+
     # 身份鉴权
     def authenticate(self):
         name_data = Utils.read_json(Constants.USER_LIST_FILEPATH)
@@ -34,8 +41,42 @@ class ChatController:
         print("You have made too many incorrect attempts. Goodbye.")
         return "exit"
 
+    # 根据买票场景进行上下文处理
+    def answer_by_context(self, user_input):
+        # 检查上下文中是否已经存储了一些信息
+        if any(key in user_input for key in Contexts.BOOK_KEYS):
+            response = Contexts.DESTINATION_HINT
+        elif "to" in user_input and "destination" not in self.context:
+            destination = user_input.split("to")[-1].strip()
+            self.add_to_context("destination", destination)
+            response = Contexts.TIME_HINT.format(destination.capitalize())
+        elif "at" in user_input and "depart_time" not in self.context and "destination" in self.context:
+            depart_time = user_input.split("at")[-1].strip()
+            self.add_to_context("depart_time", depart_time)
+            response = Contexts.NUM_HINT.format(depart_time)
+        elif user_input.isdigit() and "tickets_num" not in self.context and "depart_time" in self.context and "destination" in self.context:
+            tickets_num = int(user_input)
+            self.add_to_context("tickets_num", tickets_num)
+            response = Contexts.CONFIRM_HINT.format(
+                tickets_num, self.context['destination'].capitalize(), self.context['depart_time'])
+        elif "yes" in user_input and "tickets_num" in self.context and "depart_time" in self.context and "destination" in self.context:
+            response = Contexts.SUCCESS_HINT
+            # 清空上下文，模拟结束会话
+            self.context.clear()
+        elif "no" in user_input.lower() and "tickets_num" in self.context and "depart_time" in self.context and "destination" in self.context:
+            response = Contexts.STOP_HINT
+            # 重新开始对话
+            self.context.clear()
+        else:
+            response = ""
+
+        return response
     # 根据意图回答问题
+
     def answer_question(self, user_input, model, intent_num):
+        response = self.answer_by_context(user_input)
+        if response != "":
+            return response
         # 转换输入内容
         input_vector = model.vectorizer.transform([user_input])
         query_tf = model.tf_transformer.transform(input_vector)
@@ -94,7 +135,7 @@ class ChatController:
         intent_menu = Utils.read_json(Constants.INTENT_LABEL_FILEPATH)
         # 显示意图
         # //important print
-        # print(f"[Intention:{intent_menu[str(intent_num)]}]")
+        print(f"[Intention:{intent_menu[str(intent_num)]}]")
         return intent_num
 
     def chat(self):
@@ -127,10 +168,10 @@ class ChatController:
                 break
             # 预处理输入内容
             # important print
-            # print(f"[Berore:{filtered_input}]")
+            print(f"[Berore:{filtered_input}]")
             filtered_input = " ".join(
                 preprocessor.preprocess_data(filtered_input))
-            # print(f"[After:{filtered_input}]")
+            print(f"[After:{filtered_input}]")
             # 意图分析
             intent_num = self.predict_intent(filtered_input, vectorizer, model)
             # 生成回答内容

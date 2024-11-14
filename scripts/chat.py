@@ -71,8 +71,8 @@ class ChatController:
             response = ""
 
         return response
-    # 根据意图回答问题
 
+    # 根据意图回答问题
     def answer_question(self, user_input, model, intent_num):
         response = self.answer_by_context(user_input)
         if response != "":
@@ -135,7 +135,7 @@ class ChatController:
         intent_menu = Utils.read_json(Constants.INTENT_LABEL_FILEPATH)
         # 显示意图
         # //important print
-        print(f"[Intention:{intent_menu[str(intent_num)]}]")
+        # print(f"[Intention:{intent_menu[str(intent_num)]}]")
         return intent_num
 
     def chat(self):
@@ -168,10 +168,10 @@ class ChatController:
                 break
             # 预处理输入内容
             # important print
-            print(f"[Berore:{filtered_input}]")
+            # print(f"[Berore:{filtered_input}]")
             filtered_input = " ".join(
                 preprocessor.preprocess_data(filtered_input))
-            print(f"[After:{filtered_input}]")
+            # print(f"[After:{filtered_input}]")
             # 意图分析
             intent_num = self.predict_intent(filtered_input, vectorizer, model)
             # 生成回答内容

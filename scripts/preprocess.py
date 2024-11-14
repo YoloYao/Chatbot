@@ -60,12 +60,13 @@ class PreProcessController:
 
     # 检查停用词处理是否跳过
     def check_stopwords(self, check_str):
-        special_strs = Utils.read_file_by_line(Constants.SPECIAL_SENTENCES_FILEPATH)
+        special_strs = Utils.read_file_by_line(
+            Constants.SPECIAL_SENTENCES_FILEPATH)
         for item in special_strs:
             if item in check_str:
                 return True
         return False
-        
+
     # 生成n-gram特征
     def generate_ngrams(self, tokens, n):
         n_grams = list(ngrams(tokens, n))
@@ -122,7 +123,7 @@ class PreProcessController:
         file_name1 = Constants.INTENT_ANSWER_FILE_NAME
         label_name1 = Constants.ANSWER_LABEL
         self.preprocess_csv_corpus(file_name1, label_name1)
-        
+
     def preprocess_csv_corpus(self, file_name, label_name):
         self.init()
         file_dir = Constants.DATA_FILE_DIR
@@ -151,7 +152,7 @@ class PreProcessController:
         #     print(tokens2[data[Constants.INTENT_LABEL] == i].head())
         csv_data['Label'] = labels
         csv_data.to_csv('./data/labeled_CW1_Dataset.csv', index=False)
-    
+
     def refresh_dataset_numbers(self):
         self.init()
         csv_data1 = pd.read_csv("data/dataset2.csv", encoding='latin1')
@@ -159,13 +160,13 @@ class PreProcessController:
         num_list1 = []
         for i in range(len(csv_data1['intent'])):
             num_list1.append(i)
-            i+=1
-        csv_data1['number']=num_list1
+            i += 1
+        csv_data1['number'] = num_list1
         num_list2 = []
         for i in range(len(csv_data2['intent'])):
             num_list2.append(i)
-            i+=1
-        csv_data2['number']=num_list2
+            i += 1
+        csv_data2['number'] = num_list2
         # new_data = {
         #     "intent": [],
         #     "question": []
@@ -184,7 +185,7 @@ class PreProcessController:
         # data_frame2.to_csv('./data/answer/small_talk_answer.csv', index=False)
         csv_data1.to_csv('./data/dataset.csv', encoding='utf-8', index=False)
         csv_data2.to_csv('./data/answer.csv', encoding='utf-8', index=False)
-        
+
     # 预处理文本数据集
     def preprocess_text_corpus(self):
         self.init()

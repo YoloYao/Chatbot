@@ -42,7 +42,7 @@ class TrainModelController:
             new_labels = df[df[Constants.INTENT_LABEL] ==
                             i][Constants.INTENT_LABEL].reset_index(drop=True)
             numbers = df[df[Constants.INTENT_LABEL] ==
-                            i][Constants.NUMBER_LABEL].reset_index(drop=True)
+                         i][Constants.NUMBER_LABEL].reset_index(drop=True)
             transModel = Model()
             transModel.init(None, None)
             # 生成数据集的向量空间

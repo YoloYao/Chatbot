@@ -1,499 +1,577 @@
-intent,question,cleaned text
-3,What is the the North American Free Trade Agreement?,north american free trade agreement
-3,what is tmz stand for,tmz stand
-3,what is impingement of the shoulder,impingement shoulder
-3,where is La Palma africa,la palma africa
-3,where was hillary clinton born,hillary clinton born
-3,who was the first one to invent medicine,first one invent medicine
-3,When was 27th amendment proposed,27th amendment proposed
-3,what is singapore's currency,singapore currency
-3,Who was Daniel J Daly?,daniel j daly
-3,where was paul revere born,paul revere born
-3,what is the plot of the shawshank redemption?,plot shawshank redemption
-3,what is an information technology manager,information technology manager
-3,what is the scientific name of a cardinal bird,scientific name cardinal bird
-3,where are kenworth trucks built,kenworth truck built
-3,what is the type of democracy in which all citizens have the right to make  government decisions,type democracy citizen right make government decision
-3,when is the feast of St. Rita,feast st. rita
-3,where is j.cole from,j.cole
-3,what is ratchet from ratchet and clank,ratchet ratchet clank
-3,where was the first real roller coaster,first real roller coaster
-3,what is in a will,
-3,what is the gdp for greenland 2010?,gdp greenland 2010
-3,What is hydrogen in,hydrogen
-3,where is UWA on world list of universities,uwa world list university
-3,what is bracketing in photography,bracketing photography
-3,What is the disk defragmenter tool,disk defragmenter tool
-3,what is level of agreement mean,level agreement mean
-3,when was purple haze by jimi hendrix made?,purple haze jimi hendrix made
-3,where was martin luther born,martin luther born
-3,who is the actor that plays harry potter,actor play harry potter
-3,"what is the concept of ""wellness"" ?",concept wellness
-3,what is the mortality rate of sepsis,mortality rate sepsis
-3,where is kos from?,ko
-3,what is the defensive line in football called,defensive line football called
-3,what is the measurements of saturn's moons,measurement saturn moon
-3,what is the @ sign called?,sign called
-3,who is the book the catcher in the rye by?,book catcher rye
-3,who are the girls from the bad girls club?,girl bad girl club
-3,what is prince williams last name,prince williams last name
-3,what is IBRIX,ibrix
-3,what is bilirubin total,bilirubin total
-3,what was bernie madoff selling,bernie madoff selling
-3,what is quasi judicial agency,quasi judicial agency
-3,who is inventor of the radio,inventor radio
-3,who is the founder of twitter,founder twitter
-3,what is scurvy disease,scurvy disease
-3,what is google openid,google openid
-3,who is bj's wholesale club,bjs wholesale club
-3,what is atherosclerotic heart disease,atherosclerotic heart disease
-3,what is atherosclerotic heart disease,atherosclerotic heart disease
-3,what is atherosclerotic heart disease,atherosclerotic heart disease
-3,what is atherosclerotic heart disease,atherosclerotic heart disease
-3,what was the name of the uss john kennedy before,name us john kennedy
-3,what is the name of the wizard of oz,name wizard oz
-3,what is the name of the wizard of oz,name wizard oz
-3,what were 3 important things that douglas MacArthur did?,3 important thing douglas macarthur
-3,what is homebrew for wii,homebrew wii
-3,what is homebrew for wii,homebrew wii
-3,what is santa's wife's name,santa wife name
-3,when was Saddle Creek founded,saddle creek founded
-3,what is korean money called,korean money called
-3,what is three phase electrical,three phase electrical
-3,What is the significance of Good Friday?,significance good friday
-3,What is the significance of Good Friday?,significance good friday
-3,What is the significance of Good Friday?,significance good friday
-3,Who is the highest scoring NBA player,highest scoring nba player
-3,where is the great basin located on a us map,great basin located u map
-3,what is direct marketing channel,direct marketing channel
-3,what was the date of pearl harbor,date pearl harbor
-3,what is disney's magic kingdom,disney magic kingdom
-3,what is the kanji for language,kanji language
-3,what is in fruitcake,fruitcake
-3,what is the name of the family who own the biltmore estates in nc,name family biltmore estate nc
-3,who was the congressman who was caught with an escort in ny,congressman caught escort ny
-3,where are the kidneys in your body,kidney body
-3,what is lockton affinity,lockton affinity
-3,what is lockton affinity,lockton affinity
-3,what is white chocolate made of,white chocolate made
-3,what is the latest season of psych,latest season psych
-3,what is the main component of vaccines,main component vaccine
-3,what is the name of chris cornell's band?,name chris cornell band
-3,what is preciosa crystal?,preciosa crystal
-3,where is the chupacabra found,chupacabra found
-3,What is the purpose of North American Free Trade Agreement,purpose north american free trade agreement
-3,who are all of the jonas brothers,jonas brother
-3,what is in the alpine mountain systems,alpine mountain system
-3,what is in the alpine mountain systems,alpine mountain system
-3,who is mary matalin married to,mary matalin married
-3,where is basque spoken,basque spoken
-3,where is the brisket from,brisket
-3,what is human chorionic,human chorionic
-3,where is dear john filmed at,dear john filmed
-3,what is busiest airport in US,busiest airport u
-3,where is osaka japan,osaka japan
-3,where is osaka japan,osaka japan
-3,what is surname and given name,surname given name
-3,what is melissa and joey about,melissa joey
-3,What is an economic feature?,economic feature
-3,What is an economic feature?,economic feature
-3,What is an economic feature?,economic feature
-3,what is the average american income,average american income
-3,When was Apple Computer founded,apple computer founded
-3,what is section eight housing,section eight housing
-3,what is section eight housing,section eight housing
-3,what are stocks and bonds,stock bond
-0,Hello! How are you today?,hello today
-0,Hi there! Nice to meet you!,hi nice meet
-0,Good morning! What's on your mind?,good morning whats mind
-0,How are you doing?,
-0,How are you,
-0,Hey! What's new?,hey whats new
-0,Greetings! How can I assist you today?,greeting assist today
-0,Hi! What's up?,hi whats
-0,Hello! How can I be of service?,hello service
-0,Hi! Hope you're having a good day!,hi hope youre good day
-0,Hey there! How can I support you today?,hey support today
-0,Hi there! How's your day going?,hi hows day going
-0,Good to see you! What brings you here today?,good see brings today
-0,How's everything with you?,hows everything
-0,Hello! Hope you're doing well.,hello hope youre well .
-0,Hey! Long time no see!,hey long time see
-0,Hi! What can I help you with today?,hi help today
-0,Good afternoon! How can I assist?,good afternoon assist
-0,Hello! Anything I can do for you?,hello anything
-0,Hi! What's happening?,hi whats happening
-0,Greetings! What's new?,greeting whats new
-0,Hi! How have you been?,hi
-0,Hello! What's your day like?,hello whats day like
-0,Good evening! How can I be of service?,good evening service
-0,Hey! What's going on?,hey whats going
-0,Hi! Anything interesting happening?,hi anything interesting happening
-0,Hello there! How can I help you today?,hello help today
-0,Greetings! What's on your mind?,greeting whats mind
-0,Hi! How's it going?,hi hows going
-0,Hello! Hope you're having a good time.,hello hope youre good time .
-0,Hey! How's your week so far?,hey hows week far
-0,Hi! What would you like to talk about?,hi would like talk
-0,Hello! Anything exciting to share?,hello anything exciting share
-0,Hi! How are things with you?,hi thing
-0,Good day! How can I assist you?,good day assist
-0,Hey! What's new and exciting?,hey whats new exciting
-0,Hi! How's your morning/afternoon/evening?,hi hows morningafternoonevening
-0,Greetings! What can I do for you today?,greeting today
-0,Hello! Need any help?,hello need help
-0,Hey! What's happening in your world?,hey whats happening world
-0,Hi! How's your weekend going?,hi hows weekend going
-0,Good morning! Ready to chat?,good morning ready chat
-0,Hello! What's your plan for today?,hello whats plan today
-0,Hi there! What's the latest?,hi whats latest
-0,Hey! Do you have a minute to chat?,hey minute chat
-0,Hello! How can I brighten your day?,hello brighten day
-0,Hi! Anything on your mind?,hi anything mind
-0,Greetings! Hope you're doing well.,greeting hope youre well .
-0,Hello! Long time no talk!,hello long time talk
-0,Hey! What brings you here?,hey brings
-0,Hi! Great to see you.,hi great see .
-0,Good evening! How has your day been?,good evening day
-0,Hello! What's keeping you busy these days?,hello whats keeping busy day
-0,Hi! Let's catch up.,hi let catch .
-0,Hey there! Ready to share your thoughts?,hey ready share thought
-0,Good day! Any special plans?,good day special plan
-0,Hello! What can I help you achieve today?,hello help achieve today
-0,Hi! Want to chat for a bit?,hi want chat bit
-0,Greetings! How may I assist you?,greeting may assist
-0,Hey! Hope everything's good on your end.,hey hope everythings good end .
-0,Hi! Got any fun stories?,hi got fun story
-0,Hello! How's life treating you?,hello hows life treating
-0,Hey! How was your last trip/adventure?,hey last tripadventure
-0,Hi! What's up with you lately?,hi whats lately
-0,Hello! Looking forward to anything exciting?,hello looking forward anything exciting
-0,Good day! How's your mood today?,good day hows mood today
-0,Hi! Anything you'd like to discuss?,hi anything youd like discus
-0,Greetings! Tell me something interesting.,greeting tell something interesting .
-0,Hello! Want to talk about your favorite things?,hello want talk favorite thing
-0,Hey! Any cool recommendations you have?,hey cool recommendation
-0,Hi! I'm all ears. What's on your mind?,hi im ear . whats mind
-0,Hello! How are you?,hello
-0,Hi! How's it going?,hi hows going
-0,Good morning! How are you today?,good morning today
-0,Hey! What's up?,hey whats
-0,Hi there! What's new?,hi whats new
-0,Hello! Hope you're well.,hello hope youre well .
-0,Hey! How have you been?,hey
-0,Hi! How's your day?,hi hows day
-0,Hello! How's everything going?,hello hows everything going
-0,Good evening! How are you doing?,good evening
-0,Hi! What's going on?,hi whats going
-0,Hey! How's life?,hey hows life
-0,Hello! How's it been?,hello hows
-0,Hi! How are things?,hi thing
-0,Good day! How are you feeling?,good day feeling
-0,Hey! How's today treating you?,hey hows today treating
-0,Hi there! How have you been lately?,hi lately
-0,Hello! What's on your mind today?,hello whats mind today
-0,Hey! How do you do?,hey
-0,Hi! What's happening?,hi whats happening
-0,Hello! What brings you here?,hello brings
-0,Hi! How's your week been?,hi hows week
-0,Hey! How are you holding up?,hey holding
-0,Hi! What's your mood like today?,hi whats mood like today
-0,Good morning! How can I help?,good morning help
-0,Hello! Nice to see you.,hello nice see .
-0,Hey! Got a moment to chat?,hey got moment chat
-0,Hi! How's your evening?,hi hows evening
-0,Hello! What can I do for you today?,hello today
-0,Hey! Hope your day is going well.,hey hope day going well .
-1,How do I reset my password?,reset password
-1,Can I change my account email address?,change account email address
-1,What steps do I take to recover my username?,step take recover username
-1,How can I update my security questions?,update security question
-1,How do I enable two-factor authentication?,enable twofactor authentication
-1,Can I link my account with social media?,link account social medium
-1,How do I update my profile information?,update profile information
-1,What should I do if my account is locked?,account locked
-1,How can I delete my account permanently?,delete account permanently
-1,Is it possible to change my username?,possible change username
-1,How do I change my password?,change password
-1,What should I do if I forget my security question answers?,forget security question answer
-1,Can I update my phone number linked to the account?,update phone number linked account
-1,How do I enable login alerts?,enable login alert
-1,How do I recover a deleted account?,recover deleted account
-1,Is it possible to disable two-factor authentication?,possible disable twofactor authentication
-1,How can I verify my email address?,verify email address
-1,Where can I check my recent login activity?,check recent login activity
-1,How do I secure my account from unauthorized access?,secure account unauthorized access
-1,Can I add a backup email for recovery?,add backup email recovery
-1,What options do I have for account recovery?,option account recovery
-1,How do I restrict access to my profile?,restrict access profile
-1,Can I temporarily deactivate my account?,temporarily deactivate account
-1,What steps should I take to change my security settings?,step take change security setting
-1,Is there a way to unlink my account from third-party services?,way unlink account thirdparty service
-1,How can I add an alternative phone number for verification?,add alternative phone number verification
-1,Can I remove saved login details from my account?,remove saved login detail account
-1,How do I check if my account has been compromised?,check account compromised
-1,How do I change my profile picture?,change profile picture
-1,Is there a way to lock my account manually?,way lock account manually
-1,How can I deactivate account recovery options?,deactivate account recovery option
-1,Can I customize my account's privacy settings?,customize account privacy setting
-1,How do I set up a new security PIN?,set new security pin
-1,What should I do if I suspect my account was hacked?,suspect account hacked
-1,How do I manage connected devices?,manage connected device
-1,Can I receive alerts for login attempts from unknown locations?,receive alert login attempt unknown location
-1,Where can I manage linked accounts?,manage linked account
-1,How do I add a recovery question to my account?,add recovery question account
-1,Is it possible to view my account's access history?,possible view account access history
-1,How can I prevent unauthorized logins?,prevent unauthorized logins
-1,How do I enable automatic account lockout?,enable automatic account lockout
-1,Can I set specific login hours for my account?,set specific login hour account
-1,How can I verify my phone number?,verify phone number
-1,Where can I see the devices logged into my account?,see device logged account
-1,How do I enable or disable login notifications?,enable disable login notification
-1,Can I limit access to specific devices?,limit access specific device
-1,How do I set up a security phrase for verification?,set security phrase verification
-1,Can I restrict access based on geographic location?,restrict access based geographic location
-1,How can I delete my backup recovery methods?,delete backup recovery method
-1,Is there a way to check login attempts?,way check login attempt
-1,How do I verify my account through a phone call?,verify account phone call
-1,Can I change my recovery email?,change recovery email
-1,How do I restrict logins to specific IP addresses?,restrict logins specific ip address
-1,What happens if I enter the wrong password too many times?,happens enter wrong password many time
-1,How can I make my profile private?,make profile private
-1,How do I create a strong password?,create strong password
-1,Is there a way to enable biometric login?,way enable biometric login
-1,How can I link another email to my account?,link another email account
-1,Can I receive notifications for changes made to my account?,receive notification change made account
-1,How do I review past login sessions?,review past login session
-1,Is it possible to delete my profile information?,possible delete profile information
-1,How can I change my email?,change email
-1,How do I update my phone number?,update phone number
-1,Can I reset my password?,reset password
-1,How do I delete my account?,delete account
-1,What should I do if I forget my username?,forget username
-1,How do I link my social media account?,link social medium account
-1,Can I update my security settings?,update security setting
-1,How do I check my login history?,check login history
-1,How can I change my username?,change username
-1,How do I recover my account?,recover account
-1,Where can I find my account settings?,find account setting
-1,How do I enable two-factor authentication?,enable twofactor authentication
-1,Can I remove a linked device?,remove linked device
-1,How do I change my profile picture?,change profile picture
-1,How can I add a recovery email?,add recovery email
-1,How do I make my profile private?,make profile private
-1,What should I do if my account is locked?,account locked
-1,Can I receive alerts for account changes?,receive alert account change
-1,How do I verify my phone number?,verify phone number
-1,How can I update my security questions?,update security question
-2,Can you recommend some popular attractions nearby?,recommend popular attraction nearby
-2,Where can I find a good restaurant?,find good restaurant
-2,What are some must-see places in the area?,mustsee place area
-2,Are there any parks close to me?,park close
-2,Where can I go shopping?,go shopping
-2,Can you suggest a nearby coffee shop?,suggest nearby coffee shop
-2,What events are happening this weekend?,event happening weekend
-2,Are there any local museums worth visiting?,local museum worth visiting
-2,Can you find me a nearby bookstore?,find nearby bookstore
-2,Where's a good spot for hiking?,wheres good spot hiking
-2,Are there any concerts happening tonight?,concert happening tonight
-2,Where can I find fresh produce markets?,find fresh produce market
-2,Can you recommend a quiet place to relax?,recommend quiet place relax
-2,Where are the best places for sightseeing?,best place sightseeing
-2,Are there any art galleries nearby?,art gallery nearby
-2,Can you find me a gym or fitness center?,find gym fitness center
-2,Where can I see live music?,see live music
-2,What's a popular place to watch the sunset?,whats popular place watch sunset
-2,Are there any nearby theaters?,nearby theater
-2,Can you suggest a good walking trail?,suggest good walking trail
-2,What are some good places for a weekend trip?,good place weekend trip
-2,Can you find me a pet-friendly park?,find petfriendly park
-2,Where's the best spot for photography?,wheres best spot photography
-2,Are there any local breweries nearby?,local brewery nearby
-2,Can you recommend a popular tourist area?,recommend popular tourist area
-2,Where can I go for a picnic?,go picnic
-2,What's the nearest library?,whats nearest library
-2,Are there any good wine tasting spots?,good wine tasting spot
-2,Can you find a nearby yoga class?,find nearby yoga class
-2,Where are the best scenic views in the city?,best scenic view city
-2,Is there a flea market happening soon?,flea market happening soon
-2,Can you find me a good seafood restaurant?,find good seafood restaurant
-2,Are there any free attractions nearby?,free attraction nearby
-2,Where can I go kayaking?,go kayaking
-2,What are the best beaches around?,best beach around
-2,Can you suggest a place for night walks?,suggest place night walk
-2,Where is the nearest art supply store?,nearest art supply store
-2,Are there any guided tours available?,guided tour available
-2,Where can I find a farmers' market?,find farmer market
-2,What's the best local cuisine spot?,whats best local cuisine spot
-2,Can you recommend a bookstore caf¨¦?,recommend bookstore caf¨¦
-2,Where's a quiet place to read?,wheres quiet place read
-2,Are there any historical landmarks to visit?,historical landmark visit
-2,Where can I find unique local crafts?,find unique local craft
-2,Are there any upcoming theater performances?,upcoming theater performance
-2,Where's a good spot to watch sports games?,wheres good spot watch sport game
-2,What are some family-friendly activities?,familyfriendly activity
-2,Can you suggest a good spa nearby?,suggest good spa nearby
-2,Are there any cooking classes around?,cooking class around
-2,Where can I rent bikes?,rent bike
-2,What are the top-rated bakeries here?,toprated bakery
-2,Is there a nearby community center?,nearby community center
-2,Where's the best area for antique shopping?,wheres best area antique shopping
-2,Can you recommend an outdoor dining spot?,recommend outdoor dining spot
-2,Where can I try local street food?,try local street food
-2,Are there any jazz clubs around?,jazz club around
-2,Can you find me a karaoke bar?,find karaoke bar
-2,Where can I find organic food stores?,find organic food store
-2,What are some good hiking trails?,good hiking trail
-2,Is there a fitness center open 24 hours?,fitness center open 24 hour
-2,Where's a good spot to take kids?,wheres good spot take kid
-2,Can you suggest a good rooftop bar?,suggest good rooftop bar
-2,Where's a romantic place for dinner?,wheres romantic place dinner
-2,Are there any nearby hot springs?,nearby hot spring
-2,Can you recommend a co-working space?,recommend coworking space
-2,Where can I see the stars clearly?,see star clearly
-2,What are the best spots for street food?,best spot street food
-2,Are there any local festivals this month?,local festival month
-2,Where can I buy artisanal cheese?,buy artisanal cheese
-2,Can you suggest a scenic driving route?,suggest scenic driving route
-2,Where can I find a nearby park?,find nearby park
-2,Are there any good cafes around?,good cafe around
-2,Can you recommend a place to eat?,recommend place eat
-2,Where's the nearest grocery store?,wheres nearest grocery store
-2,Are there any museums close by?,museum close
-2,Where can I buy fresh fruits?,buy fresh fruit
-2,Is there a library nearby?,library nearby
-2,Can you find a quiet place to relax?,find quiet place relax
-2,Where's a good spot for a walk?,wheres good spot walk
-2,Are there any local events today?,local event today
-2,Can you suggest a place for dinner?,suggest place dinner
-2,Where is the nearest hospital?,nearest hospital
-2,Are there any playgrounds for kids?,playground kid
-2,Where's a good place for shopping?,wheres good place shopping
-2,Can you find a bookstore for me?,find bookstore
-2,Where can I get coffee?,get coffee
-2,Is there a gym nearby?,gym nearby
-2,Where can I find a bakery?,find bakery
-2,Are there any markets around here?,market around
-2,Where can I go for a swim?,go swim
-3,How are you today?,today
-3,What's your favorite color?,whats favorite color
-3,Do you have any hobbies?,hobby
-3,What's your favorite movie?,whats favorite movie
-3,How's the weather today?,hows weather today
-3,Have you read any good books lately?,read good book lately
-3,What kind of music do you like?,kind music like
-3,Do you like coffee or tea?,like coffee tea
-3,What's your favorite food?,whats favorite food
-3,Do you enjoy traveling?,enjoy traveling
-3,How was your day?,day
-3,What's your favorite animal?,whats favorite animal
-3,Do you like sports?,like sport
-3,What do you do for fun?,fun
-3,Are you a morning person?,morning person
-3,What's your favorite season?,whats favorite season
-3,Have you watched any good shows recently?,watched good show recently
-3,What's your dream job?,whats dream job
-3,Do you prefer the beach or the mountains?,prefer beach mountain
-3,What's your favorite way to relax?,whats favorite way relax
-3,What did you do over the weekend?,weekend
-3,Do you have a favorite TV show?,favorite tv show
-3,What's your favorite holiday?,whats favorite holiday
-3,Do you like animals?,like animal
-3,What kind of books do you enjoy?,kind book enjoy
-3,Have you ever been on a road trip?,ever road trip
-3,What do you like to do on weekends?,like weekend
-3,Do you play any musical instruments?,play musical instrument
-3,What's your favorite dessert?,whats favorite dessert
-3,Are you into video games?,video game
-3,Do you enjoy cooking?,enjoy cooking
-3,Have you been to any interesting places?,interesting place
-3,What's your favorite childhood memory?,whats favorite childhood memory
-3,Do you like art?,like art
-3,How do you stay active?,stay active
-3,What's your go-to comfort food?,whats goto comfort food
-3,Do you enjoy puzzles or brain teasers?,enjoy puzzle brain teaser
-3,Have you ever gone hiking?,ever gone hiking
-3,What's something you're passionate about?,whats something youre passionate
-3,Do you have a pet?,pet
-3,Are you more of an introvert or extrovert?,introvert extrovert
-3,What's your favorite ice cream flavor?,whats favorite ice cream flavor
-3,How do you usually spend your free time?,usually spend free time
-3,Have you tried any new recipes lately?,tried new recipe lately
-3,What's your favorite genre of movies?,whats favorite genre movie
-3,Do you like camping?,like camping
-3,What's your ideal vacation spot?,whats ideal vacation spot
-3,Have you been to any live concerts?,live concert
-3,Do you enjoy board games?,enjoy board game
-3,What's the best gift you've ever received?,whats best gift youve ever received
-3,Are you a fan of any sports teams?,fan sport team
-3,Do you prefer reading fiction or non-fiction?,prefer reading fiction nonfiction
-3,Have you ever kept a journal?,ever kept journal
-3,What's a skill you'd like to learn?,whats skill youd like learn
-3,Do you collect anything?,collect anything
-3,What's your favorite thing about your city?,whats favorite thing city
-3,Do you have a role model?,role model
-3,Are you into gardening?,gardening
-3,What's the last movie you watched?,whats last movie watched
-3,Do you enjoy DIY projects?,enjoy diy project
-3,What's your favorite thing to do outdoors?,whats favorite thing outdoors
-3,Have you ever gone fishing?,ever gone fishing
-3,What's your favorite beverage?,whats favorite beverage
-3,Are you interested in history?,interested history
-3,Do you have any phobias?,phobia
-3,How do you unwind after a long day?,unwind long day
-3,Do you like to dance?,like dance
-3,What's your favorite breakfast?,whats favorite breakfast
-3,Have you ever tried meditation?,ever tried meditation
-3,What's a fun fact about you?,whats fun fact
-3,Do you enjoy writing?,enjoy writing
-3,Do you enjoy listening to podcasts?,enjoy listening podcasts
-3,What's your favorite sport?,whats favorite sport
-3,Have you ever tried a new hobby recently?,ever tried new hobby recently
-3,Do you like going to the movies?,like going movie
-3,What's your favorite type of weather?,whats favorite type weather
-3,Are you a coffee or tea person?,coffee tea person
-3,What's something you're looking forward to?,whats something youre looking forward
-3,Do you like spicy food?,like spicy food
-3,Have you ever been to a theme park?,ever theme park
-3,What's a skill you admire in others?,whats skill admire others
-3,Are you into puzzles and riddles?,puzzle riddle
-3,What's your favorite animal and why?,whats favorite animal
-3,Do you prefer morning or night?,prefer morning night
-3,What's the best meal you've ever had?,whats best meal youve ever
-3,Do you have a favorite flower?,favorite flower
-3,How do you stay organized?,stay organized
-3,What's something you'd like to change in the world?,whats something youd like change world
-3,Are you a tech enthusiast?,tech enthusiast
-3,What's your favorite childhood cartoon?,whats favorite childhood cartoon
-3,Do you enjoy swimming?,enjoy swimming
-3,How do you celebrate your birthday?,celebrate birthday
-3,Are you more of a planner or spontaneous?,planner spontaneous
-3,Do you like to draw or paint?,like draw paint
-3,What's the most fun trip you've been on?,whats fun trip youve
-3,Do you have any pets?,pet
-3,What's your favorite thing about weekends?,whats favorite thing weekend
-3,Do you like taking long walks?,like taking long walk
-3,How do you relax at the end of the day?,relax end day
-3,Have you ever been on a boat?,ever boat
-3,What's the best advice you've received?,whats best advice youve received
-3,Do you enjoy rainy days?,enjoy rainy day
-3,What's your favorite season of the year?,whats favorite season year
-3,Have you ever baked a cake?,ever baked cake
-3,Do you like trying new foods?,like trying new food
-3,What's a movie you can watch over and over?,whats movie watch
-3,Do you have a favorite holiday tradition?,favorite holiday tradition
-3,What do you usually do on a lazy day?,usually lazy day
-3,Are you a cat person or a dog person?,cat person dog person
-3,Have you traveled to any new places recently?,traveled new place recently
-3,What's your dream destination?,whats dream destination
-3,Do you enjoy playing any sports?,enjoy playing sport
-3,How do you usually start your mornings?,usually start morning
-3,Have you tried any outdoor activities lately?,tried outdoor activity lately
-3,What's your favorite memory from last year?,whats favorite memory last year
-3,Are you into fashion?,fashion
-3,What's your favorite thing to do with friends?,whats favorite thing friend
-3,Do you collect anything special?,collect anything special
-3,Have you ever tried journaling?,ever tried journaling
-3,What kind of music helps you focus?,kind music help focus
-3,What's your go-to meal when you're hungry?,whats goto meal youre hungry
-3,Do you enjoy stargazing?,enjoy stargazing
+intent,question,number,cleaned text
+0,Hello!,0,hello
+0,Nice to meet you!,1,nice meet
+0,Good morning! What's on your mind?,2,good morning whats mind
+0,How are you doing?,3,how are you doing
+0,How are you,4,how are you
+0,Hey!,5,hey
+0,Greetings! How can I assist you today?,6,greeting assist today
+0,Hi! What's up?,7,hi whats up
+0,How can I be of service?,8,service
+0,Hope you're having a good day!,9,hope youre good day
+0,Hey there! How can I support you today?,10,hey support today
+0,Hi there! How's your day going?,11,hi hows day going
+0,Good to see you! What brings you here today?,12,good see brings today
+0,How's everything with you?,13,hows everything
+0,Hope you're doing well.,14,hope youre well .
+0,Hey! Long time no see!,15,hey long time see
+0,What can I help you with today?,16,help today
+0,Good afternoon! How can I assist?,17,good afternoon assist
+0,Hello! Anything I can do for you?,18,hello anything
+0,What's happening?,19,whats happening
+0,Greetings! What's new?,20,greeting whats new
+0,How have you been?,21,
+0,Hello! What's your day like?,22,hello whats day like
+0,Good evening! How can I be of service?,23,good evening service
+0,Hey! What's going on?,24,hey whats going
+0,Anything interesting happening?,25,anything interesting happening
+0,How can I help you today?,26,help today
+0,Greetings! What's on your mind?,27,greeting whats mind
+0,How's it going?,28,hows going
+0,Hope you're having a good time.,29,hope youre good time .
+0,Hey! How's your week so far?,30,hey hows week far
+0,What would you like to talk about?,31,would like talk
+0,Anything exciting to share?,32,anything exciting share
+0,How are things with you?,33,thing
+0,Good day! How can I assist you?,34,good day assist
+0,Hey! What's new and exciting?,35,hey whats new exciting
+0,How's your morning/afternoon/evening?,36,hows morningafternoonevening
+0,Greetings! What can I do for you today?,37,greeting today
+0,Hey! What's happening in your world?,38,hey whats happening world
+0,How's your weekend going?,39,hows weekend going
+0,Good morning! Ready to chat?,40,good morning ready chat
+0,What's your plan for today?,41,whats plan today
+0,Hi there! What's the latest?,42,hi whats latest
+0,Hey! Do you have a minute to chat?,43,hey minute chat
+0,How can I brighten your day?,44,brighten day
+0,Anything on your mind?,45,anything mind
+0,Greetings! Hope you're doing well.,46,greeting hope youre well .
+0,Hi! Long time no talk!,47,hi long time talk
+0,Hey! What brings you here?,48,hey brings
+0,Hello! How are you?,49,hello how are you
+0,Hi! How's it going?,50,hi hows going
+0,Good morning! How are you today?,51,good morning how are you today
+0,Hey! What's up?,52,hey whats up
+0,Hi there! What's new?,53,hi whats new
+0,Hello! Hope you're well.,54,hello hope youre well .
+0,Hey! How have you been?,55,hey
+0,Hi! How's your day?,56,hi hows day
+0,Hello! How's everything going?,57,hello hows everything going
+0,Good evening! How are you doing?,58,good evening how are you doing
+0,Hi! What's going on?,59,hi whats going
+0,Hey! How's life?,60,hey hows life
+0,Hello! How's it been?,61,hello hows
+0,How are things?,62,thing
+0,Good day! How are you feeling?,63,good day how are you feeling
+0,Hey! How's today treating you?,64,hey hows today treating
+0,How have you been lately?,65,lately
+0,What's on your mind today?,66,whats mind today
+0,Hey! How do you do?,67,hey
+0,Nice to meet you!,68,nice meet
+0,Nice to meet you!,69,nice meet
+0,Nice to meet you!,70,nice meet
+0,Nice to meet you!,71,nice meet
+0,Nice to meet you!,72,nice meet
+0,Nice to meet you!,73,nice meet
+0,Nice to meet you!,74,nice meet
+0,Nice to meet you!,75,nice meet
+0,Nice to meet you!,76,nice meet
+0,Nice to meet you!,77,nice meet
+0,How are you,78,how are you
+0,How are you,79,how are you
+0,How are you,80,how are you
+0,How are you,81,how are you
+0,How are you,82,how are you
+1,How do I reset my password?,83,reset password
+1,Can I change my account email address?,84,change account email address
+1,What steps do I take to recover my username?,85,step take recover username
+1,How can I update my security questions?,86,update security question
+1,How do I enable two-factor authentication?,87,enable twofactor authentication
+1,Can I link my account with social media?,88,link account social medium
+1,How do I update my profile information?,89,update profile information
+1,What should I do if my account is locked?,90,account locked
+1,How can I delete my account permanently?,91,delete account permanently
+1,Is it possible to change my username?,92,possible change username
+1,How do I change my password?,93,change password
+1,What should I do if I forget my security question answers?,94,forget security question answer
+1,Can I update my phone number linked to the account?,95,update phone number linked account
+1,How do I enable login alerts?,96,enable login alert
+1,How do I recover a deleted account?,97,recover deleted account
+1,Is it possible to disable two-factor authentication?,98,possible disable twofactor authentication
+1,How can I verify my email address?,99,verify email address
+1,Where can I check my recent login activity?,100,check recent login activity
+1,How do I secure my account from unauthorized access?,101,secure account unauthorized access
+1,Can I add a backup email for recovery?,102,add backup email recovery
+1,What options do I have for account recovery?,103,option account recovery
+1,How do I restrict access to my profile?,104,restrict access profile
+1,Can I temporarily deactivate my account?,105,temporarily deactivate account
+1,What steps should I take to change my security settings?,106,step take change security setting
+1,Is there a way to unlink my account from third-party services?,107,way unlink account thirdparty service
+1,How can I add an alternative phone number for verification?,108,add alternative phone number verification
+1,Can I remove saved login details from my account?,109,remove saved login detail account
+1,How do I check if my account has been compromised?,110,check account ha compromised
+1,How do I change my profile picture?,111,change profile picture
+1,Is there a way to lock my account manually?,112,way lock account manually
+1,How can I deactivate account recovery options?,113,deactivate account recovery option
+1,Can I customize my account's privacy settings?,114,customize account privacy setting
+1,How do I set up a new security PIN?,115,set new security pin
+1,What should I do if I suspect my account was hacked?,116,suspect account wa hacked
+1,How do I manage connected devices?,117,manage connected device
+1,Can I receive alerts for login attempts from unknown locations?,118,receive alert login attempt unknown location
+1,Where can I manage linked accounts?,119,manage linked account
+1,How do I add a recovery question to my account?,120,add recovery question account
+1,Is it possible to view my account's access history?,121,possible view account access history
+1,How can I prevent unauthorized logins?,122,prevent unauthorized logins
+1,How do I enable automatic account lockout?,123,enable automatic account lockout
+1,Can I set specific login hours for my account?,124,set specific login hour account
+1,How can I verify my phone number?,125,verify phone number
+1,Where can I see the devices logged into my account?,126,see device logged account
+1,How do I enable or disable login notifications?,127,enable disable login notification
+1,Can I limit access to specific devices?,128,limit access specific device
+1,How do I set up a security phrase for verification?,129,set security phrase verification
+1,Can I restrict access based on geographic location?,130,restrict access based geographic location
+1,How can I delete my backup recovery methods?,131,delete backup recovery method
+1,Is there a way to check login attempts?,132,way check login attempt
+1,How do I verify my account through a phone call?,133,verify account phone call
+1,Can I change my recovery email?,134,change recovery email
+1,How do I restrict logins to specific IP addresses?,135,restrict logins specific ip address
+1,What happens if I enter the wrong password too many times?,136,happens enter wrong password many time
+1,How can I make my profile private?,137,make profile private
+1,How do I create a strong password?,138,create strong password
+1,Is there a way to enable biometric login?,139,way enable biometric login
+1,How can I link another email to my account?,140,link another email account
+1,Can I receive notifications for changes made to my account?,141,receive notification change made account
+1,How do I review past login sessions?,142,review past login session
+1,Is it possible to delete my profile information?,143,possible delete profile information
+1,How can I change my email?,144,change email
+1,How do I update my phone number?,145,update phone number
+1,Can I reset my password?,146,reset password
+1,How do I delete my account?,147,delete account
+1,What should I do if I forget my username?,148,forget username
+1,How do I link my social media account?,149,link social medium account
+1,Can I update my security settings?,150,update security setting
+1,How do I check my login history?,151,check login history
+1,How can I change my username?,152,change username
+1,How do I recover my account?,153,recover account
+1,Where can I find my account settings?,154,find account setting
+1,How do I enable two-factor authentication?,155,enable twofactor authentication
+1,Can I remove a linked device?,156,remove linked device
+1,How do I change my profile picture?,157,change profile picture
+1,How can I add a recovery email?,158,add recovery email
+1,How do I make my profile private?,159,make profile private
+1,What should I do if my account is locked?,160,account locked
+1,Can I receive alerts for account changes?,161,receive alert account change
+1,How do I verify my phone number?,162,verify phone number
+1,How can I update my security questions?,163,update security question
+2,Can you recommend some popular attractions nearby?,164,recommend popular attraction nearby
+2,Where can I find a good restaurant?,165,find good restaurant
+2,What are some must-see places in the area?,166,mustsee place area
+2,Are there any parks close to me?,167,park close
+2,Where can I go shopping?,168,go shopping
+2,Can you suggest a nearby coffee shop?,169,suggest nearby coffee shop
+2,What events are happening this weekend?,170,event happening weekend
+2,Are there any local museums worth visiting?,171,local museum worth visiting
+2,Can you find me a nearby bookstore?,172,find nearby bookstore
+2,Where's a good spot for hiking?,173,wheres good spot hiking
+2,Are there any concerts happening tonight?,174,concert happening tonight
+2,Where can I find fresh produce markets?,175,find fresh produce market
+2,Can you recommend a quiet place to relax?,176,recommend quiet place relax
+2,Where are the best places for sightseeing?,177,best place sightseeing
+2,Are there any art galleries nearby?,178,art gallery nearby
+2,Can you find me a gym or fitness center?,179,find gym fitness center
+2,Where can I see live music?,180,see live music
+2,What's a popular place to watch the sunset?,181,whats popular place watch sunset
+2,Are there any nearby theaters?,182,nearby theater
+2,Can you suggest a good walking trail?,183,suggest good walking trail
+2,What are some good places for a weekend trip?,184,good place weekend trip
+2,Can you find me a pet-friendly park?,185,find petfriendly park
+2,Where's the best spot for photography?,186,wheres best spot photography
+2,Are there any local breweries nearby?,187,local brewery nearby
+2,Can you recommend a popular tourist area?,188,recommend popular tourist area
+2,Where can I go for a picnic?,189,go picnic
+2,What's the nearest library?,190,whats nearest library
+2,Are there any good wine tasting spots?,191,good wine tasting spot
+2,Can you find a nearby yoga class?,192,find nearby yoga class
+2,Where are the best scenic views in the city?,193,best scenic view city
+2,Is there a flea market happening soon?,194,flea market happening soon
+2,Can you find me a good seafood restaurant?,195,find good seafood restaurant
+2,Are there any free attractions nearby?,196,free attraction nearby
+2,Where can I go kayaking?,197,go kayaking
+2,What are the best beaches around?,198,best beach around
+2,Can you suggest a place for night walks?,199,suggest place night walk
+2,Where is the nearest art supply store?,200,nearest art supply store
+2,Are there any guided tours available?,201,guided tour available
+2,Where can I find a farmers' market?,202,find farmer market
+2,What's the best local cuisine spot?,203,whats best local cuisine spot
+2,Can you recommend a bookstore cafe?,204,recommend bookstore cafe
+2,Where's a quiet place to read?,205,wheres quiet place read
+2,Are there any historical landmarks to visit?,206,historical landmark visit
+2,Where can I find unique local crafts?,207,find unique local craft
+2,Are there any upcoming theater performances?,208,upcoming theater performance
+2,Where's a good spot to watch sports games?,209,wheres good spot watch sport game
+2,What are some family-friendly activities?,210,familyfriendly activity
+2,Can you suggest a good spa nearby?,211,suggest good spa nearby
+2,Are there any cooking classes around?,212,cooking class around
+2,Where can I rent bikes?,213,rent bike
+2,What are the top-rated bakeries here?,214,toprated bakery
+2,Is there a nearby community center?,215,nearby community center
+2,Where's the best area for antique shopping?,216,wheres best area antique shopping
+2,Can you recommend an outdoor dining spot?,217,recommend outdoor dining spot
+2,Where can I try local street food?,218,try local street food
+2,Are there any jazz clubs around?,219,jazz club around
+2,Can you find me a karaoke bar?,220,find karaoke bar
+2,Where can I find organic food stores?,221,find organic food store
+2,What are some good hiking trails?,222,good hiking trail
+2,Is there a fitness center open 24 hours?,223,fitness center open 24 hour
+2,Where's a good spot to take kids?,224,wheres good spot take kid
+2,Can you suggest a good rooftop bar?,225,suggest good rooftop bar
+2,Where's a romantic place for dinner?,226,wheres romantic place dinner
+2,Are there any nearby hot springs?,227,nearby hot spring
+2,Can you recommend a co-working space?,228,recommend coworking space
+2,Where can I see the stars clearly?,229,see star clearly
+2,What are the best spots for street food?,230,best spot street food
+2,Are there any local festivals this month?,231,local festival month
+2,Where can I buy artisanal cheese?,232,buy artisanal cheese
+2,Can you suggest a scenic driving route?,233,suggest scenic driving route
+2,Where can I find a nearby park?,234,find nearby park
+2,Are there any good cafes around?,235,good cafe around
+2,Can you recommend a place to eat?,236,recommend place eat
+2,Where's the nearest grocery store?,237,wheres nearest grocery store
+2,Are there any museums close by?,238,museum close
+2,Where can I buy fresh fruits?,239,buy fresh fruit
+2,Is there a library nearby?,240,library nearby
+2,Can you find a quiet place to relax?,241,find quiet place relax
+2,Where's a good spot for a walk?,242,wheres good spot walk
+2,Are there any local events today?,243,local event today
+2,Can you suggest a place for dinner?,244,suggest place dinner
+2,Where is the nearest hospital?,245,nearest hospital
+2,Are there any playgrounds for kids?,246,playground kid
+2,Where's a good place for shopping?,247,wheres good place shopping
+2,Can you find a bookstore for me?,248,find bookstore
+2,Where can I get coffee?,249,get coffee
+2,Is there a gym nearby?,250,gym nearby
+2,Where can I find a bakery?,251,find bakery
+2,Are there any markets around here?,252,market around
+2,Where can I go for a swim?,253,go swim
+3,What's your favorite color?,254,whats favorite color
+3,Do you have any hobbies?,255,hobby
+3,What's your favorite movie?,256,whats favorite movie
+3,Do you like music?,257,like music
+3,What's your dream job?,258,whats dream job
+3,Do you have a pet?,259,pet
+3,What's your favorite season?,260,whats favorite season
+3,Have you ever traveled abroad?,261,ever traveled abroad
+3,What's your favorite food?,262,whats favorite food
+3,Do you enjoy reading books?,263,enjoy reading book
+3,What's your favorite holiday?,264,whats favorite holiday
+3,"If you could have any superpower, what would it be?",265,could superpower would
+3,Do you like sports?,266,like sport
+3,What's your favorite book?,267,whats favorite book
+3,What's your favorite animal?,268,whats favorite animal
+3,Do you like to cook?,269,like cook
+3,Have you ever tried a new hobby recently?,270,ever tried new hobby recently
+3,Do you prefer tea or coffee?,271,prefer tea coffee
+3,What's the best place you've visited?,272,whats best place youve visited
+3,Do you believe in luck?,273,believe luck
+3,Do you have a favorite memory?,274,favorite memory
+3,What's the best advice you've ever received?,275,whats best advice youve ever received
+3,"If you could visit any country, where would you go?",276,could visit country would go
+3,What do you like about people?,277,like people
+3,Have you ever tried something completely new?,278,ever tried something completely new
+3,What's your favorite time of the day?,279,whats favorite time day
+3,Do you enjoy art and creativity?,280,enjoy art creativity
+3,Do you have a favorite joke?,281,favorite joke
+3,What's your biggest wish?,282,whats biggest wish
+3,Are you a morning person or a night owl?,283,morning person night owl
+3,What's the coolest invention you've heard of?,284,whats coolest invention youve heard
+3,"If you could learn any skill instantly, what would it be?",285,could learn skill instantly would
+3,Do you like puzzles or brainteasers?,286,like puzzle brainteasers
+3,What's your favorite type of weather?,287,whats favorite type weather
+3,Do you enjoy learning new things?,288,enjoy learning new thing
+3,What's something that always makes you smile?,289,whats something always make smile
+3,"If you had one wish, what would it be?",290,one wish would
+3,Do you have a favorite word?,291,favorite word
+3,Have you ever been inspired by someone?,292,ever inspired someone
+3,Do you enjoy playing games?,293,enjoy playing game
+3,"What makes a good friend, in your opinion?",294,make good friend opinion
+3,Do you have a favorite quote?,295,favorite quote
+3,Are you an optimist or a realist?,296,optimist realist
+3,What's the funniest thing you've heard recently?,297,whats funniest thing youve heard recently
+3,"If you could change one thing in the world, what would it be?",298,could change one thing world would
+3,Do you believe in second chances?,299,believe second chance
+3,What's the most interesting thing you've learned?,300,whats interesting thing youve learned
+3,Do you enjoy spending time outdoors?,301,enjoy spending time outdoors
+3,What's your favorite way to relax?,302,whats favorite way relax
+3,"If you had a time machine, where would you go?",303,time machine would go
+3,What's something you want to learn more about?,304,whats something want learn
+3,Are you a fan of surprises?,305,fan surprise
+3,What's your favorite childhood memory?,306,whats favorite childhood memory
+3,Do you prefer working alone or in a team?,307,prefer working alone team
+3,Have you ever accomplished something you're proud of?,308,ever accomplished something youre proud
+3,Do you like trying new foods?,309,like trying new food
+3,What's your favorite form of entertainment?,310,whats favorite form entertainment
+3,Are you good at keeping secrets?,311,good keeping secret
+3,What's one habit you'd like to break?,312,whats one habit youd like break
+3,"If you were an animal, what would you be?",313,animal would
+3,Do you like making plans or being spontaneous?,314,like making plan spontaneous
+3,What's something you find fascinating?,315,whats something find fascinating
+3,Have you ever made a big decision on a whim?,316,ever made big decision whim
+3,What motivates you the most?,317,motivates
+3,"If you had unlimited free time, how would you use it?",318,unlimited free time would use
+3,Do you like talking about dreams and goals?,319,like talking dream goal
+3,What's one thing you wish you knew more about?,320,whats one thing wish knew
+3,Have you ever been surprised by someone?,321,ever surprised someone
+3,Do you have a role model?,322,role model
+3,What's one thing that never fails to make you laugh?,323,whats one thing never fails make laugh
+3,Do you enjoy challenges?,324,enjoy challenge
+3,Do you believe in destiny?,325,believe destiny
+3,What's your idea of a perfect day?,326,whats idea perfect day
+3,Are you a fan of technology?,327,fan technology
+3,What's one thing you can't live without?,328,whats one thing cant live without
+3,Do you like meeting new people?,329,like meeting new people
+3,What's your favorite way to start the day?,330,whats favorite way start day
+3,Do you prefer quiet places or bustling ones?,331,prefer quiet place bustling one
+3,What's a goal you're working towards?,332,whats goal youre working towards
+3,"If you could live anywhere, where would it be?",333,could live anywhere would
+3,Do you like listening to people's stories?,334,like listening people story
+3,What's the best gift you've ever received?,335,whats best gift youve ever received
+3,Are you more of a thinker or a doer?,336,thinker doer
+3,Do you believe in love at first sight?,337,believe love first sight
+3,What's something you wish you could do better?,338,whats something wish could better
+3,Do you have a hidden talent?,339,hidden talent
+3,What's your favorite way to spend a weekend?,340,whats favorite way spend weekend
+3,Are you a morning person?,341,morning person
+3,What's your favorite part about learning something new?,342,whats favorite part learning something new
+3,Do you like planning things out?,343,like planning thing
+3,What's one thing you'd change about yourself?,344,whats one thing youd change
+3,Do you enjoy surprises?,345,enjoy surprise
+3,What's the most difficult decision you've made?,346,whats difficult decision youve made
+3,Are you someone who likes taking risks?,347,someone like taking risk
+3,What's the most memorable place you've been?,348,whats memorable place youve
+3,Do you like trying new experiences?,349,like trying new experience
+3,Are you good at multitasking?,350,good multitasking
+3,What's your dream vacation destination?,351,whats dream vacation destination
+3,Do you believe in karma?,352,believe karma
+3,What's your favorite subject to talk about?,353,whats favorite subject talk
+3,What's something that makes you feel accomplished?,354,whats something make feel accomplished
+3,HOW AFRICAN AMERICANS WERE IMMIGRATED TO THE US,355,african american immigrated u
+3,how are glacier caves formed?,356,glacier cave formed
+3,how a water pump works,357,water pump work
+3,"how big is bmc software in houston, tx",358,big bmc software houston tx
+3,"how big is bmc software in houston, tx",359,big bmc software houston tx
+3,how much is 1 tablespoon of water,360,much 1 tablespoon water
+3,how much is 1 tablespoon of water,361,much 1 tablespoon water
+3,how much is 1 tablespoon of water,362,much 1 tablespoon water
+3,how much are the harry potter movies worth,363,much harry potter movie worth
+3,how a rocket engine works,364,rocket engine work
+3,how old was sue lyon when she made lolita,365,old wa sue lyon made lolita
+3,how are cholera and typhus transmitted and prevented,366,cholera typhus transmitted prevented
+3,how did anne frank die,367,anne frank die
+3,how are aircraft radial engines built,368,aircraft radial engine built
+3,how deep can be drill for deep underwater,369,deep drill deep underwater
+3,how old was monica lewinsky during the affair,370,old wa monica lewinsky affair
+3,how long was frank sinatra famous,371,long wa frank sinatra famous
+3,how are antibodies used in,372,antibody used
+3,how are antibodies used in,373,antibody used
+3,how are antibodies used in,374,antibody used
+3,how are antibodies used in,375,antibody used
+3,how much is jk rowling worth,376,much jk rowling worth
+3,how big is auburndale florida,377,big auburndale florida
+3,"how old is kirk douglas, the actor?",378,old kirk douglas actor
+3,how old is the singer bob seger,379,old singer bob seger
+3,how long was i love lucy on the air,380,long wa love lucy air
+3,how long was richard nixon a president,381,long wa richard nixon president
+3,HOW MUCH IS CENTAVOS IN MEXICO,382,much centavo mexico
+3,How long was Mickie James with WWE?,383,long wa mickie james wwe
+3,how did armando christian perez become famous,384,armando christian perez become famous
+3,how old were the twin towers when destroyed,385,old twin tower destroyed
+3,how are the # of electrons in each shell determined,386,electron shell determined
+3,how many presidents of the us,387,many president u
+3,how old is beatrice author,388,old beatrice author
+3,how are public schools funded,389,public school funded
+3,how are public schools funded,390,public school funded
+3,what happens  to the light independent reactions of photosynthesis?,391,happens light independent reaction photosynthesis
+3,what happens  to the light independent reactions of photosynthesis?,392,happens light independent reaction photosynthesis
+3,how does interlibrary loan work,393,doe interlibrary loan work
+3,how does interlibrary loan work,394,doe interlibrary loan work
+3,what did mia hamm do his work,395,mia hamm work
+3,what bacteria grow on macconkey agar,396,bacteria grow macconkey agar
+3,what countries are under the buddhism religion,397,country buddhism religion
+3,how did wild bill's father die,398,wild bill father die
+3,how many land rovers have landed on mars,399,many land rover landed mar
+3,how do forensic auditors examine financial reporting,400,forensic auditor examine financial reporting
+3,how do forensic auditors examine financial reporting,401,forensic auditor examine financial reporting
+3,how do forensic auditors examine financial reporting,402,forensic auditor examine financial reporting
+3,what bird family is the owl,403,bird family owl
+3,how did harmon killebrew get strong,404,harmon killebrew get strong
+3,What did the augurs use to interpret the will of the gods?,405,augur use interpret god
+3,How much did Waterboy grossed,406,much waterboy grossed
+3,"What county is Farmington Hills, MI in?",407,county farmington hill mi
+3,what does a groundhog look for on groundhog day,408,doe groundhog look groundhog day
+3,What committees are joint committees,409,committee joint committee
+3,how many stripes on the flag,410,many stripe flag
+3,How many states and territories are within India?,411,many state territory within india
+3,how is whooping cough distinguished from similar diseases,412,whooping cough distinguished similar disease
+3,how is whooping cough distinguished from similar diseases,413,whooping cough distinguished similar disease
+3,what county is galveston in texas,414,county galveston texas
+3,what cities are in the bahamas,415,city bahamas
+3,what cities are in the bahamas,416,city bahamas
+3,how many schools are in the big ten,417,many school big ten
+3,how is single malt scotch made,418,single malt scotch made
+3,how is single malt scotch made,419,single malt scotch made
+3,what composer used sound mass,420,composer used sound mass
+3,what composer used sound mass,421,composer used sound mass
+3,what composer used sound mass,422,composer used sound mass
+3,what composer used sound mass,423,composer used sound mass
+3,what composer used sound mass,424,composer used sound mass
+3,what composer used sound mass,425,composer used sound mass
+3,what composer used sound mass,426,composer used sound mass
+3,How Do You Play Spades,427,play spade
+3,what continent is australia,428,continent australia
+3,what causes heart disease,429,cause heart disease
+3,what countries did immigrants come from during the immigration,430,country immigrant come immigration
+3,what countries did immigrants come from during the immigration,431,country immigrant come immigration
+3,how many people live in atlanta georgia,432,many people live atlanta georgia
+3,how many people live in atlanta georgia,433,many people live atlanta georgia
+3,what does it mean to be a commonwealth state,434,doe mean commonwealth state
+3,how long can you be in the supreme court,435,long supreme court
+3,what county in texas is conroe located in,436,county texas conroe located
+3,what can sql 2005 do,437,sql 2005
+3,how many people were killed in the oklahoma city bombing,438,many people killed oklahoma city bombing
+3,What group took home the award for best rock album at the Australian Recording Industry Association (ARIA) Music Awards?,439,group took home award best rock album australian recording industry association aria music award
+3,how does a dredge work?,440,doe dredge work
+3,how does a dredge work?,441,doe dredge work
+3,how does a dredge work?,442,doe dredge work
+3,how does a dredge work?,443,doe dredge work
+3,how does a dredge work?,444,doe dredge work
+3,what did benedict arnold die,445,benedict arnold die
+3,how many world series did curt schilling have,446,many world series curt schilling
+3,how many ports are there in networking,447,many port networking
+3,what area code is 479,448,area code 479
+3,what area code is 479,449,area code 479
+3,what does arraignment mean,450,doe arraignment mean
+3,what did chaucer do,451,chaucer
+3,what did chaucer do,452,chaucer
+3,what does am and pm stand for,453,doe pm stand
+3,how is canada's health care,454,canada health care
+3,how many xbox 360 games are there,455,many xbox 360 game
+3,how do pineapples grow,456,pineapple grow
+3,what country did wine originate in,457,country wine originate
+3,how many district are in west bengal,458,many district west bengal
+3,how many towns in new hampshire,459,many town new hampshire
+3,what does salesforce.com do?,460,doe salesforce.com
+3,what does 1 year mean to the planet,461,doe 1 year mean planet
+3,what is feedback mechanism in plants during respiration,462,feedback mechanism plant respiration
+3,how fire extinguisher works,463,fire extinguisher work
+3,what does righteousness mean,464,doe righteousness mean
+3,what does righteousness mean,465,doe righteousness mean
+3,what countries are in central america?,466,country central america
+3,how does a steam engine work,467,doe steam engine work
+3,how does a steam engine work,468,doe steam engine work
+3,what county is tacoma washington in,469,county tacoma washington
+3,what county is chula vista ca in,470,county chula vista ca
+3,what did isaac newton do,471,isaac newton
+3,what does the universal law of gravitation state,472,doe universal law gravitation state
+3,how does a dim sum restaurant work,473,doe dim sum restaurant work
+3,how does a dim sum restaurant work,474,doe dim sum restaurant work
+3,how does a dim sum restaurant work,475,doe dim sum restaurant work
+3,how many US soldiers killed in Iraq war,476,many u soldier killed iraq war
+3,how many planets is jupiter away from the sun?,477,many planet jupiter away sun
+3,what city was the convention when gerald ford was nominated,478,city wa convention gerald ford wa nominated
+3,how many professional hockey teams in canada,479,many professional hockey team canada
+3,what county is northville mi,480,county northville mi
+3,what county is northville mi,481,county northville mi
+3,how many games did brett favre start in a row,482,many game brett favre start row
+3,what does a vote to table a motion mean?,483,doe vote table motion mean
+3,What does the class mean for SDHC cards?,484,doe class mean sdhc card
+3,what do porcupines eat,485,porcupine eat
+3,what did elijah mccoy invent,486,elijah mccoy invent
+3,how many apple store are there in total?,487,many apple store total
+3,What does the idea of effective nuclear charge tell us,488,doe idea effective nuclear charge tell u
+3,how is jerky made,489,jerky made
+3,how is jerky made,490,jerky made
+3,what domain is eu,491,domain eu
+3,"What does the name ""Meister"" mean in German",492,doe name meister mean german
+3,what happened on the moon during the period of Late Heavy Bombardment?,493,happened moon period late heavy bombardment
+3,How did Edgar Allan Poe die?,494,edgar allan poe die
+3,what did tycho brahe do,495,tycho brahe
+3,what did tycho brahe do,496,tycho brahe
+3,how many seasons heroes,497,many season hero
+3,what holiday is first weekend of september,498,holiday first weekend september
+3,how old r Dylan and Cole Sprouse,499,old r dylan cole sprouse
+3,what does life insurance cover?,500,doe life insurance cover
+3,what does life insurance cover?,501,doe life insurance cover
+3,what does life insurance cover?,502,doe life insurance cover
+3,how many days does the chinese new year last,503,many day doe chinese new year last
+3,what does s.h.i.e.l.d stand for,504,doe s.h.i.e.l.d stand
+3,how many consoles has xbox 360 sold,505,many console ha xbox 360 sold
+3,how is a backpack made,506,backpack made
+3,WHAT COUNTRY IS MEXICO IN,507,country mexico
+3,how is slugging percentage calculated,508,slugging percentage calculated
+3,what day is st. patricks day,509,day st. patrick day
+3,what cheese is made from goat's milk,510,cheese made goat milk
+3,what does the federal reserve do,511,doe federal reserve
+3,what country is belize in,512,country belize
+3,how many books are included in the protestant Bible?,513,many book included protestant bible
+3,how many stars on the first american flag,514,many star first american flag
+3,how does a cat purr,515,doe cat purr
+3,what became of rich on price is right,516,became rich price right
+3,what became of rich on price is right,517,became rich price right
+3,what county is St. Elizabeth MO in,518,county st. elizabeth mo
+3,what county is wilton ca in,519,county wilton ca
+3,what happened to stevie ray vaughan,520,happened stevie ray vaughan
+3,how many gold gloves does barry larkin have,521,many gold glove doe barry larkin
+3,what caused ww,522,caused ww
+3,how did women's role change during the war,523,womens role change war
+3,how many seasons were there of the wire,524,many season wire
+3,what kind of legal remedy is it to ask someone to fulfill there promise,525,kind legal remedy ask someone fulfill promise
+3,how is ASP.NET different from .NET,526,asp.net different .net
+3,how does lsd impact the human body,527,doe lsd impact human body
+3,how does lsd impact the human body,528,doe lsd impact human body
+3,how does lsd impact the human body,529,doe lsd impact human body
+3,how many people live in memphis tennessee,530,many people live memphis tennessee
+3,how many muscles in the human body,531,many muscle human body
+3,how did seminole war end,532,seminole war end
+3,what county is orono maine in,533,county orono maine
+3,what it is a pilot study,534,pilot study
+3,how many humps on a camel,535,many hump camel
+3,what can be powered by wind,536,powered wind
+3,how many nature oceans are on earth,537,many nature ocean earth
+3,what county is jacksonville florida in,538,county jacksonville florida
+3,what chili wants wiki,539,chili want wiki
+3,what does a liquid oxygen plant look like,540,doe liquid oxygen plant look like
+3,what division is boise state football,541,division boise state football
+3,"What does the term ""mens rea"" mean",542,doe term men rea mean
+3,what do UA's detect,543,uas detect
+3,how much caffeine is in a shot of espresso,544,much caffeine shot espresso
+3,What does Human sperm consist of?,545,doe human sperm consist
+3,how did the penguins acquire sidney crosby,546,penguin acquire sidney crosby
+3,what does add my two cents mean,547,doe add two cent mean
+3,how much total wealth in USA,548,much total wealth usa
+3,what does a plus-minus sign mean,549,doe plusminus sign mean
+3,what does a plus-minus sign mean,550,doe plusminus sign mean
+3,how was the moon formed,551,wa moon formed
+3,how was the moon formed,552,wa moon formed
+3,what did ronald reagan do as president,553,ronald reagan president
+3,what does judgment as a matter of law mean,554,doe judgment matter law mean
+3,how many presidents have been assassinated,555,many president assassinated
+3,what does oklahoma produce,556,doe oklahoma produce
+3,how many redwall books are there,557,many redwall book
+3,what date did the american civil war start,558,date american civil war start
+3,what does bruce jenner do,559,doe bruce jenner
+3,what does alkali do to liquids?,560,doe alkali liquid
+3,what area code is 217,561,area code 217
+3,what area code is 217,562,area code 217
+3,how jameson irish whiskey is made,563,jameson irish whiskey made
+3,what does gloria in excelsis deo mean,564,doe gloria excelsis deo mean
+3,what are stocks and bonds,565,stock bond
+3,what are stocks and bonds,566,stock bond
+3,Who am I?,567,who am i
+3,Can you tell me who I am?,568,tell
+3,Do you know who I am?,569,know
+3,Do you remember me?,570,remember
+3,Who are you?,571,who are you
+3,Can you tell me more about yourself?,572,tell
+3,What can you help me with?,573,what can you help me with
+3,Are you a real person?,574,real person
+3,Can you introduce yourself?,575,introduce

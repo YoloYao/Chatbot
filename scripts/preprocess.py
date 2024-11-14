@@ -18,10 +18,9 @@ from sklearn.cluster import KMeans
 class PreProcessController:
     def init(self):
         Utils.connectSSL()
-        nltk.download('stopwords', quiet=True)
-        self.stop_words = set(stopwords.words('english'))
-        nltk.download('wordnet', quiet=True)
-        nltk.download('punkt', quiet=True)
+        # nltk.download('stopwords', quiet=True)
+        # self.stop_words = set(stopwords.words('english'))
+        self.stop_words = Utils.load_stopwords(Constants.STOPWORDS_FILEPATH)
 
     # 去除标点符号
     def clean_text(self, content):
@@ -48,6 +47,10 @@ class PreProcessController:
 
     # 去除停用词
     def remove_stopwords(self, tokens):
+        # 特殊停用词检查
+        check_result = self.check_stopwords(" ".join(tokens))
+        if check_result == True:
+            return tokens
         return [word for word in tokens if word not in self.stop_words]
 
     # 词干还原
@@ -55,6 +58,14 @@ class PreProcessController:
         lemmatizer = WordNetLemmatizer()
         return [lemmatizer.lemmatize(token) for token in tokens]
 
+    # 检查停用词处理是否跳过
+    def check_stopwords(self, check_str):
+        special_strs = Utils.read_file_by_line(Constants.SPECIAL_SENTENCES_FILEPATH)
+        for item in special_strs:
+            if item in check_str:
+                return True
+        return False
+        
     # 生成n-gram特征
     def generate_ngrams(self, tokens, n):
         n_grams = list(ngrams(tokens, n))
@@ -66,10 +77,10 @@ class PreProcessController:
         content = self.clean_text(input_data)
         # 2.分词（Tokenization）
         tokens = self.tokenize(content)
-        # 3.去除停用词（Stopword Removal）
-        tokens = self.remove_stopwords(tokens)
-        # 4.词干提取或词形还原（Stemming/Lemmatization）
+        # 3.词干提取或词形还原（Stemming/Lemmatization）
         tokens = self.lemmatize(tokens)
+        # 4.去除停用词（Stopword Removal）
+        tokens = self.remove_stopwords(tokens)
         return tokens
 
     # 预处理文本数组数据
@@ -102,20 +113,29 @@ class PreProcessController:
         return labels
 
     # 预处理csv数据集
-    def preprocess_csv_corpus(self):
-        self.init()
+    def preprocess_corpus(self):
+        # 预处理问题数据集
         file_name = Constants.INTENT_DATASET_FILE_NAME
+        label_name = Constants.QUESTION_LABEL
+        self.preprocess_csv_corpus(file_name, label_name)
+        # 预处理答案数据集
+        file_name1 = Constants.INTENT_ANSWER_FILE_NAME
+        label_name1 = Constants.ANSWER_LABEL
+        self.preprocess_csv_corpus(file_name1, label_name1)
+        
+    def preprocess_csv_corpus(self, file_name, label_name):
+        self.init()
         file_dir = Constants.DATA_FILE_DIR
         file_path = file_dir + file_name
         data = Utils.read_csv(file_path)
-        # 预处理数据集中的text数据
-        sentences = self.preprocess_list_data(data[Constants.QUESTION_LABEL])
+        # 预处理数据集中的数据
+        sentences = self.preprocess_list_data(data[label_name])
         # 添加标签(根据数据集内容进行聚类，区分出不同意图类别)
         data['cleaned text'] = sentences
         # 预处理后的数据存入文件
         data.to_csv(
-            file_dir + Constants.INTENT_DATASET_PREPROCESSED_FILE_NAME, index=False)
-        print("Preprocess data succeed!")
+            file_dir + Constants.INTENT_DATASET_PREPROCESSED_INDEX + file_name, index=False)
+        print(f"Preprocess {label_name} data succeed!")
 
     # 给数据集分类生成标签
     def generate_labeled_csv_corpus(self):
@@ -132,26 +152,28 @@ class PreProcessController:
         csv_data['Label'] = labels
         csv_data.to_csv('./data/labeled_CW1_Dataset.csv', index=False)
     
-    def operate(self):
+    def refresh_dataset_numbers(self):
         self.init()
-        # csv_data = Utils.read_csv("data/answer/small_talk_answer.csv")
-        # data = Utils.read_csv("data/answer/nomal_answer.csv")
-        csv_data = pd.read_csv("data/answer/new_answer.csv", encoding='latin1')
-        # data = pd.read_csv("data/answer/nomal_answer.csv", encoding='latin1')
-        # combined_data = pd.concat([csv_data, data], axis=0)
-        # csv_data = pd.read_csv("data/small_talk_dataset.csv", encoding='latin1')
-        
-        # questions = csv_data['Question']
-        # answers = csv_data['Answer']
-        # intents = [3]*len(questions)
+        csv_data1 = pd.read_csv("data/dataset2.csv", encoding='latin1')
+        csv_data2 = pd.read_csv("data/answer2.csv", encoding='latin1')
+        num_list1 = []
+        for i in range(len(csv_data1['intent'])):
+            num_list1.append(i)
+            i+=1
+        csv_data1['number']=num_list1
+        num_list2 = []
+        for i in range(len(csv_data2['intent'])):
+            num_list2.append(i)
+            i+=1
+        csv_data2['number']=num_list2
         # new_data = {
         #     "intent": [],
         #     "question": []
         # }
-        answer_data = {
-            "intent": [],
-            "answer": []
-        }
+        # answer_data = {
+        #     "intent": [],
+        #     "answer": []
+        # }
         # new_data['intent'] = intents
         # new_data['question'] = questions
         # answer_data['intent'] = intents
@@ -160,10 +182,11 @@ class PreProcessController:
         # data_frame2 = pd.DataFrame(answer_data)
         # data_frame1.to_csv('./data/small_talk_dataset.csv', index=False)
         # data_frame2.to_csv('./data/answer/small_talk_answer.csv', index=False)
-        csv_data.to_csv('./data/answer/answer.csv', encoding='utf-8', index=False)
+        csv_data1.to_csv('./data/dataset.csv', encoding='utf-8', index=False)
+        csv_data2.to_csv('./data/answer.csv', encoding='utf-8', index=False)
         
     # 预处理文本数据集
-    def preprocess_corpus(self):
+    def preprocess_text_corpus(self):
         self.init()
         file_name = 'dataset1.txt'
         file_dir = Constants.DATA_FILE_DIR

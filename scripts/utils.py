@@ -35,6 +35,13 @@ class Utils:
             intent_labels = json.load(f)
         return intent_labels
 
+    # 读取本地停用词文件
+    @staticmethod
+    def load_stopwords(filepath):
+        with open(filepath, 'r', encoding='utf-8') as file:
+            stopwords = set(line.strip() for line in file)
+        return stopwords
+
     # 修改文件后缀
     @staticmethod
     def change_file_suffix(file_name):
@@ -51,6 +58,13 @@ class Utils:
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()  # 一次性读取整个文件
         return content
+    
+    # 逐行读取文件内容并返回数组
+    @staticmethod
+    def read_file_by_line(file_path):
+        with open(file_path, 'r', encoding='utf-8') as file:
+            lines = file.read().splitlines()  # 使用 splitlines() 自动去除换行符
+        return lines
 
     # 写入文件内容（覆盖）
     @staticmethod

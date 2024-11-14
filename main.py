@@ -9,7 +9,6 @@ import traceback
 
 class Chatbot:
     def init(self):
-        self.name = "YoYo"
         self.pre_processor = PreProcessController()
         self.model_trainer = TrainModelController()
         self.chat_controller = ChatController()
@@ -18,11 +17,10 @@ class Chatbot:
         Utils.connectSSL()
         # print("My name is " + self.name)
         # 1.预处理数据 preprocess data
-        # self.pre_processor.preprocess_csv_corpus()
-        # self.pre_processor.preprocess_corpus()
-        # self.pre_processor.operate()
+        self.pre_processor.refresh_dataset_numbers()
+        self.pre_processor.preprocess_corpus()
         # 2.生成模型 generate model and vector space
-        # self.model_trainer.create_model()
+        self.model_trainer.create_model()
         # 3.基于意图识别进行聊天 Chat based on intention recognition
         self.chat_controller.chat()
 

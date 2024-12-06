@@ -15,6 +15,8 @@ class ChatController:
     def add_to_context(self, key, value):
         self.context[key] = value
 
+    def test(self):
+        print("test")
     # 身份鉴权
     def authenticate(self):
         name_data = Utils.read_json(Constants.USER_LIST_FILEPATH)
@@ -40,13 +42,24 @@ class ChatController:
         print("_" * Constants.SPLIT_LINE_LENGTH)
         print("You have made too many incorrect attempts. Goodbye.")
         return "exit"
+    
+    # 服务器身份鉴权
+    def service_authenticate(self, user_input):
+        name_data = Utils.read_json(Constants.USER_LIST_FILEPATH)
+        whitelist = name_data.get(Constants.WHITELIST_LABEL, [])
+        filtered_input = Utils.clean_input(user_input)
+        if filtered_input in whitelist:
+            return True
+        else:
+            return False
 
     # 根据买票场景进行上下文处理
     def answer_by_context(self, user_input):
         # 检查上下文中是否已经存储了一些信息
         if any(key in user_input for key in Contexts.BOOK_KEYS):
             response = Contexts.DESTINATION_HINT
-        elif "to" in user_input and "destination" not in self.context:
+            self.add_to_context("ticket", True)
+        elif "to" in user_input and "destination" not in self.context and "ticket" in self.context:
             destination = user_input.split("to")[-1].strip()
             self.add_to_context("destination", destination)
             response = Contexts.TIME_HINT.format(destination.capitalize())
@@ -180,3 +193,29 @@ class ChatController:
             # 回答问题语句中需要动态加入用户名
             print("Bot:", response.format(user_name))
             print("_" * Constants.SPLIT_LINE_LENGTH)
+    
+    def service_chat(self, vectorizer, model, question_models, user_input, user_name):
+        preprocessor = PreProcessController()
+        preprocessor.init()
+
+        filtered_input = Utils.clean_input(user_input)
+        if filtered_input == None:
+            return ""
+        if filtered_input.lower() == "exit":
+            print("Exit")
+            return ""
+        # 预处理输入内容
+        # important print
+        # print(f"[Berore:{filtered_input}]")
+        filtered_input = " ".join(
+            preprocessor.preprocess_data(filtered_input))
+        # print(f"[After:{filtered_input}]")
+        # 意图分析
+        intent_num = self.predict_intent(filtered_input, vectorizer, model)
+        # 生成回答内容
+        response = self.answer_question(
+            filtered_input, question_models[intent_num], intent_num)
+        # 回答问题语句中需要动态加入用户名
+        return response.format(user_name)
+        # print("Bot:", response.format(user_name))
+        # print("_" * Constants.SPLIT_LINE_LENGTH)

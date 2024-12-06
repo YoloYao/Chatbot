@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e2f;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #cfcfd9;
+        }
+        #container {
+            width: 90%;
+            max-width: 400px;
+            background: #2b2b40;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0 0 20px;
+            font-size: 24px;
+            color: #365f91;
+        }
+        #username-input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #4a4a60;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            outline: none;
+            background-color: #2b2b40;
+            color: white;
+        }
+        #query-btn {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            background: #365f91;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #query-btn:hover {
+            background: #2e5078;
+        }
+        #error-msg {
+            margin-top: 15px;
+            color: #ff4d4d;
+            font-size: 14px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Please enter your username</h1>
+        <input type="text" id="username-input" placeholder="User name" autocomplete="off">
+        <button id="query-btn">Log in</button>
+        <p id="error-msg">User name is invalid, please re-enter.</p>
+    </div>
+
+    <script>
+        const queryBtn = document.getElementById("query-btn");
+        const usernameInput = document.getElementById("username-input");
+        const errorMsg = document.getElementById("error-msg");
+
+        // 点击按钮触发的逻辑
+        const validateAndSubmit = async () => {
+            const username = usernameInput.value.trim();
+
+            if (username === "") {
+                errorMsg.textContent = "The user name cannot be empty. Please enter the user name.";
+                errorMsg.style.display = "block";
+                return;
+            }
+
+            try {
+                // 向后台发送请求验证用户名
+                const response = await fetch("http://127.0.0.1:5000/validateUsername", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ username }),
+                });
+                if (!response.ok) {
+                    throw new Error("User name is invalid, please re-enter.");
+                }
+
+                const data = await response.json();
+
+                if (data.success) {
+                    // 验证成功，跳转到聊天页面并传递用户名参数
+                    window.location.href = `chat.html?name=${encodeURIComponent(username)}`;
+                } else {
+                    // 验证失败，显示错误提示
+                    errorMsg.textContent = "User name is invalid, please re-enter.";
+                    errorMsg.style.display = "block";
+                }
+            } catch (error) {
+                errorMsg.textContent = error.message || "Network error, please try again later.";
+                errorMsg.style.display = "block";
+            }
+        };
+
+        // 点击按钮事件
+        queryBtn.addEventListener("click", validateAndSubmit);
+
+        // 按下回车键触发按钮点击事件
+        usernameInput.addEventListener("keydown", (event) => {
+            if (event.key === "Enter") {
+                event.preventDefault(); // 防止默认行为（例如表单提交刷新页面）
+                validateAndSubmit(); // 调用验证和提交逻辑
+            }
+        });
+
+        // 隐藏错误消息
+        usernameInput.addEventListener("input", () => {
+            errorMsg.style.display = "none";
+        });
+    </script>
+</body>
+</html>

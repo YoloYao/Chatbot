@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e2f;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #cfcfd9;
+        }
+        #chat-container {
+            width: 90%;
+            max-width: 600px;
+            background: #2b2b40;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+            padding: 20px;
+            overflow-y: auto;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .bubble-wrapper {
+            display: flex;
+            align-items: flex-start;
+            margin: 10px 0;
+        }
+        .bubble {
+            max-width: 80%;
+            padding: 10px 15px;
+            border-radius: 18px;
+            font-size: 14px;
+            line-height: 20px;
+            display: inline-block;
+            word-wrap: break-word;
+            word-break: break-word;
+            opacity: 0;
+            transform: translateX(50px);
+            animation: bubbleIn 0.5s forwards;
+        }
+        .user-wrapper .bubble {
+            transform: translateX(50px);
+            animation-name: bubbleInRight;
+        }
+        .bot-wrapper .bubble {
+            transform: translateX(-50px);
+            animation-name: bubbleInLeft;
+        }
+        .user-wrapper {
+            justify-content: flex-end;
+        }
+        .user {
+            background: #365f91;
+            color: white;
+            margin-left: auto;
+            border-bottom-right-radius: 0;
+        }
+        .bot-wrapper {
+            justify-content: flex-start;
+        }
+        .bot {
+            background: #454566;
+            color: white;
+            margin-right: auto;
+            border-bottom-left-radius: 0;
+        }
+        .bot-wrapper .avatar,
+        .user-wrapper .avatar {
+            width: 36px;
+            height: 36px;
+            background: #3b3b50;
+            border-radius: 50%;
+            margin: 0 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #cfcfd9;
+            font-size: 12px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        .bot-wrapper .avatar {
+            order: -1;
+        }
+        .user-wrapper .avatar {
+            order: 1;
+        }
+        #input-container {
+            display: flex;
+            width: 90%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+        #user-input {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #4a4a60;
+            border-radius: 5px;
+            outline: none;
+            background-color: #2b2b40;
+            color: white;
+        }
+        #send-btn {
+            margin-left: 10px;
+            padding: 10px 15px;
+            font-size: 16px;
+            background: #365f91;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #send-btn:hover {
+            background: #2e5078;
+        }
+
+        /* 动画效果 */
+        @keyframes bubbleInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        @keyframes bubbleInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container"></div>
+    <div id="input-container">
+        <input type="text" id="user-input" placeholder="Please enter your question..." autocomplete="off"/>
+        <button id="send-btn">Send</button>
+    </div>
+
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const userInput = document.getElementById("user-input");
+        const sendBtn = document.getElementById("send-btn");
+
+        // 从 URL 获取用户名
+        const urlParams = new URLSearchParams(window.location.search);
+        const username = urlParams.get('name'); // 从 URL 中获取 `name` 参数
+
+        if (!username) {
+            alert("User name missing, return to home page!");
+            window.location.href = "index.html";
+        }
+
+        // 添加聊天气泡
+        function addBubble(content, className, delay = 0) {
+            setTimeout(() => {
+                const wrapper = document.createElement("div");
+                wrapper.className = `bubble-wrapper ${className}-wrapper`;
+
+                const bubble = document.createElement("div");
+                bubble.className = `bubble ${className}`;
+                bubble.textContent = content;
+
+                const avatar = document.createElement("div");
+                avatar.className = "avatar";
+                avatar.textContent = className === "user" ? username : "AI"; // 动态替换用户头像中的文字
+
+                if (className === "user") {
+                    wrapper.appendChild(bubble);
+                    wrapper.appendChild(avatar);
+                } else {
+                    wrapper.appendChild(avatar);
+                    wrapper.appendChild(bubble);
+                }
+
+                chatContainer.appendChild(wrapper);
+                chatContainer.scrollTop = chatContainer.scrollHeight; // 滚动到最新消息
+            }, delay);
+        }
+
+        // 页面加载时显示机器人问候语
+        window.onload = () => {
+            const welcomeMessage = `Hello ${username}`; // 拼接问候语
+            addBubble(welcomeMessage, "bot", 500); // 机器人气泡，延迟 500ms
+        };
+
+        // 发送用户输入并处理响应
+        sendBtn.addEventListener("click", async () => {
+            const message = userInput.value.trim();
+
+            if (message === "") return;
+
+            // 检查是否输入了 "exit"
+            if (message.toLowerCase() === "exit") {
+                window.location.href = "index.html";
+                return;
+            }
+
+            // 用户输入的消息
+            addBubble(message, "user");
+            userInput.value = "";
+
+            try {
+                // 调用后端接口，传递用户名和消息
+                const response = await fetch("http://127.0.0.1:5000/chat", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ username, message }),
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    // 显示机器人响应，延迟 0.5 秒
+                    addBubble(data.reply, "bot", 500);
+                } else {
+                    addBubble("Error, please try again.", "bot", 500);
+                }
+            } catch (error) {
+                addBubble("Unable to connect to the server.", "bot", 500);
+            }
+        });
+
+        // 按下回车键时发送
+        userInput.addEventListener("keydown", (event) => {
+            if (event.key === "Enter") {
+                sendBtn.click();
+            }
+        });
+    </script>
+</body>
+</html>

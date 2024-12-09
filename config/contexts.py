@@ -4,7 +4,7 @@ class Contexts:
     TIME_HINT = "Sure! Traveling to [{}]. When do you want to leave?"
     NUM_HINT = "Leaving at [{}]. How many tickets would you like?"
     CONFIRM_HINT = "Booking [{}] ticket(s) to [{}] at [{}]. Are you sure you want to make this reservation? \nEnter [yes] to confirm and [no] to exit."
-    SUCCESS_HINT = "Great! Your tickets are booked. This is your book number:[{}].Thank you!"
+    SUCCESS_HINT = "Great! Your tickets are booked. This is your book number[{}].Thank you!"
     STOP_HINT = "Ok, if you need to buy tickets later, please ask me."
 
     DISCOVERY_KEYS = ['service provide',

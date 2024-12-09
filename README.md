@@ -1,15 +1,13 @@
 # Chatbot
-Generative conversation robot based on NLP
+Generative conversation robot based on NLP.
 
-There are two modes of operation: 
+After entering the project directory in the terminal, you can choose between two modes to start the Chatbot:
 
-**command line question answering mode** and **user interface**
-
-#### Command line mode start command:
+## Command line mode start command:
 
     python3 main.py
 
-User interface boot mode:
+## User interface boot mode:
 
 #### Terminal 1 Background service:
 
@@ -17,6 +15,7 @@ User interface boot mode:
 
 #### Terminal 2 Front desk Service:
 
+    cd web
     python -m http.server 8000
 
 After the foreground service is started, you can enter the local address in the browser to open the interface:

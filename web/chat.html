@@ -124,7 +124,6 @@
             background: #2e5078;
         }
 
-        /* 动画效果 */
         @keyframes bubbleInLeft {
             from {
                 opacity: 0;
@@ -159,16 +158,15 @@
         const userInput = document.getElementById("user-input");
         const sendBtn = document.getElementById("send-btn");
 
-        // 从 URL 获取用户名
+        // get username from url
         const urlParams = new URLSearchParams(window.location.search);
-        const username = urlParams.get('name'); // 从 URL 中获取 `name` 参数
+        const username = urlParams.get('name');
 
         if (!username) {
             alert("User name missing, return to home page!");
             window.location.href = "index.html";
         }
 
-        // 添加聊天气泡
         function addBubble(content, className, delay = 0) {
             setTimeout(() => {
                 const wrapper = document.createElement("div");
@@ -180,7 +178,7 @@
 
                 const avatar = document.createElement("div");
                 avatar.className = "avatar";
-                avatar.textContent = className === "user" ? username : "AI"; // 动态替换用户头像中的文字
+                avatar.textContent = className === "user" ? username : "Chatbot";
 
                 if (className === "user") {
                     wrapper.appendChild(bubble);
@@ -191,34 +189,29 @@
                 }
 
                 chatContainer.appendChild(wrapper);
-                chatContainer.scrollTop = chatContainer.scrollHeight; // 滚动到最新消息
+                chatContainer.scrollTop = chatContainer.scrollHeight;
             }, delay);
         }
 
-        // 页面加载时显示机器人问候语
         window.onload = () => {
-            const welcomeMessage = `Hello ${username}`; // 拼接问候语
-            addBubble(welcomeMessage, "bot", 500); // 机器人气泡，延迟 500ms
+            const welcomeMessage = `Hello ${username}`;
+            addBubble(welcomeMessage, "bot", 500); // delay
         };
 
-        // 发送用户输入并处理响应
         sendBtn.addEventListener("click", async () => {
             const message = userInput.value.trim();
 
             if (message === "") return;
 
-            // 检查是否输入了 "exit"
             if (message.toLowerCase() === "exit") {
                 window.location.href = "index.html";
                 return;
             }
 
-            // 用户输入的消息
             addBubble(message, "user");
             userInput.value = "";
 
             try {
-                // 调用后端接口，传递用户名和消息
                 const response = await fetch("http://127.0.0.1:5000/chat", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
@@ -227,7 +220,7 @@
 
                 if (response.ok) {
                     const data = await response.json();
-                    // 显示机器人响应，延迟 0.5 秒
+                    // delay
                     addBubble(data.reply, "bot", 500);
                 } else {
                     addBubble("Error, please try again.", "bot", 500);
@@ -237,7 +230,7 @@
             }
         });
 
-        // 按下回车键时发送
+        // send
         userInput.addEventListener("keydown", (event) => {
             if (event.key === "Enter") {
                 sendBtn.click();

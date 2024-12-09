@@ -1,4 +1,17 @@
 {
-    "whitelist": ["Alice", "Beffy", "Dylan", "Lucy", "Mike"],
-    "blacklist": []
+    "whitelist": [
+        "Alice",
+        "Beffy",
+        "Dylan",
+        "Lucy",
+        "Mike"
+    ],
+    "blacklist": [],
+    "hobbylist": {
+        "Alice": "piano",
+        "Beffy": "violin",
+        "Dylan": "basketball",
+        "Lucy": "swim",
+        "Mike": "film"
+    }
 }

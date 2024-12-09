@@ -6,17 +6,16 @@ from config.contexts import Contexts
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
+import random
 
 
 class ChatController:
     def __init__(self):
-        self.context = {}
+        self.ticket_context = {}
 
-    def add_to_context(self, key, value):
-        self.context[key] = value
+    def add_to_ticket_context(self, key, value):
+        self.ticket_context[key] = value
 
-    def test(self):
-        print("test")
     # 身份鉴权
     def authenticate(self):
         name_data = Utils.read_json(Constants.USER_LIST_FILEPATH)
@@ -53,41 +52,61 @@ class ChatController:
         else:
             return False
 
+    def service_detect(self, user_input):
+        if any(key in user_input for key in Contexts.DISCOVERY_KEYS):
+            return Contexts.DISCOVERY_ANSWER
+        return ""
+    
+    def interest_detect(self, user_input, user_name):
+        if any(key in user_input for key in Contexts.INTEREST_KEYS):
+            name_data = Utils.read_json(Constants.USER_LIST_FILEPATH)
+            hobby_list = name_data.get(Constants.HOBBYLIST_LABEL, [])
+            hobby = hobby_list[user_name]
+            return Contexts.INTEREST_ANSWER[hobby]
+        return ""
+    
     # 根据买票场景进行上下文处理
-    def answer_by_context(self, user_input):
+    def service_1(self, user_input):
+        # 对购票数进行检查
+        if len(self.ticket_context) == 3 and not user_input.isdigit():
+            return "Your answer should be a number !"
         # 检查上下文中是否已经存储了一些信息
         if any(key in user_input for key in Contexts.BOOK_KEYS):
             response = Contexts.DESTINATION_HINT
-            self.add_to_context("ticket", True)
-        elif "to" in user_input and "destination" not in self.context and "ticket" in self.context:
+            self.add_to_ticket_context("ticket", True)
+        elif "to" in user_input and "destination" not in self.ticket_context and "ticket" in self.ticket_context:
             destination = user_input.split("to")[-1].strip()
-            self.add_to_context("destination", destination)
+            self.add_to_ticket_context("destination", destination)
             response = Contexts.TIME_HINT.format(destination.capitalize())
-        elif "at" in user_input and "depart_time" not in self.context and "destination" in self.context:
+        elif "at" in user_input and "depart_time" not in self.ticket_context and "destination" in self.ticket_context:
             depart_time = user_input.split("at")[-1].strip()
-            self.add_to_context("depart_time", depart_time)
+            self.add_to_ticket_context("depart_time", depart_time)
             response = Contexts.NUM_HINT.format(depart_time)
-        elif user_input.isdigit() and "tickets_num" not in self.context and "depart_time" in self.context and "destination" in self.context:
+        elif user_input.isdigit() and "tickets_num" not in self.ticket_context and "depart_time" in self.ticket_context and "destination" in self.ticket_context:
             tickets_num = int(user_input)
-            self.add_to_context("tickets_num", tickets_num)
+            self.add_to_ticket_context("tickets_num", tickets_num)
             response = Contexts.CONFIRM_HINT.format(
-                tickets_num, self.context['destination'].capitalize(), self.context['depart_time'])
-        elif "yes" in user_input and "tickets_num" in self.context and "depart_time" in self.context and "destination" in self.context:
-            response = Contexts.SUCCESS_HINT
+                tickets_num, self.ticket_context['destination'].capitalize(), self.ticket_context['depart_time'])
+        elif "yes" in user_input and "tickets_num" in self.ticket_context and "depart_time" in self.ticket_context and "destination" in self.ticket_context:
+            booking_reference = random.randint(1000, 9999)
+            response = Contexts.SUCCESS_HINT.format(booking_reference)
             # 清空上下文，模拟结束会话
-            self.context.clear()
-        elif "no" in user_input.lower() and "tickets_num" in self.context and "depart_time" in self.context and "destination" in self.context:
+            self.ticket_context.clear()
+        elif "no" in user_input.lower() and "tickets_num" in self.ticket_context and "depart_time" in self.ticket_context and "destination" in self.ticket_context:
             response = Contexts.STOP_HINT
             # 重新开始对话
-            self.context.clear()
+            self.ticket_context.clear()
         else:
             response = ""
-
         return response
-
+            
     # 根据意图回答问题
-    def answer_question(self, user_input, model, intent_num):
-        response = self.answer_by_context(user_input)
+    def answer_question(self, user_input, model, intent_num, user_name):
+        response = self.interest_detect(user_input, user_name)
+        if response == "":
+            response = self.service_detect(user_input)
+        if response == "":
+            response = self.service_1(user_input)
         if response != "":
             return response
         # 转换输入内容
@@ -189,7 +208,7 @@ class ChatController:
             intent_num = self.predict_intent(filtered_input, vectorizer, model)
             # 生成回答内容
             response = self.answer_question(
-                filtered_input, question_models[intent_num], intent_num)
+                filtered_input, question_models[intent_num], intent_num, user_name)
             # 回答问题语句中需要动态加入用户名
             print("Bot:", response.format(user_name))
             print("_" * Constants.SPLIT_LINE_LENGTH)
@@ -205,17 +224,12 @@ class ChatController:
             print("Exit")
             return ""
         # 预处理输入内容
-        # important print
-        # print(f"[Berore:{filtered_input}]")
         filtered_input = " ".join(
             preprocessor.preprocess_data(filtered_input))
-        # print(f"[After:{filtered_input}]")
         # 意图分析
         intent_num = self.predict_intent(filtered_input, vectorizer, model)
         # 生成回答内容
         response = self.answer_question(
-            filtered_input, question_models[intent_num], intent_num)
+            filtered_input, question_models[intent_num], intent_num, user_name)
         # 回答问题语句中需要动态加入用户名
         return response.format(user_name)
-        # print("Bot:", response.format(user_name))
-        # print("_" * Constants.SPLIT_LINE_LENGTH)

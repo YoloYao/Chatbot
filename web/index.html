@@ -76,7 +76,6 @@
         const usernameInput = document.getElementById("username-input");
         const errorMsg = document.getElementById("error-msg");
 
-        // 点击按钮触发的逻辑
         const validateAndSubmit = async () => {
             const username = usernameInput.value.trim();
 
@@ -87,7 +86,6 @@
             }
 
             try {
-                // 向后台发送请求验证用户名
                 const response = await fetch("http://127.0.0.1:5000/validateUsername", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
@@ -100,10 +98,10 @@
                 const data = await response.json();
 
                 if (data.success) {
-                    // 验证成功，跳转到聊天页面并传递用户名参数
+                    // check name success
                     window.location.href = `chat.html?name=${encodeURIComponent(username)}`;
                 } else {
-                    // 验证失败，显示错误提示
+                    // failed
                     errorMsg.textContent = "User name is invalid, please re-enter.";
                     errorMsg.style.display = "block";
                 }
@@ -113,10 +111,8 @@
             }
         };
 
-        // 点击按钮事件
         queryBtn.addEventListener("click", validateAndSubmit);
 
-        // 按下回车键触发按钮点击事件
         usernameInput.addEventListener("keydown", (event) => {
             if (event.key === "Enter") {
                 event.preventDefault(); // 防止默认行为（例如表单提交刷新页面）
@@ -124,7 +120,6 @@
             }
         });
 
-        // 隐藏错误消息
         usernameInput.addEventListener("input", () => {
             errorMsg.style.display = "none";
         });

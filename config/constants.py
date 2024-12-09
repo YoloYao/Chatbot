@@ -6,6 +6,7 @@ class Constants:
     CLEANED_LABEL = 'cleaned text'
     NUMBER_LABEL = 'number'
     WHITELIST_LABEL = 'whitelist'
+    HOBBYLIST_LABEL = 'hobbylist'
     DATA_FILE_DIR = './data/'
     MODELS_FILE_DIR = './models/'
     MODELS_FILE_NAME = '_model.pkl'

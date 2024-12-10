@@ -16,7 +16,7 @@ After entering the project directory in the terminal, you can choose between two
 #### Terminal 2 Front desk Service:
 
     cd web
-    python -m http.server 8000
+    python3 -m http.server 8000
 
 After the foreground service is started, you can enter the local address in the browser to open the interface:
     

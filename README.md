@@ -1,6 +1,10 @@
 # Chatbot
 Generative conversation robot based on NLP.
 
+You can select one of the following user names to enter during login:
+
+    Alice, Beffy, Dylan, Lucy, Mike
+
 After entering the project directory in the terminal, you can choose between two modes to start the Chatbot:
 
 ## Command line mode start command:

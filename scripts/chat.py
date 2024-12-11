@@ -69,7 +69,7 @@ class ChatController:
     def service_1(self, user_input):
         # 对购票数进行检查
         if len(self.ticket_context) == 3 and not user_input.isdigit():
-            return "Your answer should be a number !"
+            return "Your answer should be a number!"
         # 检查上下文中是否已经存储了一些信息
         if any(key in user_input for key in Contexts.BOOK_KEYS):
             response = Contexts.DESTINATION_HINT

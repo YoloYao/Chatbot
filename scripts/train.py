@@ -2,6 +2,8 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
+from sklearn.linear_model import LogisticRegression
 from scripts.utils import Utils
 from config.constants import Constants
 from models.model import Model
@@ -133,9 +135,22 @@ class TrainModelController:
             X, y, test_size=Constants.SPLIT_TEST_SIZE, random_state=Constants.RANDOM_RATE_1)
         X_train, X_val, y_train, y_val = train_test_split(
             X_train, y_train, test_size=Constants.SPLIT_VALIDATION_SIZE, random_state=Constants.RANDOM_RATE_1)
+        self.evaluation(y_test, y_train, X_test, X_train)
         return X_train, X_val, X_test, y_train, y_val, y_test
 
     # 模型训练
     def train(self, X_train, y_train):
         model = MultinomialNB()  # 使用朴素贝叶斯模型
         model.fit(X_train, y_train)
+
+    # 评估模型准确度
+    def evaluation(self, y_test, y_train, X_test, X_train):
+        classifier = LogisticRegression(
+            random_state=0).fit(X_train, y_train)
+        predicted = classifier.predict(X_test)
+        print("_" * Constants.SPLIT_LINE_LENGTH)
+        print("Confusion Matrix:")
+        print(confusion_matrix(y_test, predicted))
+        print("Accuracy Score:", accuracy_score(y_test, predicted))
+        print("F1 Score:", f1_score(y_test, predicted, average='weighted'))
+        print("_" * Constants.SPLIT_LINE_LENGTH)

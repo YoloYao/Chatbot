@@ -36,7 +36,7 @@ intent,question,number,cleaned text
 0,Good day! How can I assist you?,34,good day assist
 0,Hey! What's new and exciting?,35,hey whats new exciting
 0,How's your morning/afternoon/evening?,36,hows morningafternoonevening
-0,Greetings! What can I do for you today?,37,greeting today
+0,Greetings! What can I do for you today?,37,greeting what can i do for you today
 0,Hey! What's happening in your world?,38,hey whats happening world
 0,How's your weekend going?,39,hows weekend going
 0,Good morning! Ready to chat?,40,good morning ready to chat
@@ -452,7 +452,7 @@ intent,question,number,cleaned text
 3,what does arraignment mean,450,doe arraignment mean
 3,what did chaucer do,451,chaucer
 3,what did chaucer do,452,chaucer
-3,what does am and pm stand for,453,doe pm stand
+3,what does am and pm stand for,453,doe am pm stand
 3,how is canada's health care,454,canada health care
 3,how many xbox 360 games are there,455,many xbox 360 game
 3,how do pineapples grow,456,pineapple grow
@@ -567,8 +567,8 @@ intent,question,number,cleaned text
 3,what are stocks and bonds,565,stock bond
 3,what are stocks and bonds,566,stock bond
 3,Who am I?,567,who am i
-3,Can you tell me who I am?,568,tell
-3,Do you know who I am?,569,know
+3,Can you tell me who I am?,568,tell am
+3,Do you know who I am?,569,know am
 3,Do you remember me?,570,remember
 3,Who are you?,571,who are you
 3,Can you tell me more about yourself?,572,tell

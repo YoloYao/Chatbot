@@ -5,7 +5,7 @@ intent,answer,number,cleaned text
 0,"I'm doing well, thank you!",3,im well thank
 0,"I'm fine, thank you! How are you?",4,im fine thank you how are you
 0,Hi! Let me know what you need.,5,hi let know need .
-0,Just here to help! What can I do for you?,6,to help
+0,Just here to help! What can I do for you?,6,just here to help what can i do for you
 0,Hi! I'm here to assist with anything you need.,7,hi im to assist anything need .
 0,Happy to help! What do you need assistance with?,8,happy to help need assistance
 0,Thanks! Wishing you a great day too!,9,thanks wishing great day
@@ -18,7 +18,7 @@ intent,answer,number,cleaned text
 0,Absolutely! Just let me know what you need.,16,absolutely let know need .
 0,Good afternoon! How can I make your day better?,17,good afternoon make day better
 0,"Hello! Not much, just here to help you out.",18,hello much to help .
-0,Great to chat with you! What can I do?,19,great to chat
+0,Great to chat with you! What can I do?,19,great to chat with you what can i do
 0,"I've been doing well, thank you!",20,ive well thank
 0,"It's been a busy day, but I'm ready to chat!",21,busy day im ready to chat
 0,Hi! Not much.Just enjoying our conversation!,22,hi much.just enjoying conversation
@@ -257,7 +257,7 @@ intent,answer,number,cleaned text
 3,I enjoy chatting and helping people. That's kind of my hobby.,255,enjoy chatting helping people . thats kind hobby .
 3,"I don't watch movies, but I'd love to hear your favorite one!",256,dont watch movie id love to hear favorite one
 3,I like hearing about music! What's your favorite genre?,257,like hearing music whats favorite genre
-3,"I'm happy where I am, helping you!",258,im happy helping
+3,"I'm happy where I am, helping you!",258,im happy am helping
 3,"I don't have a pet, but virtual pets are fun!",259,dont pet virtual pet fun
 3,"Every season has its charm, don't you think?",260,every season ha charm dont think
 3,"No, but I'd love to hear about your travels!",261,no id love to hear travel

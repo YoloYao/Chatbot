@@ -12,4 +12,4 @@ class Contexts:
     DISCOVERY_ANSWER = "Yes, I can offer train ticket booking service. \nPlease enter [I need to book a ticket]  or something similar to activate the corresponding service."
     INTEREST_KEYS = ['what can i do']
     INTEREST_ANSWER = {"piano": "You can try playing the piano for a while to relax.",
-                       "violin": "You can try playing the violin for a while to relax.", "basketball": "You can play basketball with your friends for a while. It must be relaxing.", "swim": "You can go swimming. It must be cool.", "film": "You can watch a movie to relax your mind for a while"}
+                       "violin": "You can try playing the violin for a while to relax.", "basketball": "You can play basketball with your friends for a while. It must be relaxing.", "swim": "You can go swimming. It must be cool.", "film": "You can watch a movie to relax your mind for a while."}

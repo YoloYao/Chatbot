@@ -13,6 +13,12 @@ After entering the project directory in the terminal, you can choose between two
 
 ## User interface boot mode:
 
+Before starting, ensure that the system has installed the flask_cors dependency, which can be installed by executing the following command on the terminal:
+
+    pip install flask_cors
+
+You can now start front and back end services separately
+
 #### Terminal 1 Background service:
 
     python3 service/app.py
